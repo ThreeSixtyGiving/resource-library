@@ -10,16 +10,30 @@ $touch: (max-width 64em);
 $medium-up: 40.063em;
 $large: 64.063em;
 
-$sans-serif: sans-serif;
-$serif: Georgia, 'Times New Roman', Times, serif;
+$sans-serif: 'Roboto', sans-serif;
 
-$main-color: #333;
+$base-color: #153634;
+$orange: #DE6E26;
+$teal: #4DACB6;
+$yellow: #EFC329;
+$red: #BC2C26;
 
+$main-color: $orange;
+$white: white;
+
+
+@import 'reset';
 @import 'base';
 @import 'main';
+@import 'typography';
 @import 'button';
-@import 'form';
-@import 'columns';
-@import 'header';
+@import 'card';
+@import 'tags';
+@import 'hero';
+@import 'top-bar';
+@import 'filters';
+@import 'footer';
+@import 'sections';
+
 
 @import 'custom-elements';
