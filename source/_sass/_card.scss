@@ -1,0 +1,102 @@
+.card {
+  background: $white;
+  box-shadow: 0px 4px 8px #1536341A;
+  padding: 32px 80px 32px 64px;
+  position: relative;
+
+  &__header {
+    margin-bottom: 36px;
+  }
+
+  &__body {
+    margin-bottom: 36px;
+  }
+
+  &__footer {
+    padding-top: 8px;
+    margin-top: 8px;
+    border-top: 1px solid rgba($base-color, .3);
+  }
+
+  &__sidebar {
+    text-align: right;
+  }
+
+  &__image {
+    margin-top: 24px;
+  }
+
+  &__link {
+    position: absolute;
+    right: 40px;
+    top: 32px;
+    padding: 8px 0;
+    color: $base-color;
+    > i { transform: rotate(-45deg) scale(1.6); }
+    &:hover { color: $orange; }
+  }
+
+  &:before {
+    content: '';
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $base-color;
+  }
+}
+
+.tags {
+  margin-top: 0px;
+}
+
+// Card Grid
+.card {
+  &__row {
+    display: flex;
+    padding-bottom: 24px;
+  }
+
+  &__main-content {
+    flex: 3;
+  }
+
+  &__sidebar {
+    flex: 1;
+  }
+}
+
+// Card Typography
+.card {
+  &__heading {
+    @extend .u-h3;
+  }
+
+  &__subheading {
+    @extend .u-h4;
+    margin-top: 16px;
+  }
+
+  &__text {
+    @extend .u-text;
+  }
+
+  &__author {
+    @extend .u-small-text;
+  }
+}
+
+// Card Colors
+.card--data-literacy:before { background-color: $orange; }
+.card--data-wrangling:before { background-color: $teal; }
+.card--human-centered-design:before { background-color: $red; }
+
+// Card States
+.card .card__content {
+  overflow: hidden;  
+  max-height: 30px;
+}
+
+.card--expanded .card__content { max-height: 3000px; }
+
