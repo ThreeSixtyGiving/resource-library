@@ -1,0 +1,30 @@
+.u-big-lead {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: rgba($base-color, .6);
+}
+
+.u-h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgba($base-color, 1);
+}
+
+.u-h4 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: rgba($base-color, 1);
+}
+
+.u-text {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba($base-color, 1);
+  & + .u-text { margin-top: 8px; }
+}
+
+.u-small-text {
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: rgba($base-color, .8);
+}

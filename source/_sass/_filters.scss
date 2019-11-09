@@ -1,0 +1,14 @@
+.filter-section {
+  border-top: 1px solid rgba($base-color, .2);
+  border-bottom: 1px solid rgba($base-color, .2);
+}
+
+.filters {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  text-align: center;
+
+  .tag + .tag {
+    margin-left: 24px;
+  }
+}
