@@ -1,14 +1,33 @@
 .filter-section {
   border-top: 1px solid rgba($base-color, .2);
   border-bottom: 1px solid rgba($base-color, .2);
+
+  @include breakpoint($small-only) {
+    overflow-x: scroll;
+    scroll-snap-align: center;
+    scroll-snap-type: x proximity;
+  }
 }
 
 .filters {
   padding-top: 24px;
   padding-bottom: 24px;
-  text-align: center;
+  
 
-  .tag + .tag {
-    margin-left: 24px;
+  @include breakpoint($small-only) {
+    width: max-content;
+    padding-right: 20px;
+
+    .tag + .tag { margin-left: 8px; }
   }
+
+  @include breakpoint($medium-up) { 
+    text-align: center; 
+
+    .tag + .tag { margin-left: 24px; }
+  }
+
+  
+
+  
 }
