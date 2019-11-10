@@ -1,17 +1,31 @@
 // Footer Grid
 .footer {
-  &__row { display: flex; }
+  &__row { 
+    display: flex; 
+    @include breakpoint($small-only) { flex-wrap: wrap; }
+  }
   &__column-0 { flex: 0; }
-  &__column-1 { flex: 1; }
-  &__column-2 { flex: 2; }
+  &__column-1 { 
+    flex: 1;
+    @include breakpoint($small-only) { min-width: 100px; }
+  }
+  &__column-2 { 
+    flex: 2; 
+    @include breakpoint($small-only) { min-width: 200px; }
+  }
   &__column-3 { flex: 3; }
 }
 
 // Footer Structure and Visuals
 .footer {
-  margin-top: 64px;
-  padding-top: 48px;
+  margin-top: 32px;
+  padding-top: 24px;
   background-color: $base-color;
+
+  @include breakpoint($large) {
+    margin-top: 64px;
+    padding-top: 48px;
+  }
 
   &__row:first-of-type { 
     padding-bottom: 36px;
@@ -23,9 +37,10 @@
     color: rgba($white, .6);
     padding-top: 36px;
 
-    & + & { margin-left: 48px; }
-
-    li + li { margin-top: 8px; }
+    & + & { 
+      @include breakpoint($medium-up) { margin-left: 48px; }
+      li + li { margin-top: 8px; }
+    }
   }
 
   &__heading {
@@ -40,18 +55,32 @@
   &__social { 
     display: flex; 
     align-items: center;
-
   }
 
-  &__logo { opacity: .3; }
+  &__branding {
+    @include breakpoint($small-only) { 
+      flex-direction: column; 
+      text-align: center;
+
+    }
+  }
+
+  &__logo { 
+    opacity: .3; 
+    @include breakpoint($small-only) {
+      margin-bottom: 16px;
+    }
+  }
 
   &__tagline { 
-    margin-left: 48px;
     padding-bottom: 4px;
     color: $white;
     font-weight: 300;
     letter-spacing: 1px;
-    font-size: 1.3rem;
+    font-size: 1rem;
+    @include breakpoint($small-only) { margin-bottom: 16px; }
+    @include breakpoint($medium-up) { margin-left: 48px; }
+    @include breakpoint($large) { font-size: 1.3rem; }
   }
 
   &__social {
@@ -71,7 +100,10 @@
     color: rgba($white, .4);
   }
 
-  &__policy-links { text-align: right; }
+  &__policy-links {
+    a { display: inline-block; } // To avoid line-breaks in the links
+    @include breakpoint($medium-up) { text-align: right; }
+  }
 }
 
 .footer {
