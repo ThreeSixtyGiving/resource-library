@@ -1,18 +1,35 @@
 .hero {
-  padding-top: 72px;
-  padding-bottom: 80px;
+  padding-top: 36px;
+  padding-bottom: 40px;
+
+  @include breakpoint($medium-up) { 
+    padding-top: 72px;
+    padding-bottom: 80px; 
+  }
+
+  &__logo { padding-right: 40px; }
 
   &__lead {
     @extend .u-big-lead;
+    margin-top: 32px;
+
+    @include breakpoint($medium-up) { margin: 0; }
   }
 }
 
-
 // Hero Grid
-.hero {
+.hero { 
   display: flex;
+  flex-direction: column;
+  align-items: center;
 
-  &__column {
-    flex: 1;
+
+
+  @include breakpoint($medium-up) {
+    flex-direction: row;
+
+    &__column + &__column { margin-left: 40px; }
   }
+
+  &__column { flex: 1; }
 }

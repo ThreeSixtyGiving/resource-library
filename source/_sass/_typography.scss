@@ -1,7 +1,11 @@
 .u-big-lead {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: 300;
   color: rgba($base-color, .6);
+
+  @include breakpoint($medium) { font-size: 1.2rem; }
+  @include breakpoint($large) { font-size: 1.5rem; }
+
 }
 
 .u-h3 {
