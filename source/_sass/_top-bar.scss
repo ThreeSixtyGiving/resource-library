@@ -1,4 +1,5 @@
 .top-bar {
+  position: relative;
   display: flex;
   border-bottom: 1px solid rgba($base-color, .2);
 
@@ -16,8 +17,7 @@
 }
 
 .contextual-menu {
-  
-
+  @include breakpoint($small-only) { display: none; }
   &__button {
     display: inline-block;
     padding: 8px 24px;
@@ -30,4 +30,66 @@
   }
 
   &__button + &__button { margin-left: -4px; }
+}
+
+// Styles for the OFF-CANVAS-MENU
+
+.off-canvas-menu {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  bottom: 0;
+  left: -300px;
+  width: 280px;
+  
+  @include breakpoint($medium-up) { 
+    width: 350px;
+    left: -370px;
+  }
+
+  padding: 48px 32px;
+  background-color: darken($base-color, 4);
+  box-shadow: 4px 4px 16px rgba($base-color, .2);
+
+  &__list { 
+    border-bottom: 1px solid rgba($white, .2);
+    padding-bottom: 24px; 
+    margin-bottom: 24px;
+  }
+  
+  &__trigger {
+    // Resetting Button Styles
+    background-color: transparent;
+    border: 0;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 8px;
+    color: rgba($white, .4);
+
+  }
+
+  &__item {
+    padding-bottom: 8px;
+    @extend .u-h4;
+    color: rgba($white, .6);
+  }
+
+  &__heading {
+    @extend .u-h3;
+    color: $white;
+    padding-bottom: 16px;
+  }
+}
+
+.off-canvas-menu__contextual {
+  @include breakpoint($medium-up) { display: none; }
+}
+
+
+
+
+.off-canvas-menu--expanded {
+  left: 0;
 }

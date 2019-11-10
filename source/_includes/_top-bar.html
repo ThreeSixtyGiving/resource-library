@@ -9,4 +9,26 @@
     <a href="#" class="contextual-menu__button contextual-menu--disabled">Contact</a>
 
   </nav>
+
+  <div class="off-canvas-menu{% if include.state %} off-canvas-menu--{{ include.state }}{% endif %}">
+    <button class="off-canvas-menu__trigger"><i class="material-icons">close</i></button>
+
+    <nav>
+      <ul class="off-canvas-menu__list off-canvas-menu__contextual">
+        <h3 class="off-canvas-menu__heading">More about this project</h3>
+        <li class="off-canvas-menu__item"><a href="#">About this Initiative</a></li>
+        <li class="off-canvas-menu__item"><a href="#">Feedback</a></li>
+        <li class="off-canvas-menu__item"><a href="#">Submit</a></li>
+        <li class="off-canvas-menu__item"><a href="#">Contact</a></li>
+      </ul>
+
+      <ul class="off-canvas-menu__list off-canvas-menu__products">
+        <h3 class="off-canvas-menu__heading">More projects</h3>
+        <li class="off-canvas-menu__item"><a href="#">GrantNav</a></li>
+        <li class="off-canvas-menu__item"><a href="#">Insights</a></li>
+        <li class="off-canvas-menu__item"><a href="#">Cove</a></li>
+        <li class="off-canvas-menu__item"><a href="#">Resources</a></li>
+      </ul>
+    </nav>
+  </div>
 </div>
