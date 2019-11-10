@@ -1,15 +1,18 @@
 .card {
   background: $white;
   box-shadow: 0px 4px 8px #1536341A;
-  padding: 32px 80px 32px 64px;
   position: relative;
+  padding: 16px 24px 16px 24px;  
 
-  &__header {
-    margin-bottom: 36px;
+  @include breakpoint($large) {
+    padding: 32px 40px 32px 40px;
   }
 
-  &__body {
-    margin-bottom: 36px;
+  &__header {
+  }
+
+  &__content {
+    @include breakpoint($large) { margin-top: 36px; }
   }
 
   &__footer {
@@ -19,7 +22,7 @@
   }
 
   &__sidebar {
-    text-align: right;
+    @include breakpoint($medium-up) { text-align: right; }
   }
 
   &__image {
@@ -28,12 +31,24 @@
 
   &__link {
     position: absolute;
-    right: 40px;
-    top: 32px;
+    right: 16px;
+    top: 12px;
     padding: 8px 0;
     color: $base-color;
-    > i { transform: rotate(-45deg) scale(1.6); }
+    > i { transform: rotate(-45deg) scale(1.2); }
     &:hover { color: $orange; }
+    
+    @include breakpoint($small-only) {
+      position: static;
+      float: right;
+      margin-left: 8px;  
+    }
+
+    @include breakpoint($large) { 
+      right: 40px;
+      top: 32px;
+      > i { transform: rotate(-45deg) scale(1.6); }
+    }
   }
 
   &:before {
@@ -48,7 +63,8 @@
 }
 
 .tags {
-  margin-top: 0px;
+  margin-top: 16px;
+  @include breakpoint($medium-up) { margin-top: 0px; }
 }
 
 // Card Grid
@@ -56,26 +72,25 @@
   &__row {
     display: flex;
     padding-bottom: 24px;
+    @include breakpoint($small-only) { flex-direction: column; }
   }
 
-  &__main-content {
-    flex: 3;
-  }
+  &__main-content { flex: 3; }
 
-  &__sidebar {
-    flex: 1;
-  }
+  &__sidebar { flex: 1; }
 }
 
 // Card Typography
 .card {
   &__heading {
     @extend .u-h3;
+
   }
 
   &__subheading {
     @extend .u-h4;
-    margin-top: 16px;
+    margin-top: 8px;
+    @include breakpoint($medium-up) { margin-top: 16px; }
   }
 
   &__text {
@@ -95,8 +110,11 @@
 // Card States
 .card .card__content {
   overflow: hidden;  
-  max-height: 30px;
+  max-height: 0; // Hides the whole description in touch devices
+  @include breakpoint($large) { max-height: 30px; } // Hides the description in mobile sizes, leaving only teh first line
 }
 
-.card--expanded .card__content { max-height: 3000px; }
-
+.card--expanded .card__content { 
+  max-height: 3000px; 
+  margin-top: 16px;
+}

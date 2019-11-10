@@ -9,22 +9,31 @@
 }
 
 .u-h3 {
-  font-size: 1.5rem;
-  font-weight: 400;
-  color: rgba($base-color, 1);
-}
-
-.u-h4 {
   font-size: 1.1rem;
   font-weight: 400;
   color: rgba($base-color, 1);
+
+  @include breakpoint($medium) { font-size: 1.2rem; }
+  @include breakpoint($large) { font-size: 1.5rem; }
+}
+
+.u-h4 {
+  font-size: .8rem;
+  font-weight: 400;
+  color: rgba($base-color, 1);
+  
+  @include breakpoint($medium) { font-size: .9rem; }
+  @include breakpoint($large) { font-size: 1.1rem; }
 }
 
 .u-text {
-  font-size: 1rem;
+  font-size: .8rem;
   font-weight: 300;
   color: rgba($base-color, 1);
   & + .u-text { margin-top: 8px; }
+
+  @include breakpoint($medium) { font-size: .9rem; }
+  @include breakpoint($large) { font-size: 1rem; }
 }
 
 .u-small-text {

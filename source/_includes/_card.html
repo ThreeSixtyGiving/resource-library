@@ -1,11 +1,12 @@
 <article class="card{% if include.state %} card--{{include.state}}{% endif %}{% if include.category %} card--{{include.category | slugify}}{% endif %}" title="Understanding Scottish Places">
   <header class="card__header">
-    <a class="card__link" href="#" target="_blank"><i class="material-icons">link</i></a>
     <h3 class="card__heading">Understanding Scottish Places</h3>
   </header>
-  <div class="card__content">
+  
+  <div class="card__content" aria-hidden>
     <div class="card__row">
       <section class="card__main-content">
+        <a class="card__link" href="#" target="_blank"><i class="material-icons">link</i></a>
         <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eligendi distinctio maiores asperiores nihil totam unde fugit, dolorum vero. Pariatur recusandae quis libero nesciunt vitae debitis incidunt fugit. Totam, quidem.</p>
         <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore rerum tempore, corporis vitae maiores et totam aliquam repellendus aspernatur quis, nesciunt labore, quaerat! Suscipit perferendis ipsa veritatis, soluta rerum autem!</p>
         <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor fugiat, possimus iste. Enim, repudiandae, sint! Magni quam est deserunt facere. Soluta alias rem, maiores provident minus porro possimus sequi architecto.</p>
@@ -15,7 +16,6 @@
         {% include _tag.html category=tag_category %}  
       </aside>
     </div>
-
 
     <div class="card__row">
       <section class="card__main-content">
