@@ -1,3 +1,4 @@
+// @ts-nocheck
 $(document).ready(function () {
 
   var x = $('.smartlink')
@@ -68,20 +69,29 @@ $(document).ready(function () {
   // sr.reveal('.fadein');
   // sr.reveal('.fadein--from-right', { duration: 1400 });
 
-  window.sr = ScrollReveal({ 
-    reset: false,
-    duration: 1200, 
-    distance: '20px',
-    scale: 0.95,
-    viewFactor: 0.3,
-    delay: 50
-  });
-
-  sr.reveal('.fadein--from-right', { origin: 'right' });
-  sr.reveal('.fadein--from-left', { origin: 'left' });
-  sr.reveal('.fadein--from-bottom', { origin: 'bottom' });
-  sr.reveal('.fadein--from-top', { origin: 'top' });
+  try {
+    if (ScrollReveal) {
+      window.sr = ScrollReveal({ 
+        reset: false,
+        duration: 1200, 
+        distance: '20px',
+        scale: 0.95,
+        viewFactor: 0.3,
+        delay: 50
+      });
   
+      sr.reveal('.fadein--from-right', { origin: 'right' });
+      sr.reveal('.fadein--from-left', { origin: 'left' });
+      sr.reveal('.fadein--from-bottom', { origin: 'bottom' });
+      sr.reveal('.fadein--from-top', { origin: 'top' });
+    }
+  } catch {}
+  
+  // 360RL
+
+  $('.top-bar__menu-trigger, .off-canvas-menu__trigger').click(function () {
+    $('.off-canvas-menu').toggleClass('off-canvas-menu--expanded')
+  })
 
 
 }); // doc.ready
