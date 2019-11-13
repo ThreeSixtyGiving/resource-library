@@ -1,0 +1,10 @@
+---
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  name: Human Centered Design
+  id: recL9JO6zHjZaNUZ1
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  name: Data Wrangling
+  id: recPqyJWzMp543v9Q
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  name: Data Literacy
+  id: reck6T3uiWyT9ExFq
