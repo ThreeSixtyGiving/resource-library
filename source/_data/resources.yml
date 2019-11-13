@@ -7,8 +7,8 @@
   who_is_using_it?: Project Managers, HR Teams
   why_would_you_recommend_it?: Creative ways to get ideas
   category:
-  - reck6T3uiWyT9ExFq
-  - recL9JO6zHjZaNUZ1
+  - Data Literacy
+  - Human Centered Design
   id: recy3fwQfCcVq9l8u
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 11
@@ -19,7 +19,7 @@
   why_would_you_recommend_it?: The interactive exercises are innovative. Methodology
     is based on research.
   category:
-  - reck6T3uiWyT9ExFq
+  - Data Literacy
   id: recm4ZIzHdhHq9ma3
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 5
@@ -29,7 +29,7 @@
   who_is_using_it?: Devon CF
   why_would_you_recommend_it?: "..."
   category:
-  - recPqyJWzMp543v9Q
+  - Data Wrangling
   id: rec3GX7LyZBlI7kO0
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 4
@@ -40,5 +40,5 @@
   why_would_you_recommend_it?: Quick and Easy to Use, part of microsoft suite, comes
     with 365
   category:
-  - recPqyJWzMp543v9Q
+  - Data Wrangling
   id: rec05h4SjplEhje8x
