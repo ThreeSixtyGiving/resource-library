@@ -8,13 +8,13 @@ title: Boilerplate
   {% include _filters.html %}  
   
   <div class="list-section">
-    <ul class="wrapper">
+    <ul class="wrapper list-section-items">
       <li class="list-section__item">
         {% include _card.html category="Data Literacy" %}  
       </li>
       
       <li class="list-section__item">
-        {% include _card.html category="Data Wrangling" state="expanded" %}
+        {% include _card.html category="Data Wrangling" %}
       </li>
 
       <li class="list-section__item">
@@ -29,3 +29,5 @@ title: Boilerplate
 
   {% include _footer.html %}
 </main>
+
+<script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>

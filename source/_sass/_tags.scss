@@ -21,7 +21,15 @@
   &.tag--human-centered-design:hover { background-color: $red; }
 }
 
+.tag--selected {
+  cursor: pointer;
+  background-color: $base-color;
+  color: $white;
 
+  &.tag--data-wrangling { background-color: $teal; color: $white; }
+  &.tag--data-literacy { background-color: $orange; color: $white; }
+  &.tag--human-centered-design { background-color: $red; color: $white; }
+}
 
 .tag--data-wrangling {
   color: $teal;

@@ -89,8 +89,77 @@ $(document).ready(function () {
   
   // 360RL
 
+  // Menu
   $('.top-bar__menu-trigger, .off-canvas-menu__trigger').click(function () {
-    $('.off-canvas-menu').toggleClass('off-canvas-menu--expanded')
+    const offCanvasMenu = $('.off-canvas-menu')
+    offCanvasMenu.toggleClass('off-canvas-menu--expanded')
+    if (offCanvasMenu[0].hasAttribute('aria-hidden')) {
+      offCanvasMenu.removeAttr('aria-hidden')
+    } else {
+      offCanvasMenu.attr('aria-hidden', '')
+    }
+  })
+
+  function getFilters(el, prefix) {
+    const classes = el.className.split(' ')
+    const filters = []
+    for (const clazz of classes) {
+      if (clazz.startsWith(prefix)) {
+        filters.push(clazz.substring(prefix.length))
+      }
+    }
+    return filters
+  }
+
+  // Filtering
+  const isotope = new Isotope(document.querySelector('.list-section .wrapper'), {
+    itemSelector: '.list-section__item',
+    layoutMode: 'fitRows',
+    filter: (el) => {
+      const filteringTags = document.querySelectorAll('.filters .tag--selected')
+      if (filteringTags.length === 0) {
+        return true
+      }
+      const cardItem = $(el).children('.card')
+      const cardItemFilters = getFilters(cardItem[0], 'card--')
+      for (const cardFilter of cardItemFilters) {
+        for (const tag of filteringTags) {
+          const filters = getFilters(tag, 'tag--')
+          if (filters.indexOf(cardFilter) === -1) {
+            return false
+          }
+        }
+      }
+      return true
+    }
+  })
+
+  // Tags
+  $('.tag').each(function () {
+    const tag = $(this)
+    tag.click(function () {
+      tag.toggleClass('tag--selected')
+      isotope.arrange() // triggers isotope filtering
+    })
+  })
+
+  // Cards
+  $('.card').each(function () {
+    const card = $(this)
+    const cardContent = card.children('.card__content')
+    card.click(function () {
+      if (!card.hasClass('card--expanded')) {
+        $('.card--expanded').removeClass('card--expanded')
+      }
+      card.toggleClass('card--expanded')
+      if (cardContent[0].hasAttribute('aria-hidden')) {
+        cardContent.removeAttr('aria-hidden')
+      } else {
+        cardContent.attr('aria-hidden', '')
+      }
+      isotope.layout() // triggers isotope rendering since elements' height have been changed
+      console.log(card)
+    })
   })
 
 
