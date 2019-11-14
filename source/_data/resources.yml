@@ -22,15 +22,15 @@
   - Data Literacy
   id: recm4ZIzHdhHq9ma3
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  "#": 5
+  "#": 7
   your_name: Nicola Frost
-  resource_name: LSOA look-up tables
-  resource_url: http://geoportal.statistics.gov.uk/datasets/500d4283cbe54e3fa7f358399ba3783e_0
+  resource_name: Community Wellbeing Index
+  resource_url: https://communitywellbeing.coop.co.uk/
   who_is_using_it?: Devon CF
-  why_would_you_recommend_it?: "..."
+  why_would_you_recommend_it?: ".."
   category:
   - Data Wrangling
-  id: rec3GX7LyZBlI7kO0
+  id: rec1Mrj2rOeF2gCbm
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 4
   your_name: Tom Bell

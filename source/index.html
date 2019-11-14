@@ -9,21 +9,11 @@ title: Boilerplate
   
   <div class="list-section">
     <ul class="wrapper list-section-items">
+      {% for resource in site.data.resources %}
       <li class="list-section__item">
-        {% include _card.html category="Data Literacy" %}  
+        {% include _card.html data=resource %}  
       </li>
-      
-      <li class="list-section__item">
-        {% include _card.html category="Data Wrangling" %}
-      </li>
-
-      <li class="list-section__item">
-        {% include _card.html category="Data Wrangling" %}
-      </li>
-      
-      <li class="list-section__item">
-        {% include _card.html category="Human Centered Design" %}
-      </li>
+      {% endfor %}
     </ul>
   </div>
 

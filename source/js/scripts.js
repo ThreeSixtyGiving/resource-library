@@ -122,15 +122,16 @@ $(document).ready(function () {
       }
       const cardItem = $(el).children('.card')
       const cardItemFilters = getFilters(cardItem[0], 'card--')
-      for (const cardFilter of cardItemFilters) {
-        for (const tag of filteringTags) {
-          const filters = getFilters(tag, 'tag--')
-          if (filters.indexOf(cardFilter) === -1) {
-            return false
+      let matchingFilters = 0
+      for (const tag of filteringTags) {
+        const filters = getFilters(tag, 'tag--')
+        for (const cardFilter of cardItemFilters) {
+          if (filters.indexOf(cardFilter) !== -1) {
+            matchingFilters += 1
           }
         }
       }
-      return true
+      return matchingFilters === filteringTags.length
     }
   })
 
@@ -158,7 +159,6 @@ $(document).ready(function () {
         cardContent.attr('aria-hidden', '')
       }
       isotope.layout() // triggers isotope rendering since elements' height have been changed
-      console.log(card)
     })
   })
 
