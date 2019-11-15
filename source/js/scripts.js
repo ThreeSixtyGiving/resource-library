@@ -117,11 +117,22 @@ $(document).ready(function () {
     layoutMode: 'fitRows',
     filter: (el) => {
       const filteringTags = document.querySelectorAll('.filters .tag--selected')
-      if (filteringTags.length === 0) {
+      const searchInput = ($('.search-filter').val() || '').trim()
+      const hasFilteringTags = filteringTags.length > 0
+      if (!hasFilteringTags && !searchInput) {
         return true
       }
       const cardItem = $(el).children('.card')
       const cardItemFilters = getFilters(cardItem[0], 'card--')
+      const cardHeading = cardItem.find('.card__heading')
+      const cardItemName = cardHeading && cardHeading.length > 0 ? cardHeading.text() : ''
+      let isSearchMatch = true
+      if (searchInput && cardItemName) {
+        isSearchMatch = cardItemName.toLowerCase().includes(searchInput.toLowerCase())
+      }
+      if (!hasFilteringTags) {
+        return isSearchMatch
+      }
       let matchingFilters = 0
       for (const tag of filteringTags) {
         const filters = getFilters(tag, 'tag--')
@@ -131,7 +142,7 @@ $(document).ready(function () {
           }
         }
       }
-      return matchingFilters === filteringTags.length
+      return isSearchMatch && matchingFilters === filteringTags.length
     }
   })
 
@@ -142,6 +153,10 @@ $(document).ready(function () {
       tag.toggleClass('tag--selected')
       isotope.arrange() // triggers isotope filtering
     })
+  })
+
+  $('.search-filter').keyup(function (event) {
+    isotope.arrange()
   })
 
   // Cards
