@@ -151,12 +151,14 @@ $(document).ready(function () {
     const tag = $(this)
     tag.click(function () {
       tag.toggleClass('tag--selected')
+      $('.card--expanded').removeClass('card--expanded') // closes expanded card if any
       isotope.arrange() // triggers isotope filtering
     })
   })
 
   $('.search-filter').keyup(function (event) {
-    isotope.arrange()
+    $('.card--expanded').removeClass('card--expanded') // closes expanded card if any
+    isotope.arrange() // triggers isotope filtering
   })
 
   // Cards
