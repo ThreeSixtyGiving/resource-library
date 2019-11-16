@@ -26,15 +26,14 @@
   width: 100%;
   border: 1px solid rgba($base-color, .2);
   color: rgba($base-color, .7);
+  background-color: transparent;
 
   &::-webkit-input-placeholder { color: rgba($base-color, .4); }
   &:-moz-placeholder { color: rgba($base-color, .4); }
   &::-moz-placeholder { color: rgba($base-color, .4); }
   &:-ms-input-placeholder { color: rgba($base-color, .4); }
 
-  &:focus {
-    border: 1px solid $orange;
-  }
+  &:focus { border: 1px solid $orange; }
 }
 
 .filters {

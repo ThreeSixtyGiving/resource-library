@@ -80,6 +80,8 @@
     padding-bottom: 8px;
     @extend .u-h4;
     color: rgba($white, .6);
+
+    &:hover a { color: $yellow; }
   }
 
   &__heading {
@@ -87,14 +89,18 @@
     color: $white;
     padding-bottom: 16px;
   }
+
+  &--disabled {
+    pointer-events: none;
+    opacity: .4;
+  }
+
+
 }
 
 .off-canvas-menu__contextual {
   @include breakpoint($medium-up) { display: none; }
 }
-
-
-
 
 .off-canvas-menu--expanded {
   left: 0;
