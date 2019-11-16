@@ -1,9 +1,384 @@
 ---
+recU4EqWaTR696nzW: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 48
+  your_name: Kate Peters
+  resource_name: Public Health local profiles
+  resource_url: https://fingertips.phe.org.uk/
+  what_is_it_good_for?: Local area stats and comparisons of health data
+  category:
+  - Data Literacy
+reczZpXwqXMkTMKHh: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 47
+  your_name: Steve Mackenzie
+  resource_name: Office For National Statistics (ONS)
+  resource_url: https://www.ons.gov.uk/
+  what_is_it_good_for?: Researching statstical data compliled by Government agencies
+  who_is_using_it?: Public, Open Source, Community Foundations, UKCF's
+  why_would_you_recommend_it?: It is the source of a lot of aggregated or interpreted
+    statistics
+  category:
+  - Data Literacy
+recElJOLjScnDJ5fu: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 46
+  your_name: Steve Mackenzie, Gareth Clayton
+  resource_name: https://www.gov.uk/government/statistics/english-indices-of-deprivation-2015
+  what_is_it_good_for?: comparing different deprivations statistics across different
+    areas
+  who_is_using_it?: Government, Charities
+  why_would_you_recommend_it?: Nationally recognised statistics
+  category:
+  - Data Literacy
+recBHr4VJAK0xmGQb: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 45
+  your_name: Steve Mackenzie, Gareth Clayton
+  resource_name: Charity Commission
+  resource_url: https://www.gov.uk/government/organisations/charity-commission
+  what_is_it_good_for?: Primary source for all Charity Details in England
+  who_is_using_it?: Public
+  why_would_you_recommend_it?: Register of Key Charity Information
+  category:
+  - Data Literacy
+recotIfNUcJKUCBWh: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 44
+  your_name: Nicola Frost
+  resource_name: Full Fact
+  resource_url: https://fullfact.org
+  what_is_it_good_for?: fact checking site
+  who_is_using_it?: Devon CF
+  why_would_you_recommend_it?: good guide to poverty figures and what they all mean
+  category:
+  - Data Wrangling
+rec3B0PJiJXpNmY8E: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 43
+  your_name: Nicola Frost
+  resource_name: IMD heatmap app
+  resource_url: http://dclgapps.communities.gov.uk/imd/idmap.html
+  what_is_it_good_for?: Useful for a quick assessment of an LSOA
+  who_is_using_it?: Devon CF
+  why_would_you_recommend_it?: open access, no set-up, does breakdown of IMD domains
+    as well
+  category:
+  - Data Wrangling
+recyVuVaIDSxuNtui: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 42
+  your_name: Rachel Rank
+  resource_name: Understanding Scottish Places - statistical data on Scottish towns
+    & cities
+  resource_url: https://www.usp.scot/
+  what_is_it_good_for?: Understanding the differences between different towns/cities
+    across Scotland
+  who_is_using_it?: Academics, grantmakers, charities, policy makers
+  why_would_you_recommend_it?: High quality stats data; easy to use
+  category:
+  - Data Wrangling
+recvcZYYChGh8aZqd: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 41
+  your_name: Steve Mackenzie
+  resource_name: Companies House
+  resource_url: https://www.gov.uk/get-information-about-a-company
+  what_is_it_good_for?: Company Director Details, Financial Accounts
+  who_is_using_it?: CFs, Businesses
+  why_would_you_recommend_it?: Core resource, Legal requirement for Company details
+    to be listed here
+  category:
+  - Human Centered Design
+recG9S4SVEXdrxnEN: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 40
+  your_name: Adam Lopardo
+  resource_name: Gerd
+  resource_url: https://www.futuristgerd.com
+  what_is_it_good_for?: To inform
+  who_is_using_it?: Anyone interested in data
+  why_would_you_recommend_it?: One, if not first to, use the term 'data is the new
+    oil'
+  category:
+  - Data Wrangling
+recNLpNscPPaAEC1k: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 39
+  your_name: Nicola Frost
+  resource_name: Rural England
+  resource_url: https://ruralengland.org/
+  what_is_it_good_for?: research and reports on rural issues
+  who_is_using_it?: Devon CF
+  why_would_you_recommend_it?: "..."
+  category:
+  - Data Wrangling
+rec0UYUgQFBxI5f5o: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 38
+  your_name: Tom Bell
+  resource_name: CARTO
+  resource_url: https://carto.com
+  what_is_it_good_for?: Maps!  GIS
+  who_is_using_it?: Sussex Community Foundation (also Somerset and Surrey)
+  why_would_you_recommend_it?: Very Attractive and Intuitive to use.
+  category:
+  - Data Wrangling
+rec3HGRXO3cujC36R: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 37
+  your_name: Mor Rubinstein
+  resource_name: CCM Design Agency
+  what_is_it_good_for?: 'InfoGraphics '
+  who_is_using_it?: 360Giving, GovLab
+  why_would_you_recommend_it?: They are fast, efficient, creative and paid in CAD
+  category:
+  - Data Wrangling
+recimwqWeP2lTtx8D: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 36
+  your_name: Gareth
+  resource_name: Excel/Office Programmes
+  what_is_it_good_for?: Present Data/Compile
+  who_is_using_it?: Everyone
+  why_would_you_recommend_it?: It's everywhere
+  category:
+  - Data Wrangling
+recSAl2mBFRjXHliA: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 35
+  your_name: Nicola Frost
+  resource_name: UK Data Service
+  resource_url: 'www.ukdataservice.ac.uk '
+  what_is_it_good_for?: longitudinal datasets on social/political isuses
+  who_is_using_it?: Devon CF
+  why_would_you_recommend_it?: deep dives into particular issues, esp over time
+  category:
+  - Data Wrangling
+recJPF1Ao8uBHBciR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 34
+  your_name: Tom Bell
+  resource_name: Local Insight & OCSI
+  resource_url: https://local.communityinsight.org
+  what_is_it_good_for?: External open source data, GIS, Grant Assessment
+  who_is_using_it?: Sussex Community Foundations and other CF's
+  why_would_you_recommend_it?: UI Easy to learn, non-technical, visually strong
+  category:
+  - Data Wrangling
+recJyCrqcP0C3PY1H: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 33
+  your_name: 'Steve Mackenzie '
+  resource_name: 360Giving Council Data Base
+  what_is_it_good_for?: Compare data, compile data, make decisions
+  who_is_using_it?: Charities, funders, public
+  why_would_you_recommend_it?: Large source base in one place
+  category:
+  - Data Wrangling
+recf5D5KN0MiQ88T1: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 32
+  your_name: Adam Lopordo
+  resource_name: Data.gov.uk
+  resource_url: https://data.gov.uk
+  what_is_it_good_for?: Overlaid on other data - strengthening arguments - research
+  who_is_using_it?: Public, Big, Charities.
+  why_would_you_recommend_it?: Easy to use. More data than you might think.
+  category:
+  - Data Wrangling
+recYO1KypUktzkE6I: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 31
+  your_name: Steve Mackenzie, Gareth Clayton
+  resource_name: Charity Comms - combine School League Tables
+  what_is_it_good_for?: Accessing financial Info, Addresses, Poverty Measures, FSM,
+    etc.
+  who_is_using_it?: Public, Open Source, Community Foundations, UKCF's
+  why_would_you_recommend_it?: Base source, must be referenced
+  category:
+  - Data Wrangling
+recoDH0i0CbxrOT1P: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 30
+  your_name: Dirk Slater
+  resource_name: School of Data
+  resource_url: https://schoolofdata.org
+  what_is_it_good_for?: 'It''s got lots of data training curriculum aimed '
+  who_is_using_it?: 'Civil Society Organisations - there''s a global network of trainers
+    behind it. '
+  why_would_you_recommend_it?: Curriculum is very accessible. Though it is slightly
+    stale
+  category:
+  - Data Wrangling
+recRS1w5qVKJniYlI: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 29
+  your_name: 'Mor Rubinstein '
+  resource_name: Responsible Data Forum
+  resource_url: https://responsibledata.io
+  what_is_it_good_for?: Guidelines and tools to collect and use data responsibly
+  who_is_using_it?: People who produce data
+  why_would_you_recommend_it?: Up to date and full of good examples
+  category:
+  - Data Literacy
+recYFT4mKI0X5qYwR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 28
+  your_name: Tom Bell
+  resource_name: Ethical OS Toolkit
+  resource_url: https://ethicalos.org
+  what_is_it_good_for?: Checklist of 8 risk zones of risk and social harm from your
+    tech.
+  who_is_using_it?: Technologists
+  why_would_you_recommend_it?: Quick to make ethical decisions
+  category:
+  - Data Literacy
+rech1OgDlyLAxwwZr: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 27
+  your_name: Nicola Frost
+  resource_name: Inspiring Impact
+  resource_url: https://www.inspiringimpact.org/
+  what_is_it_good_for?: tools and resources for measuring and presenting impact
+  who_is_using_it?: Devon CF
+  why_would_you_recommend_it?: "..."
+  category:
+  - Data Wrangling
+recjFckwfgwXE4kLU: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 26
+  your_name: Nicola Frost
+  resource_name: Poverty in your Area
+  resource_url: http://www.endchildpoverty.org.uk/poverty-in-your-area-2018/
+  what_is_it_good_for?: interactive map for child poverty
+  who_is_using_it?: Devon CF
+  why_would_you_recommend_it?: "..."
+  category:
+  - Data Wrangling
+recBALjvCJ03K9vUW: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 25
+  your_name: Nicola Frost
+  resource_name: Charity Base
+  resource_url: https://charitybase.uk/
+  what_is_it_good_for?: database and platform for charity info
+  who_is_using_it?: Devon CF
+  why_would_you_recommend_it?: easy to use
+  category:
+  - Data Wrangling
+recEXWog7a0WsSFC9: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 24
+  your_name: Nicola Frost
+  resource_name: Thriving Places Index
+  resource_url: http://www.thrivingplacesindex.org/
+  what_is_it_good_for?: Happy City data
+  who_is_using_it?: Devon CF
+  why_would_you_recommend_it?: more wellbeing info
+  category:
+  - Data Wrangling
+recYHhDDWWzChwZKQ: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 23
+  your_name: Nicola Frost
+  resource_name: Environment and Health Atlas
+  resource_url: http://www.envhealthatlas.co.uk/homepage/index.html
+  what_is_it_good_for?: lsoa-level maps for health conditions etc
+  who_is_using_it?: Devon CF
+  why_would_you_recommend_it?: nice graphics
+  category:
+  - Data Wrangling
+recTrsGkAvYh6lyus: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 22
+  your_name: Nicola Frost
+  resource_name: Polimapper - constituency-based visualisation app
+  resource_url: https://app.polimapper.co.uk/?dataSetKey=72bc86358fc244dfb1135cc1205436de#con_over=Torbay
+  what_is_it_good_for?: JRF use it for poverty stats (see link)
+  who_is_using_it?: DevonCF
+  why_would_you_recommend_it?: paid-for platform but some good free bits
+  category:
+  - Data Wrangling
+recgNXNlLDBXLqFy7: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 21
+  your_name: Nicola Frost
+  resource_name: FSI Small Charity Report
+  resource_url: http://www.thefsi.org/wp-content/uploads/2018/08/Index-Mar-May-18.pdf
+  what_is_it_good_for?: quarterly infographics on small charity sector
+  who_is_using_it?: Devon CF
+  why_would_you_recommend_it?: focus on the small
+  category:
+  - Data Wrangling
+recIJjlgeTu5OB1Na: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 20
+  your_name: Nicola Frost
+  resource_name: LG Inform
+  resource_url: https://lginform.local.gov.uk/
+  what_is_it_good_for?: local government data
+  who_is_using_it?: Devon CF
+  why_would_you_recommend_it?: good to see down to LA level
+  category:
+  - Data Wrangling
+rec7RRnPiSPwz9gaH: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 19
+  your_name: Nicola Frost
+  resource_name: MHCLG open data plage
+  resource_url: http://opendatacommunities.org/home
+  what_is_it_good_for?: useful for eg homelessness figures
+  who_is_using_it?: Devon CF
+  why_would_you_recommend_it?: can be quicker than trawling through ONS
+  category:
+  - Data Wrangling
+recP2Stq4La2CXgSi: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 18
+  your_name: Nicola Frost
+  resource_name: Find That Charity
+  resource_url: https://findthatcharity.uk/
+  what_is_it_good_for?: cleaning up SF records
+  who_is_using_it?: Devon CF
+  why_would_you_recommend_it?: makes data cleaner for 360 giving
+  category:
+  - Data Wrangling
+rec4wEnf2K5BrjnVo: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 17
+  your_name: Mor Rubinstein
+  resource_name: Tableau Prep
+  resource_url: https://www.tableau.com/trial/tableau-prep
+  what_is_it_good_for?: Clean and automate cleaning for data
+  who_is_using_it?: Data Analysts
+  why_would_you_recommend_it?: easy to use
+  category:
+  - Data Wrangling
+recw6BIUeJtnmeAEe: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 16
+  your_name: Steve Mackensie
+  resource_name: Postcode finder
+  resource_url: 'https://www.royalmail.com/find-a-postcode '
+  what_is_it_good_for?: Addresses and Postcodes
+  who_is_using_it?: CFs, UKCFs
+  why_would_you_recommend_it?: Central Data Base is up to date.
+  category:
+  - Data Wrangling
+recLItex0qazPsRdo: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 15
+  your_name: Dirk Slater
+  resource_name: Data and Story Telling Workshop Curriculum
+  resource_url: https://www.fabriders.net/data-storytelling/
+  what_is_it_good_for?: 'For teams working together for understanding how to create
+    a narrative from data that will work for particular audiences '
+  who_is_using_it?: Sussex Community Foundations, 360Giving, FabRiders
+  why_would_you_recommend_it?: Reminds you about the basics for story telling and
+    how to understand what will be compelling to your audience
+  category:
+  - Data Literacy
+  - Human Centered Design
+recMR2SWZnQWnZ5VR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 14
+  your_name: Dirk Slater
+  resource_name: IFRC's Data Playbook
+  resource_url: http://preparecenter.org/toolkit/data-playbook
+  what_is_it_good_for?: Social Learning Curriculum - basically getting teams to explore
+    how and why they would use data in their work
+  who_is_using_it?: Humanitarian agencies like the Red Cross, but it's getting usage
+    by social change/advocacy orgs as well.
+  why_would_you_recommend_it?: It's all modularised and it's easy to find relevant
+    exercises. Plus I helped build it.
+  category:
+  - Data Literacy
+reczLoU2DDN7eEORY: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 13
+  your_name: Dirk
+  resource_name: IFRC's Data Playbook (Beta) Data Culture Module
+  resource_url: https://www.preparecenter.org/content/data-culture-data-playbook-beta#overlay-context=content/data-essentials-data-playbook-beta
+  what_is_it_good_for?: Building a Data Culture - it has templates for developing
+    working group meetings, thinking about data audiences and how to do skill scoping.
+  who_is_using_it?: Humanitarian organsiations. (Also I helped put it together!)
+  why_would_you_recommend_it?: Has a good approach to building culture by working
+    with teams to 'build their own adventure'
+  category:
+  - Data Literacy
+  - Human Centered Design
 recy3fwQfCcVq9l8u: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 12
   your_name: Mor
   resource_name: Atlassian Team Playbook
   resource_url: https://www.atlassian.com/team-playbook
+  what_is_it_good_for?: A collection of activities to manage projects and research
+    users
   who_is_using_it?: Project Managers, HR Teams
   why_would_you_recommend_it?: Creative ways to get ideas
   category:
@@ -14,9 +389,46 @@ recm4ZIzHdhHq9ma3: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   your_name: Dirk
   resource_name: 'DataBasics Culture Project '
   resource_url: https://databasic.io/en/culture/
+  what_is_it_good_for?: A collection of exercises to help build a data culture in
+    organizations
   who_is_using_it?: It was developed by MIT Media Labs for small organisations
   why_would_you_recommend_it?: The interactive exercises are innovative. Methodology
     is based on research.
+  category:
+  - Data Literacy
+recuB8x0cAD4xe5S2: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 10
+  your_name: Mor Rubinstein
+  resource_name: 'Open Data Manchester Github repo '
+  what_is_it_good_for?: Collection of activities about data culture
+  who_is_using_it?: UK Data Trainers
+  why_would_you_recommend_it?: Made by the community (including 360 Giving) for the
+    community
+  category:
+  - Data Literacy
+reczGtcwhYFluWUnr: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 9
+  your_name: Tom Bell
+  resource_name: Charity Digital Code of Practice
+  resource_url: https://doit.life/charity-digital-code
+  what_is_it_good_for?: Help charities increase impact, develop skills and improve
+    sustainability
+  who_is_using_it?: Sussex Community Foundation
+  why_would_you_recommend_it?: 'Help with Digital Leadership, Culture, Skills, Strategy,
+    etc. '
+  category:
+  - Data Literacy
+reci1mcLZ9HSwf3xS: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 8
+  your_name: Tom Bell
+  resource_name: " "
+  resource_url: https://digitalmaturity.co.uk/
+  what_is_it_good_for?: A tool to review your organisations Digital Maturity across
+    against a number of criteria. Due to be updated heavily in March with suggestions
+    for next steps
+  who_is_using_it?: Sussex Community Foundation
+  why_would_you_recommend_it?: Quick Steps to assess digital maturity. Gives an indication
+    of which areas are weaker than others, ie comms or strategy
   category:
   - Data Literacy
 rec1Mrj2rOeF2gCbm: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
@@ -24,8 +436,29 @@ rec1Mrj2rOeF2gCbm: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   your_name: Nicola Frost
   resource_name: Community Wellbeing Index
   resource_url: https://communitywellbeing.coop.co.uk/
+  what_is_it_good_for?: local synthesis of wellbeing elements
   who_is_using_it?: Devon CF
   why_would_you_recommend_it?: ".."
+  category:
+  - Data Wrangling
+recjHdYtDcNIVxhcb: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 6
+  your_name: Nicola Frost
+  resource_name: Tableau
+  resource_url: https://public.tableau.com/s/
+  what_is_it_good_for?: data visualiation tool
+  who_is_using_it?: Devon CF
+  why_would_you_recommend_it?: good for stealing other people's work!
+  category:
+  - Data Wrangling
+rec3GX7LyZBlI7kO0: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 5
+  your_name: Nicola Frost
+  resource_name: LSOA look-up tables
+  resource_url: http://geoportal.statistics.gov.uk/datasets/500d4283cbe54e3fa7f358399ba3783e_0
+  what_is_it_good_for?: looking up correspondence between wards, LSOAs etc
+  who_is_using_it?: Devon CF
+  why_would_you_recommend_it?: "..."
   category:
   - Data Wrangling
 rec05h4SjplEhje8x: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
@@ -33,8 +466,36 @@ rec05h4SjplEhje8x: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   your_name: Tom Bell
   resource_name: Power BI
   resource_url: https://docs.microsoft.com/en-us/power-bi/
+  what_is_it_good_for?: Pivot Tables, Charts, Data Analysis
   who_is_using_it?: Sussex Community Foundation
   why_would_you_recommend_it?: Quick and Easy to Use, part of microsoft suite, comes
     with 365
+  category:
+  - Data Wrangling
+rec49atVsWfMqjkxG: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 3
+  your_name: Mor Rubinstein
+  resource_name: 360Insights
+  what_is_it_good_for?: Gives a dashboard for 360Giving File
+  who_is_using_it?: Grantmakers
+  why_would_you_recommend_it?: Made for Grantmakers as primary users
+  category:
+  - Data Wrangling
+recI0MPuZEqkwW7xb: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 2
+  your_name: Steve Mackenzie
+  resource_name: Excel, Salesforce, Access
+  what_is_it_good_for?: Collate and Analysing - presentations
+  who_is_using_it?: CF's, UKCF, Charities
+  why_would_you_recommend_it?: Shared Skills Proliferation/Extend Expertise
+  category:
+  - Data Wrangling
+recsvNtekjJzhGeIf: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 1
+  your_name: Adam Lopardo
+  resource_name: Durham University
+  what_is_it_good_for?: 'Producing a state of the sector '
+  who_is_using_it?: CF Tyne and Wear
+  why_would_you_recommend_it?: It's really good
   category:
   - Data Wrangling

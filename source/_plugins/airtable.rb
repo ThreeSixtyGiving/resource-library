@@ -9,7 +9,7 @@ require 'active_support/all'
 
 @resources = @resourcesTable.select({
   filterByFormula: "Published",
-  fields: ["#", "Your Name", "Resource Name", "Resource URL", "Resource Description", "Resource Image", "Why would you recommend it?", "Who is using it?", "Category"],
+  fields: ["#", "Your Name", "Resource Name", "Resource URL", "Resource Description", "Resource Image", "Why would you recommend it?", "Who is using it?", "What is it good for?", "Category"],
   sort: ["#", :desc]
 })
 
