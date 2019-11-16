@@ -116,8 +116,8 @@ $(document).ready(function () {
     itemSelector: '.list-section__item',
     layoutMode: 'fitRows',
     filter: (el) => {
-      const filteringTags = document.querySelectorAll('.filters .tag--selected')
-      const searchInput = ($('.search-filter').val() || '').trim()
+      const filteringTags = document.querySelectorAll('.filters .filter--selected')
+      const searchInput = ($('.js-search-filter').val() || '').trim()
       const hasFilteringTags = filteringTags.length > 0
       if (!hasFilteringTags && !searchInput) {
         return true
@@ -135,7 +135,7 @@ $(document).ready(function () {
       }
       let matchingFilters = 0
       for (const tag of filteringTags) {
-        const filters = getFilters(tag, 'tag--')
+        const filters = getFilters(tag, 'filter--')
         for (const cardFilter of cardItemFilters) {
           if (filters.indexOf(cardFilter) !== -1) {
             matchingFilters += 1
@@ -147,16 +147,16 @@ $(document).ready(function () {
   })
 
   // Tags
-  $('.tag').each(function () {
+  $('.filter').each(function () {
     const tag = $(this)
     tag.click(function () {
-      tag.toggleClass('tag--selected')
+      tag.toggleClass('filter--selected')
       $('.card--expanded').removeClass('card--expanded') // closes expanded card if any
       isotope.arrange() // triggers isotope filtering
     })
   })
 
-  $('.search-filter').keyup(function (event) {
+  $('.js-search-filter').keyup(function (event) {
     $('.card--expanded').removeClass('card--expanded') // closes expanded card if any
     isotope.arrange() // triggers isotope filtering
   })

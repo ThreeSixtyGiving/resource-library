@@ -74,6 +74,8 @@
 .tags {
   margin-top: 16px;
   @include breakpoint($medium-up) { margin-top: 0px; }
+
+  > .tag { pointer-events: none; }
 }
 
 // Card Grid
@@ -84,9 +86,9 @@
     @include breakpoint($small-only) { flex-direction: column; }
   }
 
-  &__main-content { flex: 3; }
+  &__main-content { flex: 5; }
 
-  &__sidebar { flex: 1; }
+  &__sidebar { flex: 2; }
 }
 
 // Card Typography
@@ -126,5 +128,5 @@
 
 .card--expanded .card__content { 
   max-height: 3000px; 
-  margin-top: 16px;
+  margin-top: 36px;
 }

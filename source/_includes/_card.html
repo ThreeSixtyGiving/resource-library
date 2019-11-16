@@ -7,7 +7,7 @@
     <div class="card__row">
       <section class="card__main-content">
         {% if include.data.resource_url %}<a class="card__link" href="{{ include.data.resource_url }}" target="_blank" rel="noopener"><i class="material-icons">link</i></a>{% endif %}
-        <p class="card__text" style="white-space: pre;">{% if include.data.resource_description %}{{ include.data.resource_description }}{% endif %}</p>
+        <p class="card__text" style="white-space: pre;">{% if include.data.what_is_it_good_for? %}{{ include.data.what_is_it_good_for? }}{% endif %}</p>
       </section>
       <aside class="card__sidebar tags">
         {% for category in include.data.category %}
