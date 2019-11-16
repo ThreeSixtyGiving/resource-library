@@ -30,6 +30,11 @@
   }
 
   &__button + &__button { margin-left: -4px; }
+
+  &--disabled {
+    pointer-events: none;
+    opacity: .3;
+  }
 }
 
 // Styles for the OFF-CANVAS-MENU
@@ -41,6 +46,7 @@
   bottom: 0;
   left: -300px;
   width: 280px;
+  transition: all .4s ease;
   
   @include breakpoint($medium-up) { 
     width: 350px;
