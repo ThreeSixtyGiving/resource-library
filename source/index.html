@@ -4,28 +4,21 @@ title: Resource Library
 ---
 <main>
   {% include _top-bar.html %}
-  {% include _hero.html %}  
+  {% include _hero.html %}
+  
   {% include _filters.html %}  
   
   <div class="list-section">
-    <ul class="wrapper">
+    <ul class="wrapper list-section-items">
+      {% for resource in site.data.resources %}
       <li class="list-section__item">
-        {% include _card.html category="Data Literacy" %}  
+        {% include _card.html data=resource %}  
       </li>
-      
-      <li class="list-section__item">
-        {% include _card.html category="Data Wrangling" state="expanded" %}
-      </li>
-
-      <li class="list-section__item">
-        {% include _card.html category="Data Wrangling" %}
-      </li>
-      
-      <li class="list-section__item">
-        {% include _card.html category="Human Centered Design" %}
-      </li>
+      {% endfor %}
     </ul>
   </div>
 
   {% include _footer.html %}
 </main>
+
+<script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>

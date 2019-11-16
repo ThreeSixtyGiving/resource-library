@@ -4,12 +4,12 @@
   <nav class="top-bar__menu contextual-menu">
     <a href="#" class="contextual-menu__button contextual-menu--disabled">About this Initiative</a>
     <a href="#" class="contextual-menu__button contextual-menu--disabled">Feedback</a>
-    <a href="#" class="contextual-menu__button contextual-menu--disabled">Submit</a>
+    <a href="/submit.html" class="contextual-menu__button">Submit</a>
     <a href="#" class="contextual-menu__button contextual-menu--disabled">Contact</a>
 
   </nav>
 
-  <div class="off-canvas-menu{% if include.state %} off-canvas-menu--{{ include.state }}{% endif %}">
+  <div class="off-canvas-menu{% if include.state %} off-canvas-menu--{{ include.state }}{% endif %}" aria-hidden>
     <button class="off-canvas-menu__trigger"><i class="material-icons">close</i></button>
 
     <nav>
