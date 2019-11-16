@@ -25,6 +25,7 @@
 .u-transition { transition: all .4s ease; }
 
 @mixin placeholder {
+  // This mixin isn't working.
   &::-webkit-input-placeholder { @content }
   &:-moz-placeholder { @content }
   &::-moz-placeholder { @content }
