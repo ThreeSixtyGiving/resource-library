@@ -27,6 +27,15 @@
 
   &__image {
     margin-top: 24px;
+
+    a {
+      display: inline-block;
+      vertical-align: top;
+    }
+    
+    img {
+      max-height: 171px;
+    }
   }
 
   &__link {
@@ -95,6 +104,7 @@
 
   &__text {
     @extend .u-text;
+    display: block;
   }
 
   &__author {

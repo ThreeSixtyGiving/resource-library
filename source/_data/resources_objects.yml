@@ -1,0 +1,40 @@
+---
+recy3fwQfCcVq9l8u: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 12
+  your_name: Mor
+  resource_name: Atlassian Team Playbook
+  resource_url: https://www.atlassian.com/team-playbook
+  who_is_using_it?: Project Managers, HR Teams
+  why_would_you_recommend_it?: Creative ways to get ideas
+  category:
+  - Data Literacy
+  - Human Centered Design
+recm4ZIzHdhHq9ma3: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 11
+  your_name: Dirk
+  resource_name: 'DataBasics Culture Project '
+  resource_url: https://databasic.io/en/culture/
+  who_is_using_it?: It was developed by MIT Media Labs for small organisations
+  why_would_you_recommend_it?: The interactive exercises are innovative. Methodology
+    is based on research.
+  category:
+  - Data Literacy
+rec1Mrj2rOeF2gCbm: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 7
+  your_name: Nicola Frost
+  resource_name: Community Wellbeing Index
+  resource_url: https://communitywellbeing.coop.co.uk/
+  who_is_using_it?: Devon CF
+  why_would_you_recommend_it?: ".."
+  category:
+  - Data Wrangling
+rec05h4SjplEhje8x: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 4
+  your_name: Tom Bell
+  resource_name: Power BI
+  resource_url: https://docs.microsoft.com/en-us/power-bi/
+  who_is_using_it?: Sussex Community Foundation
+  why_would_you_recommend_it?: Quick and Easy to Use, part of microsoft suite, comes
+    with 365
+  category:
+  - Data Wrangling
