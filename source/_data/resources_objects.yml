@@ -21,7 +21,8 @@ reczZpXwqXMkTMKHh: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
 recElJOLjScnDJ5fu: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 46
   your_name: Steve Mackenzie, Gareth Clayton
-  resource_name: https://www.gov.uk/government/statistics/english-indices-of-deprivation-2015
+  resource_name: Index of Multiple Deprivation 2019
+  resource_url: https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019
   what_is_it_good_for?: comparing different deprivations statistics across different
     areas
   who_is_using_it?: Government, Charities
@@ -48,6 +49,8 @@ recotIfNUcJKUCBWh: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: good guide to poverty figures and what they all mean
   category:
   - Data Wrangling
+  tags:
+  - Verifying Data
 rec3B0PJiJXpNmY8E: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 43
   your_name: Nicola Frost
@@ -59,6 +62,9 @@ rec3B0PJiJXpNmY8E: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     as well
   category:
   - Data Wrangling
+  tags:
+  - Data Collection
+  - Using External Datasets
 recyVuVaIDSxuNtui: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 42
   your_name: Rachel Rank
@@ -71,6 +77,8 @@ recyVuVaIDSxuNtui: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: High quality stats data; easy to use
   category:
   - Data Wrangling
+  tags:
+  - Using External Datasets
 recvcZYYChGh8aZqd: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 41
   your_name: Steve Mackenzie
@@ -82,6 +90,8 @@ recvcZYYChGh8aZqd: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     to be listed here
   category:
   - Human Centered Design
+  tags:
+  - Researching businesses and donors
 recG9S4SVEXdrxnEN: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 40
   your_name: Adam Lopardo
@@ -93,6 +103,8 @@ recG9S4SVEXdrxnEN: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     oil'
   category:
   - Data Wrangling
+  tags:
+  - Readings on Data
 recNLpNscPPaAEC1k: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 39
   your_name: Nicola Frost
@@ -103,6 +115,8 @@ recNLpNscPPaAEC1k: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: "..."
   category:
   - Data Wrangling
+  tags:
+  - Presenting Data
 rec0UYUgQFBxI5f5o: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 38
   your_name: Tom Bell
@@ -113,6 +127,8 @@ rec0UYUgQFBxI5f5o: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: Very Attractive and Intuitive to use.
   category:
   - Data Wrangling
+  tags:
+  - Presenting Data
 rec3HGRXO3cujC36R: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 37
   your_name: Mor Rubinstein
@@ -122,6 +138,8 @@ rec3HGRXO3cujC36R: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: They are fast, efficient, creative and paid in CAD
   category:
   - Data Wrangling
+  tags:
+  - Presenting Data
 recimwqWeP2lTtx8D: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 36
   your_name: Gareth
@@ -131,6 +149,8 @@ recimwqWeP2lTtx8D: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: It's everywhere
   category:
   - Data Wrangling
+  tags:
+  - Presenting Data
 recSAl2mBFRjXHliA: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 35
   your_name: Nicola Frost
@@ -141,6 +161,9 @@ recSAl2mBFRjXHliA: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: deep dives into particular issues, esp over time
   category:
   - Data Wrangling
+  tags:
+  - Data Collection
+  - External Datasets
 recJPF1Ao8uBHBciR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 34
   your_name: Tom Bell
@@ -151,6 +174,8 @@ recJPF1Ao8uBHBciR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: UI Easy to learn, non-technical, visually strong
   category:
   - Data Wrangling
+  tags:
+  - External Datasets
 recJyCrqcP0C3PY1H: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 33
   your_name: 'Steve Mackenzie '
@@ -160,6 +185,8 @@ recJyCrqcP0C3PY1H: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: Large source base in one place
   category:
   - Data Wrangling
+  tags:
+  - External Datasets
 recf5D5KN0MiQ88T1: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 32
   your_name: Adam Lopordo
@@ -170,6 +197,8 @@ recf5D5KN0MiQ88T1: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: Easy to use. More data than you might think.
   category:
   - Data Wrangling
+  tags:
+  - External Datasets
 recYO1KypUktzkE6I: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 31
   your_name: Steve Mackenzie, Gareth Clayton
@@ -180,6 +209,8 @@ recYO1KypUktzkE6I: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: Base source, must be referenced
   category:
   - Data Wrangling
+  tags:
+  - External Datasets
 recoDH0i0CbxrOT1P: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 30
   your_name: Dirk Slater
@@ -192,6 +223,13 @@ recoDH0i0CbxrOT1P: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     stale
   category:
   - Data Wrangling
+  tags:
+  - Verifying Data
+  - Cleaning Data
+  - Analysing Data
+  - Data Collection
+  - Using External Datasets
+  - Data training curriculum
 recRS1w5qVKJniYlI: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 29
   your_name: 'Mor Rubinstein '
@@ -202,6 +240,8 @@ recRS1w5qVKJniYlI: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: Up to date and full of good examples
   category:
   - Data Literacy
+  tags:
+  - Data Ethics
 recYFT4mKI0X5qYwR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 28
   your_name: Tom Bell
@@ -213,6 +253,8 @@ recYFT4mKI0X5qYwR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: Quick to make ethical decisions
   category:
   - Data Literacy
+  tags:
+  - Data Ethics
 rech1OgDlyLAxwwZr: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 27
   your_name: Nicola Frost
@@ -223,6 +265,9 @@ rech1OgDlyLAxwwZr: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: "..."
   category:
   - Data Wrangling
+  tags:
+  - Presenting Data
+  - Data Collection
 recjFckwfgwXE4kLU: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 26
   your_name: Nicola Frost
@@ -233,6 +278,9 @@ recjFckwfgwXE4kLU: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: "..."
   category:
   - Data Wrangling
+  tags:
+  - Presenting Data
+  - Data Collection
 recBALjvCJ03K9vUW: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 25
   your_name: Nicola Frost
@@ -243,6 +291,10 @@ recBALjvCJ03K9vUW: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: easy to use
   category:
   - Data Wrangling
+  tags:
+  - Cleaning Data
+  - Analysing Data
+  - Data Collection
 recEXWog7a0WsSFC9: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 24
   your_name: Nicola Frost
@@ -253,6 +305,9 @@ recEXWog7a0WsSFC9: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: more wellbeing info
   category:
   - Data Wrangling
+  tags:
+  - Analysing Data
+  - Data Collection
 recYHhDDWWzChwZKQ: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 23
   your_name: Nicola Frost
@@ -263,6 +318,9 @@ recYHhDDWWzChwZKQ: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: nice graphics
   category:
   - Data Wrangling
+  tags:
+  - Analysing Data
+  - Data Collection
 recTrsGkAvYh6lyus: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 22
   your_name: Nicola Frost
@@ -273,6 +331,9 @@ recTrsGkAvYh6lyus: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: paid-for platform but some good free bits
   category:
   - Data Wrangling
+  tags:
+  - Analysing Data
+  - Data Collection
 recgNXNlLDBXLqFy7: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 21
   your_name: Nicola Frost
@@ -283,6 +344,8 @@ recgNXNlLDBXLqFy7: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: focus on the small
   category:
   - Data Wrangling
+  tags:
+  - Data Collection
 recIJjlgeTu5OB1Na: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 20
   your_name: Nicola Frost
@@ -293,6 +356,8 @@ recIJjlgeTu5OB1Na: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: good to see down to LA level
   category:
   - Data Wrangling
+  tags:
+  - Data Collection
 rec7RRnPiSPwz9gaH: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 19
   your_name: Nicola Frost
@@ -303,6 +368,8 @@ rec7RRnPiSPwz9gaH: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: can be quicker than trawling through ONS
   category:
   - Data Wrangling
+  tags:
+  - Data Collection
 recP2Stq4La2CXgSi: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 18
   your_name: Nicola Frost
@@ -313,6 +380,8 @@ recP2Stq4La2CXgSi: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: makes data cleaner for 360 giving
   category:
   - Data Wrangling
+  tags:
+  - Cleaning Data
 rec4wEnf2K5BrjnVo: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 17
   your_name: Mor Rubinstein
@@ -323,6 +392,8 @@ rec4wEnf2K5BrjnVo: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: easy to use
   category:
   - Data Wrangling
+  tags:
+  - Cleaning Data
 recw6BIUeJtnmeAEe: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 16
   your_name: Steve Mackensie
@@ -333,6 +404,8 @@ recw6BIUeJtnmeAEe: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: Central Data Base is up to date.
   category:
   - Data Wrangling
+  tags:
+  - Cleaning Data
 recLItex0qazPsRdo: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 15
   your_name: Dirk Slater
@@ -346,6 +419,11 @@ recLItex0qazPsRdo: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   category:
   - Data Literacy
   - Human Centered Design
+  tags:
+  - Analysing Data
+  - Assessing Users
+  - Data training curriculum
+  - Building a data culture
 recMR2SWZnQWnZ5VR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 14
   your_name: Dirk Slater
@@ -359,6 +437,9 @@ recMR2SWZnQWnZ5VR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     exercises. Plus I helped build it.
   category:
   - Data Literacy
+  tags:
+  - Data training curriculum
+  - Building a data culture
 reczLoU2DDN7eEORY: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 13
   your_name: Dirk
@@ -372,9 +453,12 @@ reczLoU2DDN7eEORY: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   category:
   - Data Literacy
   - Human Centered Design
+  tags:
+  - Assessing Users
+  - Building a data culture
 recy3fwQfCcVq9l8u: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 12
-  your_name: Mor
+  your_name: Mor Rubinstein
   resource_name: Atlassian Team Playbook
   resource_url: https://www.atlassian.com/team-playbook
   what_is_it_good_for?: A collection of activities to manage projects and research
@@ -384,6 +468,9 @@ recy3fwQfCcVq9l8u: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   category:
   - Data Literacy
   - Human Centered Design
+  tags:
+  - Assessing Users
+  - Building a data culture
 recm4ZIzHdhHq9ma3: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 11
   your_name: Dirk
@@ -396,16 +483,21 @@ recm4ZIzHdhHq9ma3: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     is based on research.
   category:
   - Data Literacy
+  tags:
+  - Building a data culture
 recuB8x0cAD4xe5S2: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 10
   your_name: Mor Rubinstein
   resource_name: 'Open Data Manchester Github repo '
+  resource_url: https://github.com/OpenDataManchester/training-and-resources
   what_is_it_good_for?: Collection of activities about data culture
   who_is_using_it?: UK Data Trainers
   why_would_you_recommend_it?: Made by the community (including 360 Giving) for the
     community
   category:
   - Data Literacy
+  tags:
+  - Building a data culture
 reczGtcwhYFluWUnr: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 9
   your_name: Tom Bell
@@ -418,6 +510,8 @@ reczGtcwhYFluWUnr: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     etc. '
   category:
   - Data Literacy
+  tags:
+  - Building a data culture
 reci1mcLZ9HSwf3xS: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 8
   your_name: Tom Bell
@@ -431,6 +525,8 @@ reci1mcLZ9HSwf3xS: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     of which areas are weaker than others, ie comms or strategy
   category:
   - Data Literacy
+  tags:
+  - Building a data culture
 rec1Mrj2rOeF2gCbm: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 7
   your_name: Nicola Frost
@@ -441,6 +537,9 @@ rec1Mrj2rOeF2gCbm: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: ".."
   category:
   - Data Wrangling
+  tags:
+  - Presenting Data
+  - Analysing Data
 recjHdYtDcNIVxhcb: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 6
   your_name: Nicola Frost
@@ -451,6 +550,9 @@ recjHdYtDcNIVxhcb: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: good for stealing other people's work!
   category:
   - Data Wrangling
+  tags:
+  - Presenting Data
+  - Analysing Data
 rec3GX7LyZBlI7kO0: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 5
   your_name: Nicola Frost
@@ -461,6 +563,8 @@ rec3GX7LyZBlI7kO0: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: "..."
   category:
   - Data Wrangling
+  tags:
+  - Analysing Data
 rec05h4SjplEhje8x: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 4
   your_name: Tom Bell
@@ -472,15 +576,20 @@ rec05h4SjplEhje8x: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     with 365
   category:
   - Data Wrangling
+  tags:
+  - Analysing Data
 rec49atVsWfMqjkxG: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 3
   your_name: Mor Rubinstein
   resource_name: 360Insights
+  resource_url: https://insights.threesixtygiving.org/
   what_is_it_good_for?: Gives a dashboard for 360Giving File
   who_is_using_it?: Grantmakers
   why_would_you_recommend_it?: Made for Grantmakers as primary users
   category:
   - Data Wrangling
+  tags:
+  - Analysing Data
 recI0MPuZEqkwW7xb: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 2
   your_name: Steve Mackenzie
@@ -490,6 +599,8 @@ recI0MPuZEqkwW7xb: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: Shared Skills Proliferation/Extend Expertise
   category:
   - Data Wrangling
+  tags:
+  - Analysing Data
 recsvNtekjJzhGeIf: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 1
   your_name: Adam Lopardo
@@ -499,3 +610,5 @@ recsvNtekjJzhGeIf: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   why_would_you_recommend_it?: It's really good
   category:
   - Data Wrangling
+  tags:
+  - Analysing Data

@@ -6,14 +6,19 @@ require 'active_support/all'
 
 @resourcesTable = @client.table("appj9qNC7jiu1tphD", "Resources")
 @categoriesTable = @client.table("appj9qNC7jiu1tphD", "Categories")
+@tagsTable = @client.table("appj9qNC7jiu1tphD", "Tags")
 
 @resources = @resourcesTable.select({
   filterByFormula: "Published",
-  fields: ["#", "Your Name", "Resource Name", "Resource URL", "Resource Description", "Resource Image", "Why would you recommend it?", "Who is using it?", "What is it good for?", "Category"],
+  fields: ["#", "Your Name", "Resource Name", "Resource URL", "Resource Description", "Resource Image", "Why would you recommend it?", "Who is using it?", "What is it good for?", "Category", "Tags"],
   sort: ["#", :desc]
 })
 
 @categories = @categoriesTable.select({
+  fields: ["Name"]
+})
+
+@tags = @tagsTable.select({
   fields: ["Name"]
 })
 
@@ -29,10 +34,27 @@ File.open("source/_data/categories_objects.yml", "w") do |f|
   f.write(@categoriesObject.to_yaml)
 end
 
+File.open("source/_data/tags.yml", "w") do |f|
+  data = []
+  @tags.each { |tag| data.push(tag.attributes) }
+  f.write(data.to_yaml)
+end
+
+@tagsObject = {}
+File.open("source/_data/tags_objects.yml", "w") do |f|
+  @tags.each { |tag| @tagsObject[tag.attributes["id"]] = tag.attributes.except!("id") }
+  f.write(@tagsObject.to_yaml)
+end
+
 File.open("source/_data/resources.yml", "w") do |f|
   data = []
   @resources.each do | resource |
-    resource.attributes["category"] = resource.attributes["category"].map { |categoryId| @categoriesObject[categoryId]["name"] }
+    if resource.attributes["category"] then
+      resource.attributes["category"] = resource.attributes["category"].map { |categoryId| @categoriesObject[categoryId]["name"] }
+    end
+    if resource.attributes["tags"] then
+      resource.attributes["tags"] = resource.attributes["tags"].map { |tagId| @tagsObject[tagId]["name"] }
+    end
     data.push(resource.attributes)
   end
   f.write(data.to_yaml)
