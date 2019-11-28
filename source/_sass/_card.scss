@@ -22,6 +22,9 @@
   }
 
   &__sidebar {
+    &.tags {
+      text-align: right;
+    }
     @include breakpoint($medium-up) { text-align: right; }
   }
 
@@ -129,4 +132,12 @@
 .card--expanded .card__content { 
   max-height: 3000px; 
   margin-top: 36px;
+}
+
+.card--expanded .tags--on-expanded {
+  display: block;
+}
+
+.card--expanded .tags + .tags {
+  margin-top: 0.5em;
 }

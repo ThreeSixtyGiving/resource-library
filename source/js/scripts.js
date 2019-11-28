@@ -168,10 +168,14 @@ $(document).ready(function () {
     card.click(function () {
       if (!card.hasClass('card--expanded')) {
         $('.card--expanded').removeClass('card--expanded')
+      } else {
+        window.history.pushState({}, null, window.location.origin)
       }
       card.toggleClass('card--expanded')
       if (cardContent[0].hasAttribute('aria-hidden')) {
         cardContent.removeAttr('aria-hidden')
+        const cardTitle = card.find('h3')
+        window.history.pushState({}, null, window.location.origin + '#' + cardTitle[0].id)
       } else {
         cardContent.attr('aria-hidden', '')
       }

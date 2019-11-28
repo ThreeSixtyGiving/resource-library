@@ -1,6 +1,6 @@
 <article class="card{% if include.state %} card--{{include.state}}{% endif %}{% if include.data.category %}{% for category in include.data.category %} card--{{category | slugify}}{% endfor %}{% endif %}" title="{{ include.data.resource_name }}">
   <header class="card__header">
-    <h3 class="card__heading">{{ include.data.resource_name }}</h3>
+    <h3 class="card__heading" id="{{ include.data.resource_name | slugify }}-{{ include.data.id | slugify }}">{{ include.data.resource_name }}</h3>
   </header>
   
   <div class="card__content" aria-hidden>
@@ -9,11 +9,22 @@
         {% if include.data.resource_url %}<a class="card__link" href="{{ include.data.resource_url }}" target="_blank" rel="noopener"><i class="material-icons">link</i></a>{% endif %}
         <p class="card__text" style="white-space: pre;">{% if include.data.what_is_it_good_for? %}{{ include.data.what_is_it_good_for? }}{% endif %}</p>
       </section>
-      <aside class="card__sidebar tags">
-        {% for category in include.data.category %}
-          {% include _tag.html category=category %}
-        {% endfor %} 
-      </aside>
+      <div>
+        {% if include.data.category %}
+        <aside class="card__sidebar tags">
+          {% for category in include.data.category %}
+            {% include _tag.html category=category %}
+          {% endfor %} 
+        </aside>
+        {% endif %}
+        {% if include.data.tags %}
+        <aside class="card__sidebar tags tags--on-expanded">
+          {% for tag in include.data.tags %}
+            {% include _tag.html category=tag %}
+          {% endfor %} 
+        </aside>
+        {% endif %}
+      </div>
     </div>
 
     <div class="card__row">
