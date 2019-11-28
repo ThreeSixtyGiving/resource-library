@@ -1,11 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="374" height="143" viewBox="0 0 374 143">
-  <defs>
-    <clipPath id="clip-logo-resources">
-      <rect width="374" height="143"/>
-    </clipPath>
-  </defs>
   <g id="logo-resources" clip-path="url(#clip-logo-resources)">
-    <rect width="374" height="143" fill="#FAFAFA" fill-opacity="0"/>
     <g id="Component_8_1" data-name="Component 8 – 1" transform="translate(0 -0.553)">
       <g id="Group_111" data-name="Group 111" transform="translate(-620.561 -371.214)">
         <circle id="Ellipse_17" data-name="Ellipse 17" cx="16.256" cy="16.256" r="16.256" transform="translate(631.139 474.78)" fill="#efc329"/>
