@@ -515,14 +515,34 @@ reczGtcwhYFluWUnr: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
 reci1mcLZ9HSwf3xS: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 8
   your_name: Tom Bell
-  resource_name: " "
-  resource_url: https://digitalmaturity.co.uk/
+  resource_name: Data Orchard Digital Maturity tool
+  resource_url: https://datamaturity.dataorchard.org.uk/
   what_is_it_good_for?: A tool to review your organisations Digital Maturity across
     against a number of criteria. Due to be updated heavily in March with suggestions
     for next steps
   who_is_using_it?: Sussex Community Foundation
   why_would_you_recommend_it?: Quick Steps to assess digital maturity. Gives an indication
     of which areas are weaker than others, ie comms or strategy
+  resource_image:
+  - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    id: attM4GQYjPkmEuF6T
+    url: https://dl.airtable.com/.attachments/761f6e8946fcc6557cb0a09952873f9b/88a6a82a/Screenshot_2019-11-27DataOrchardSelfAssessment.png
+    filename: Screenshot_2019-11-27 Data Orchard Self Assessment.png
+    size: 60766
+    type: image/png
+    thumbnails: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+      small: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+        url: https://dl.airtable.com/.attachmentThumbnails/f29da1f779f16a1e2d0d901b7521ee0b/935f9e3b
+        width: 70
+        height: 36
+      large: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+        url: https://dl.airtable.com/.attachmentThumbnails/79bc37321033589ee8775f2e4fd73fcd/9395ba80
+        width: 998
+        height: 512
+      full: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+        url: https://dl.airtable.com/.attachmentThumbnails/e0ef2251b98ea1e36ccb6cb374a20d6c/2bac8e42
+        width: 3000
+        height: 3000
   category:
   - Data Literacy
   tags:
@@ -594,7 +614,7 @@ recI0MPuZEqkwW7xb: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 2
   your_name: Steve Mackenzie
   resource_name: Excel, Salesforce, Access
-  what_is_it_good_for?: Collate and Analysing - presentations
+  what_is_it_good_for?: Collate, Analysing & Presentations
   who_is_using_it?: CF's, UKCF, Charities
   why_would_you_recommend_it?: Shared Skills Proliferation/Extend Expertise
   category:
@@ -606,7 +626,7 @@ recsvNtekjJzhGeIf: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   your_name: Adam Lopardo
   resource_name: Durham University
   what_is_it_good_for?: 'Producing a state of the sector '
-  who_is_using_it?: CF Tyne and Wear
+  who_is_using_it?: Tyne and Wear Community Foundation
   why_would_you_recommend_it?: It's really good
   category:
   - Data Wrangling
