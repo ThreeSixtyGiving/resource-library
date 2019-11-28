@@ -10,13 +10,13 @@
 
   &__panel { display: flex; }
   &__search { 
-    flex: 1;
+    flex: 3;
     display: flex;
     align-items: center;
   }
 
   &__buttons { 
-    flex: 3; 
+    flex: 4; 
     text-align: right;
   }
 }
@@ -50,7 +50,7 @@
   @include breakpoint($medium-up) { 
     // text-align: center; 
 
-    .filter + .filter { margin-left: 24px; }
+    .filter + .filter { margin-left: 8px; }
   }
 }
 
@@ -58,9 +58,9 @@
   color: $base-color;
   border: 2px solid $base-color;
   display: inline-block;
-  padding: 8px 24px 10px;
+  padding: 8px 24px 8px;
   border-radius: 24px;
-  font-size: .8rem;
+  font-size: .9rem;
 
   &:hover {
     cursor: pointer;
