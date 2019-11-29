@@ -25,6 +25,7 @@ github_username:
 # Build settings
 markdown: kramdown
 plugins:
+  # - bitly_filter
 
 # Folder Structure
 source: ./source
