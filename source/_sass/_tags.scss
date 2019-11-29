@@ -21,6 +21,13 @@
   &.tag--human-centered-design:hover { background-color: $red; }
 }
 
+.tag--small {
+  border-width: 1px;
+  opacity: .6;
+  padding: 1px 8px;
+  font-size: .7rem;
+}
+
 .tag--selected {
   cursor: pointer;
   background-color: $base-color;

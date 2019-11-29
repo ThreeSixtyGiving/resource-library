@@ -1,46 +1,6 @@
 // @ts-nocheck
 $(document).ready(function () {
 
-  var x = $('.smartlink')
-  
-  $.each(x, function(i, val) {
-    var ref = $(this);
-    var ref_top = ref.offset().top;
-    var ref_id = ref.attr('class').slice(-3); // this needs to be more robust
-
-    var content_top = $('.prose__content').offset().top;
-
-    var text_ref = $('.smartlink-content--' + ref_id );
-    text_ref.css({top: ref_top - content_top });
-  });
-
-  $('.smartlink').click(function(){
-    var ref_id = $(this).attr('class').slice(-3);
-    $('.smartlink-content--' + ref_id ).toggleClass('js-active');
-  });
-
-  // Smooth Scrolling Function
-  $('a[href*=#]:not([href=#])').click(function () {
-      var $targ = $(this.hash),
-          host1 = this.hostname,
-          host2 = location.hostname,
-          path1 = this.pathname.replace(/^\//, ''),
-          path2 = location.pathname.replace(/^\//, '');
-
-      if (!$targ.length) {
-          $targ = $('[name=' + this.hash.slice(1) + ']');
-      }
-
-      if ($targ.length && (host1 === host2 || path1 === path2)) {
-          $('html, body').animate({ scrollTop: $targ.offset().top }, 1000);
-
-          return false;
-      }
-
-      return true;
-  });
-
-
   $('.js-submit').click(function() {
     $('.js-modal').addClass('js-active');
     $('.js-overlay').addClass('js-active');
@@ -55,37 +15,6 @@ $(document).ready(function () {
   $('.js-comment-trigger').click(function() {
     $('.js-result').addClass('js-active'); // FIX ME!!!
   });
-
-  
-  // $( '.fullscreen-section:in-viewport( 100 )' ).addClass('fullscreen-section--in-viewport');
-
-  // $(window).scroll(function() {
-  //   $( '.fullscreen-section' ).removeClass('fullscreen-section--in-viewport');
-  //   $( '.fullscreen-section:in-viewport( 100 )' ).addClass('fullscreen-section--in-viewport');
-  // });
-
-  // window.sr = ScrollReveal();
-  
-  // sr.reveal('.fadein');
-  // sr.reveal('.fadein--from-right', { duration: 1400 });
-
-  try {
-    if (ScrollReveal) {
-      window.sr = ScrollReveal({ 
-        reset: false,
-        duration: 1200, 
-        distance: '20px',
-        scale: 0.95,
-        viewFactor: 0.3,
-        delay: 50
-      });
-  
-      sr.reveal('.fadein--from-right', { origin: 'right' });
-      sr.reveal('.fadein--from-left', { origin: 'left' });
-      sr.reveal('.fadein--from-bottom', { origin: 'bottom' });
-      sr.reveal('.fadein--from-top', { origin: 'top' });
-    }
-  } catch {}
   
   // 360RL
 
@@ -122,9 +51,9 @@ $(document).ready(function () {
       if (!hasFilteringTags && !searchInput) {
         return true
       }
-      const cardItem = $(el).children('.card')
-      const cardItemFilters = getFilters(cardItem[0], 'card--')
-      const cardHeading = cardItem.find('.card__heading')
+      const cardItem = $(el).children('.resource-card')
+      const cardItemFilters = getFilters(cardItem[0], 'resource-card--')
+      const cardHeading = cardItem.find('.resource-card__heading')
       const cardItemName = cardHeading && cardHeading.length > 0 ? cardHeading.text() : ''
       let isSearchMatch = true
       if (searchInput && cardItemName) {
@@ -151,27 +80,27 @@ $(document).ready(function () {
     const tag = $(this)
     tag.click(function () {
       tag.toggleClass('filter--selected')
-      $('.card--expanded').removeClass('card--expanded') // closes expanded card if any
+      $('.resource-card--expanded').removeClass('resource-card--expanded') // closes expanded card if any
       isotope.arrange() // triggers isotope filtering
     })
   })
 
   $('.js-search-filter').keyup(function (event) {
-    $('.card--expanded').removeClass('card--expanded') // closes expanded card if any
+    $('.resource-card--expanded').removeClass('resource-card--expanded') // closes expanded card if any
     isotope.arrange() // triggers isotope filtering
   })
 
   // Cards
-  $('.card').each(function () {
+  $('.resource-card').each(function () {
     const card = $(this)
-    const cardContent = card.children('.card__content')
+    const cardContent = card.children('.resource-card__content')
     card.click(function () {
-      if (!card.hasClass('card--expanded')) {
-        $('.card--expanded').removeClass('card--expanded')
+      if (!card.hasClass('resource-card--expanded')) {
+        $('.resource-card--expanded').removeClass('card--expanded')
       } else {
         window.history.pushState({}, null, window.location.origin)
       }
-      card.toggleClass('card--expanded')
+      card.toggleClass('resource-card--expanded')
       if (cardContent[0].hasAttribute('aria-hidden')) {
         cardContent.removeAttr('aria-hidden')
         const cardTitle = card.find('h3')

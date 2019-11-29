@@ -1,0 +1,85 @@
+<article class="resource-card{% if include.state %} card--{{include.state}}{% endif %}{% if include.data.category %}{% for category in include.data.category %} resource-card--{{category | slugify}}{% endfor %}{% endif %}" title="{{ include.data.resource_name }}">
+  <header class="resource-card__header">
+    <h3 class="resource-card__heading" id="{{ include.data.resource_name | slugify }}-{{ include.data.id | slugify }}">{{ include.data.resource_name }}</h3>
+  </header>
+  
+  <div class="resource-card__content" aria-hidden>
+    <div class="resource-card__row">
+      <section class="resource-card__main-content">
+        {% if include.data.resource_url %}
+          <a class="resource-card__link" href="{{ include.data.resource_url }}" target="_blank" rel="noopener"><i class="material-icons">link</i></a>
+        {% endif %}
+        
+        {% if include.data.what_is_it_good_for? %}
+          <p class="resource-card__text">{{ include.data.what_is_it_good_for? }}</p>
+        {% endif %}
+      </section>
+
+      {% if include.data.category %}
+        <aside class="resource-card__sidebar tags">
+          {% for category in include.data.category %}
+            {% include _category-tag.html category=category %}
+          {% endfor %} 
+        </aside>
+      {% endif %}
+    </div>
+
+    <div class="resource-card__row">
+      <section class="resource-card__main-content">
+        {% if include.data.why_would_you_recommend_it? %}
+        <h4 class="resource-card__subheading">Why would you recommend it?</h4>
+        <p class="resource-card__text">{{ include.data.why_would_you_recommend_it? }}</p>
+        {% endif %}
+
+        {% if include.data.resource_image %}
+        <div class="resource-card__image">
+            {% for resource_image in include.data.resource_image %}
+            <a href="{{ resource_image.url }}" title="{{ resource_image.filename }}" target="_blank" rel="noopener">
+              <img src="{{ resource_image.url }}" alt="{{ resource_image.filename }}">
+            </a>
+            {% endfor %}
+        </div>
+        {% endif %}  
+      </section>
+      
+      <aside class="resource-card__sidebar secondary-questions">
+        {% if include.data.resource_url %}
+        <h4 class="resource-card__subheading">Resource Link</h4>
+        <!-- @DAVID
+             I added this truncate filter here, because some resources had terribly long urls. 
+             This is also a temporary solution as I'm already looking into the implementation of a bitly filter.
+             Arthur should solve this in a few days for a more permanent solution.
+        -->
+        <a href="{{ include.data.resource_url }}" title="{{ include.data.resource_url }}">{{ include.data.resource_url | truncate: 48 }}</a>
+        {% endif %}
+      </aside>
+    </div>
+
+    <div class="resource-card__row">
+      <section class="resource-card__main-content">
+        <h4 class="resource-card__subheading">Who uses it</h4>
+        <p class="resource-card__text">{{ include.data.who_is_using_it? }}</p>
+      </section>
+
+      {% if include.data.tags %}
+        <aside class="resource-card__sidebar">
+          <h4 class="resource-card__subheading">Resource Tags</h4>
+           <div class="resource-card__tags">
+            {% for tag in include.data.tags %}
+              <div class="tag tag--small">{{ tag }}</div>
+            {% endfor %} 
+          </div>
+        </aside>
+      {% endif %}
+
+      </section>
+    </div>
+
+    {% if include.data.your_name %}
+    <footer class="resource-card__footer">
+      <p class="resource-card__author">Uploaded by <strong>{{ include.data.your_name }}</strong></p>
+    </footer>
+    {% endif %}
+  </div>
+      
+</article>
