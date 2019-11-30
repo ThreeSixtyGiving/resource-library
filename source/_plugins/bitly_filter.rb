@@ -1,4 +1,3 @@
-# https://gist.github.com/tbjers
 # require 'bitly'
 
 # module Jekyll
@@ -7,8 +6,16 @@
 #       @result_cache = {}
 #       config = Jekyll.configuration({})
 #       @username = config['bitly']['username']
-#       @key = config['bitly']['api_key']
+#       @key = config['bitly']['access_token']
+#       puts @username
+#       puts @key
 #       Bitly.use_api_version_3
+#       Bitly.configure do |config|
+#         config.api_version = 3
+#         config.access_token = @key
+#       end      
+#       bitly = Bitly.new(@username, @key)
+#       puts bitly.shorten('https://www.google.com', history: 1)
 #     end
 
 #     @@instance = BitlyFilterCache.new
@@ -29,12 +36,11 @@
 #     end
 #   end
 
-#   module Filters
+#   module BitlyFilter
 #     def bitly(input)
 #       BitlyFilterCache.instance.shorten(input)
 #     end
 #   end
 # end
 
-
-# Liquid::Template.register_filter(Jekyll::AssetFilter)
+# Liquid::Template.register_filter(Jekyll::BitlyFilter)

@@ -54,10 +54,16 @@ $(document).ready(function () {
       const cardItem = $(el).children('.resource-card')
       const cardItemFilters = getFilters(cardItem[0], 'resource-card--')
       const cardHeading = cardItem.find('.resource-card__heading')
+      const cardId = cardHeading.attr('id')
       const cardItemName = cardHeading && cardHeading.length > 0 ? cardHeading.text() : ''
       let isSearchMatch = true
-      if (searchInput && cardItemName) {
-        isSearchMatch = cardItemName.toLowerCase().includes(searchInput.toLowerCase())
+      if (searchInput) {
+        if (cardItem) {
+          isSearchMatch = cardItemName.toLowerCase().includes(searchInput.toLowerCase())
+        }
+        if (!isSearchMatch && cardId) {
+          isSearchMatch = cardId.toLowerCase().includes(searchInput.toLowerCase())
+        }
       }
       if (!hasFilteringTags) {
         return isSearchMatch
