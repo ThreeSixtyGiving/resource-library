@@ -1,40 +1,36 @@
 ---
 ---
-
-@import 'breakpoint';
-
-// Breakpoints
-$small-only: (max-width 40em);
-$medium: 40.063em 64em;
-$touch: (max-width 64em);
-$medium-up: 40.063em;
-$large: 64.063em;
-
-$sans-serif: 'Roboto', sans-serif;
-
-$base-color: #153634;
-$orange: #DE6E26;
-$teal: #4DACB6;
-$yellow: #EFC329;
-$red: #BC2C26;
-
-$main-color: $orange;
-$white: white;
-
-
 @import 'reset';
+@import 'breakpoint';
+@import 'variables';
+
+// Baseline styles
+@import 'utils';
+
 @import 'base';
 @import 'main';
+
+
+// Elements
 @import 'typography';
-@import 'prose';
 @import 'button';
+@import 'form';
+
+
+// Components
+@import 'top-bar';
 @import 'resource-card';
 @import 'tags';
-@import 'hero';
-@import 'top-bar';
-@import 'filters';
+
+// Blocks
 @import 'footer';
+@import 'prose';
+@import 'hero';
+@import 'filters';
+@import 'subscribe-section';
 @import 'sections';
 
+// Templates
 
+// Pattern Library Specific Styles
 @import 'custom-elements';

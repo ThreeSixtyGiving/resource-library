@@ -96,20 +96,20 @@
 
 // Card Typography
 .resource-card {
-  &__heading { @extend .u-h3; }
+  &__heading { @include h3; }
 
   &__subheading {
-    @extend .u-h4;
+    @include h4;
     margin-top: 8px;
     @include breakpoint($medium-up) { margin-top: 16px; }
   }
 
   &__text {
-    @extend .u-text;
+    @include text;
     display: block;
   }
 
-  &__author { @extend .u-small-text; }
+  &__author { @include small-text; }
 }
 
 // Card Colors

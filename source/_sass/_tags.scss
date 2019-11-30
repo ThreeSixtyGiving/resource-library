@@ -1,14 +1,14 @@
 .tag {
   color: $base-color;
-  border: 2px solid $base-color;
+  border: 1px solid $base-color;
   display: inline-block;
-  padding: 3px 24px 3px;
+  padding: 2px 24px 4px;
   border-radius: 24px;
   font-size: .8rem;
 }
 
 .tag--large {
-  padding: 8px 24px 8px;
+  padding: 8px 24px 10px;
 
   &:hover {
     cursor: pointer;
@@ -19,13 +19,6 @@
   &.tag--data-wrangling:hover { background-color: $teal; }
   &.tag--data-literacy:hover { background-color: $orange; }
   &.tag--human-centered-design:hover { background-color: $red; }
-}
-
-.tag--small {
-  border-width: 1px;
-  opacity: .6;
-  padding: 1px 8px;
-  font-size: .7rem;
 }
 
 .tag--selected {
@@ -51,8 +44,4 @@
 .tag--human-centered-design {
   color: $red;
   border-color: $red;
-}
-
-.tags--on-expanded {
-  display: none;
 }

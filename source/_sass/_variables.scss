@@ -1,0 +1,21 @@
+// Breakpoints
+$small-only: (max-width 40em);
+$medium: 40.063em 64em;
+$touch: (max-width 64em);
+$medium-up: 40.063em;
+$large: 64.063em;
+
+// Font
+$sans-serif: 'Roboto', sans-serif;
+
+// Colours Absolute
+$black: #153634;
+$orange: #DE6E26;
+$teal: #4DACB6;
+$yellow: #EFC329;
+$red: #BC2C26;
+$white: white;
+
+// Colours Relative
+$main-color: $orange;
+$base-color: $black;

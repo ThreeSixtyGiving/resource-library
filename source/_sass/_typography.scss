@@ -1,4 +1,4 @@
-.u-big-lead {
+@mixin big_lead {
   font-size: 1.1rem;
   font-weight: 300;
   color: rgba($base-color, .6);
@@ -7,35 +7,55 @@
   @include breakpoint($large) { font-size: 1.5rem; }
 }
 
-.u-h3 { 
+@mixin h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  color: rgba($base-color, 1);
+
+  @include breakpoint($medium) { font-size: 1.7rem; }
+  @include breakpoint($large) { font-size: 3rem; }
+}
+
+@mixin h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: rgba($base-color, 1);
+
+  @include breakpoint($medium) { font-size: 1.5rem; }
+  @include breakpoint($large) { font-size: 2rem; }
+}
+
+@mixin h3 { 
   font-size: 1.1rem;
   font-weight: 400;
   color: rgba($base-color, 1);
+  line-height: 1.3;
 
   @include breakpoint($medium) { font-size: 1.2rem; }
   @include breakpoint($large) { font-size: 1.5rem; }
 }
 
-.u-h4 {
-  font-size: .8rem;
-  font-weight: 400;
+@mixin h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.3;
   color: rgba($base-color, 1);
   
-  @include breakpoint($medium) { font-size: .9rem; }
+  @include breakpoint($medium) { font-size: 1rem; }
   @include breakpoint($large) { font-size: 1.1rem; }
 }
 
-.u-text {
-  font-size: .8rem;
+@mixin text {
+  font-size: 1rem;
   font-weight: 300;
   color: rgba($base-color, 1);
-  & + .u-text { margin-top: 12px; }
+  & + & { margin-top: 12px; }
 
   @include breakpoint($medium) { font-size: .9rem; }
   @include breakpoint($large) { font-size: 1rem; }
 }
 
-.u-small-text {
+@mixin small_text {
   font-size: 0.75rem;
   font-weight: 300;
   color: rgba($base-color, .8);

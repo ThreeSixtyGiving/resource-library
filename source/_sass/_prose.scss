@@ -23,7 +23,7 @@
 }
 
 .intro {
-  @extend .u-big-lead;
+  @include big-lead;
 }
 
 .prose h2,
@@ -50,7 +50,7 @@
 
 .prose p,
 .p {
-  @extend .u-text;
+  @include text;
 
   > a {
     font-weight: 400;

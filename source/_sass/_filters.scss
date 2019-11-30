@@ -10,13 +10,13 @@
 
   &__panel { display: flex; }
   &__search { 
-    flex: 3;
+    flex: 2;
     display: flex;
     align-items: center;
   }
 
   &__buttons { 
-    flex: 4; 
+    flex: 3; 
     text-align: right;
   }
 }
@@ -56,11 +56,11 @@
 
 .filter {
   color: $base-color;
-  border: 2px solid $base-color;
+  border: 1px solid $base-color;
   display: inline-block;
-  padding: 8px 24px 8px;
+  padding: 8px 24px 10px;
   border-radius: 24px;
-  font-size: .9rem;
+  font-size: .8rem;
 
   &:hover {
     cursor: pointer;

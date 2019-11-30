@@ -2,7 +2,7 @@
 .footer {
   &__row { 
     display: flex; 
-    @include breakpoint($small-only) { flex-wrap: wrap; }
+    @include breakpoint($small-only) { flex-direction: column; }
   }
   &__column-0 { flex: 0; }
   &__column-1 { 
@@ -18,12 +18,10 @@
 
 // Footer Structure and Visuals
 .footer {
-  margin-top: 32px;
   padding-top: 24px;
   background-color: $base-color;
 
   @include breakpoint($large) {
-    margin-top: 64px;
     padding-top: 48px;
   }
 
@@ -31,11 +29,15 @@
     padding-bottom: 36px;
     border-bottom: 1px solid rgba($white, .2); 
   }
+
+  &__row {
+    padding: 16px 0;
+  }
   
   &__section {
-    @extend .u-small-text;
+    @include small_text;
     color: rgba($white, .6);
-    padding-top: 36px;
+    padding: 24px 0 16px;
 
     & + & { 
       @include breakpoint($medium-up) { margin-left: 48px; }
@@ -44,7 +46,7 @@
   }
 
   &__heading {
-    @extend .u-h4;
+    @include h4;
     font-weight: bold;
     letter-spacing: 1px;
     color: $yellow;
@@ -86,17 +88,18 @@
   &__social {
     justify-content: flex-end;
 
+    @include breakpoint($small-only) { justify-content: center; }
+
     * + * { margin-left: 24px;}
     .github-icon { line-height: 3px; }
     .twitter-icon { line-height: 8px; }
   }
 
   &__small-print {
+    @include small_text;
     border-top: 1px solid rgba($white, .2);
     padding-top: 16px;
     padding-bottom: 12px;
-    margin-top: 16px;
-    @extend .u-small-text;
     color: rgba($white, .4);
   }
 
