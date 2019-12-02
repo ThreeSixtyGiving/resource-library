@@ -24,11 +24,18 @@ github_username:
 
 # Build settings
 markdown: kramdown
-plugins:
 
 # Folder Structure
 source: ./source
 destination: _site
+
+# Bitly Config
+bitly:
+  username: ccmdesign
+  registration_code: XuG3y26BQ2eFalHTFOTOdA
+  client_id: 81fa1872f9e8c5f7d1ccf2d056bd80ce6214b6e2
+  client_secret: 3193d9c0cd9237010589b7330ea879857d6f1efe
+  access_token: e20f09dbe77f5d60125b19a4adbfad79c50d3785
 
 
 # Plugins
