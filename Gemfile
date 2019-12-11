@@ -30,3 +30,5 @@ gem 'json', '~> 2.0'
 gem 'airtable'
 gem 'bigdecimal'
 gem 'activesupport'
+
+gem "rake"
