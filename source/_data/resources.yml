@@ -477,7 +477,7 @@
   id: recMR2SWZnQWnZ5VR
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 13
-  your_name: Dirk
+  your_name: Dirk Slater
   resource_name: IFRC's Data Playbook (Beta) Data Culture Module
   resource_url: https://www.preparecenter.org/content/data-culture-data-playbook-beta#overlay-context=content/data-essentials-data-playbook-beta
   what_is_it_good_for?: Building a Data Culture - it has templates for developing
@@ -510,7 +510,7 @@
   id: recy3fwQfCcVq9l8u
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 11
-  your_name: Dirk
+  your_name: Dirk Slater
   resource_name: 'DataBasics Culture Project '
   resource_url: https://databasic.io/en/culture/
   what_is_it_good_for?: A collection of exercises to help build a data culture in
@@ -557,9 +557,9 @@
   your_name: Tom Bell
   resource_name: Data Orchard Digital Maturity tool
   resource_url: https://datamaturity.dataorchard.org.uk/
-  what_is_it_good_for?: A tool to review your organisations Digital Maturity across
-    against a number of criteria. Due to be updated heavily in March with suggestions
-    for next steps
+  what_is_it_good_for?: A tool to review your organisations digital maturity across
+    a number of criteria. Due to be updated heavily in March with suggestions for
+    next steps
   who_is_using_it?: Sussex Community Foundation
   why_would_you_recommend_it?: Quick Steps to assess digital maturity. Gives an indication
     of which areas are weaker than others, ie comms or strategy
@@ -634,7 +634,8 @@
   your_name: Tom Bell
   resource_name: Power BI
   resource_url: https://docs.microsoft.com/en-us/power-bi/
-  what_is_it_good_for?: Pivot Tables, Charts, Data Analysis
+  what_is_it_good_for?: Dashboards that include Pivot Tables & Charts. Enables Data
+    Analysis
   who_is_using_it?: Sussex Community Foundation
   why_would_you_recommend_it?: Quick and Easy to Use, part of microsoft suite, comes
     with 365
@@ -656,27 +657,3 @@
   tags:
   - Analysing Data
   id: rec49atVsWfMqjkxG
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  "#": 2
-  your_name: Steve Mackenzie
-  resource_name: Excel, Salesforce, Access
-  what_is_it_good_for?: Collate, Analysing & Presentations
-  who_is_using_it?: CF's, UKCF, Charities
-  why_would_you_recommend_it?: Shared Skills Proliferation/Extend Expertise
-  category:
-  - Data Wrangling
-  tags:
-  - Analysing Data
-  id: recI0MPuZEqkwW7xb
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  "#": 1
-  your_name: Adam Lopardo
-  resource_name: Durham University
-  what_is_it_good_for?: 'Producing a state of the sector '
-  who_is_using_it?: Tyne and Wear Community Foundation
-  why_would_you_recommend_it?: It's really good
-  category:
-  - Data Wrangling
-  tags:
-  - Analysing Data
-  id: recsvNtekjJzhGeIf
