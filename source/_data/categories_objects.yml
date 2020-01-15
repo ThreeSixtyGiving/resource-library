@@ -3,15 +3,9 @@ rec3BbxjYYXTNZ83M: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   name: Responsible data
 rec7pWVhxqnJVHj8R: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   name: Using data
-recL9JO6zHjZaNUZ1: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  name: Human Centered Design
-recPqyJWzMp543v9Q: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  name: Data Wrangling
 recQYrKBRsTjHnSFf: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   name: Finding data
 recSeeHF5To4XvES4: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   name: Training and support
-reck6T3uiWyT9ExFq: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  name: Data Literacy
 recysZ3Vwi7lWCPpK: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   name: Data strategy and policy
