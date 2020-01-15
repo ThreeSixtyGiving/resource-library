@@ -10,13 +10,13 @@
 
   &__panel { display: flex; }
   &__search { 
-    flex: 2;
+    flex: 1;
     display: flex;
     align-items: center;
   }
 
   &__buttons { 
-    flex: 3; 
+    flex: 4; 
     text-align: right;
   }
 }
@@ -68,9 +68,12 @@
     color: $white;
   }
 
-  &.filter--data-wrangling:hover { background-color: $teal; }
-  &.filter--data-literacy:hover { background-color: $orange; }
-  &.filter--human-centered-design:hover { background-color: $red; }
+  &.filter--responsible-data:hover { background-color: $teal; }
+  &.filter--using-data:hover { background-color: $orange; }
+  &.filter--finding-data:hover { background-color: $red; }
+  &.filter--training-and-support:hover { background-color: $yellow; }
+  &.filter--data-strategy-and-policy:hover { background-color: $black; }
+
 }
 
 .filter--selected {
@@ -78,22 +81,34 @@
   background-color: $base-color;
   color: $white;
 
-  &.filter--data-wrangling { background-color: $teal; color: $white; }
-  &.filter--data-literacy { background-color: $orange; color: $white; }
-  &.filter--human-centered-design { background-color: $red; color: $white; }
+  &.filter--responsible-data { background-color: $teal; color: $white; }
+  &.filter--using-data { background-color: $orange; color: $white; }
+  &.filter--finding-data { background-color: $red; color: $white; }
+  &.filter--training-and-support { background-color: $yellow; color: $white; }
+  &.filter--data-strategy-and-policy { background-color: $black; color: $white; }
 }
 
-.filter--data-wrangling {
+.filter--responsible-data {
   color: $teal;
   border-color: $teal;
 }
 
-.filter--data-literacy {
+.filter--using-data {
   color: $orange;
   border-color: $orange;
 }
 
-.filter--human-centered-design {
+.filter--finding-data {
   color: $red;
   border-color: $red;
+}
+
+.filter--training-and-support {
+  color: $yellow;
+  border-color: $yellow;
+}
+
+.filter--data-strategy-and-policy {
+  color: $black;
+  border-color: $black;
 }

@@ -67,7 +67,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: $base-color;
+    background-color: rgba($base-color, .2);
   }
 }
 
@@ -75,7 +75,11 @@
   margin-top: 16px;
   @include breakpoint($medium-up) { margin-top: 0px; }
 
-  > .tag { pointer-events: none; }
+  > .tag { 
+      pointer-events: none; 
+      display: inline-block;
+      margin-bottom: 8px;
+    }
 }
 
 // Card Grid
@@ -101,6 +105,7 @@
   &__subheading {
     @include h4;
     margin-top: 8px;
+    margin-bottom: 8px;
     @include breakpoint($medium-up) { margin-top: 16px; }
   }
 
@@ -113,9 +118,11 @@
 }
 
 // Card Colors
-.resource-card--data-literacy:before { background-color: $orange; }
-.resource-card--data-wrangling:before { background-color: $teal; }
-.resource-card--human-centered-design:before { background-color: $red; }
+.resource-card--responsible-data:before { background-color: $teal; }
+.resource-card--using-data:before { background-color: $orange; }
+.resource-card--finding-data:before { background-color: $red; }
+.resource-card--training-and-support:before { background-color: $yellow; }
+.resource-card--data-strategy-and-policy:before { background-color: $black; }
 
 // Card States
 .resource-card .resource-card__content {

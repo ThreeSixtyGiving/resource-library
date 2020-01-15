@@ -16,9 +16,11 @@
     color: $white;
   }
 
-  &.tag--data-wrangling:hover { background-color: $teal; }
-  &.tag--data-literacy:hover { background-color: $orange; }
-  &.tag--human-centered-design:hover { background-color: $red; }
+  &.tag--responsible-data { background-color: $teal; }
+  &.tag--using-data { background-color: $orange; }
+  &.tag--finding-data { background-color: $red; }
+  &.tag--training-and-support { background-color: $yellow; }
+  &.tag--data-strategy-and-policy { background-color: $black; }
 }
 
 .tag--selected {
@@ -26,22 +28,34 @@
   background-color: $base-color;
   color: $white;
 
-  &.tag--data-wrangling { background-color: $teal; color: $white; }
-  &.tag--data-literacy { background-color: $orange; color: $white; }
-  &.tag--human-centered-design { background-color: $red; color: $white; }
+  &.tag--responsible-data { background-color: $teal; color: $white; }
+  &.tag--using-data { background-color: $orange; color: $white; }
+  &.tag--finding-data { background-color: $red; color: $white; }
+  &.tag--training-and-support { background-color: $yellow; color: $white; }
+  &.tag--data-strategy-and-policy { background-color: $black; color: $white; }
 }
 
-.tag--data-wrangling {
+.tag--responsible-data {
   color: $teal;
   border-color: $teal;
 }
 
-.tag--data-literacy {
+.tag--using-data {
   color: $orange;
   border-color: $orange;
 }
 
-.tag--human-centered-design {
+.tag--finding-data {
   color: $red;
   border-color: $red;
+}
+
+.tag--training-and-support {
+  color: $yellow;
+  border-color: $yellow;
+}
+
+.tag--data-strategy-and-policy {
+  color: $black;
+  border-color: $black;
 }
