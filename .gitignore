@@ -3,3 +3,5 @@ _site
 source/.jekyll-metadata
 
 source/_includes/.DS_Store
+
+source/.DS_Store
