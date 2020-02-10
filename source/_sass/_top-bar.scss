@@ -80,8 +80,9 @@
   }
 
   &__item {
-    padding-bottom: 8px;
+    padding-bottom: 16px;
     @include h4;
+    font-weight: 300;
     color: rgba($white, .6);
 
     &:hover a { color: $yellow; }

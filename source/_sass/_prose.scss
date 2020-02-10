@@ -51,9 +51,13 @@
 .prose p,
 .p {
   @include text;
-
+  
   > a {
     font-weight: 400;
     color: $teal;
   }
+}
+
+.prose {
+  p + p { margin-top: 12px; }
 }
