@@ -34,7 +34,7 @@ $(document).ready(function () {
     const filters = []
     for (const clazz of classes) {
       if (clazz.startsWith(prefix)) {
-        filters.push(clazz.substring(prefix.length))
+        filters.push(clazz.substring(prefix.length).trim())
       }
     }
     return filters
@@ -45,7 +45,7 @@ $(document).ready(function () {
     itemSelector: '.list-section__item',
     layoutMode: 'fitRows',
     filter: (el) => {
-      const filteringTags = document.querySelectorAll('.filters .filter--selected')
+      const filteringTags = document.querySelectorAll('.filters .filter-selected')
       const searchInput = ($('.js-search-filter').val() || '').trim()
       const hasFilteringTags = filteringTags.length > 0
       if (!hasFilteringTags && !searchInput) {
@@ -85,7 +85,7 @@ $(document).ready(function () {
   $('.filter').each(function () {
     const tag = $(this)
     tag.click(function () {
-      tag.toggleClass('filter--selected')
+      tag.toggleClass('filter-selected')
       $('.resource-card--expanded').removeClass('resource-card--expanded') // closes expanded card if any
       isotope.arrange() // triggers isotope filtering
     })
