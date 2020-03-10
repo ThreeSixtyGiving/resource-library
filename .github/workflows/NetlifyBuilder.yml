@@ -1,0 +1,11 @@
+name: Trigger Netlify Auto Build
+on:
+  schedule:
+    - cron: '0 0 * * *' # every midnight
+jobs:
+  build:
+    name: Request Netlify Webhook
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl request
+        run: curl -X POST -d {} "https://api.netlify.com/build_hooks/5e66ee9faa68c5b9c6644630"
