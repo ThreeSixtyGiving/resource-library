@@ -9,18 +9,22 @@
     <h3 class="resource-card__heading" id="{{ include.data.resource_name | slugify }}-{{ include.data.id | slugify }}">{{ include.data.resource_name }}</h3>
   </header>
   
-  <div class="resource-card__content" aria-hidden>
-    <div class="resource-card__row">
+  <div class="resource-card__content " aria-hidden>
+    <div class="resource-card__row resource-card__summary">
       <section class="resource-card__main-content">
         {% if include.data.resource_url %}
           <a class="resource-card__link" href="{{ include.data.resource_url }}" target="_blank" rel="noopener"><i class="material-icons">link</i></a>
         {% endif %}
         
-        {% if include.data.what_is_it_good_for? %}
-          <p class="resource-card__text">{{ include.data.what_is_it_good_for? }}</p>
+        {% if include.data.about_the_resource %}
+          <p class="resource-card__text">{{ include.data.about_the_resource }}</p>
+        {% endif %}
+
+        {% if include.data.why_is_this_resource_useful? %}
+        <h4 class="resource-card__subheading">Why is this resource useful?</h4>
+        <p class="resource-card__text">{{ include.data.why_is_this_resource_useful? }}</p>
         {% endif %}
       </section>
-
       {% if include.data.category %}
         <aside class="resource-card__sidebar tags">
           {% for category in include.data.category %}
