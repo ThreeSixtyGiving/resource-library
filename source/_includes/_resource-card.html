@@ -33,63 +33,65 @@
         </aside>
       {% endif %}
     </div>
-
-    <div class="resource-card__row">
-      <section class="resource-card__main-content">
-        {% if include.data.why_would_you_recommend_it? %}
-        <h4 class="resource-card__subheading">Why is this resource useful?</h4>
-        <p class="resource-card__text">{{ include.data.why_is_this_resource_useful? }}</p>
-        {% endif %}
-
-        {% if include.data.resource_image %}
-        <div class="resource-card__image">
-            {% for resource_image in include.data.resource_image %}
-            <a href="{{ resource_image.url }}" title="{{ resource_image.filename }}" target="_blank" rel="noopener">
-              <img src="{{ resource_image.url }}" alt="{{ resource_image.filename }}">
-            </a>
-            {% endfor %}
-        </div>
-        {% endif %}  
-      </section>
-      
-      <aside class="resource-card__sidebar secondary-questions">
-        {% if include.data.resource_url %}
-        <h4 class="resource-card__subheading">Resource Link</h4>
-        <!-- @DAVID
-             I added this truncate filter here, because some resources had terribly long urls. 
-             This is also a temporary solution as I'm already looking into the implementation of a bitly filter.
-             Arthur should solve this in a few days for a more permanent solution.
-        -->
-        <a href="{{ include.data.resource_url }}" title="{{ include.data.resource_url }}">{{ include.data.resource_url | truncate: 48 }}</a>
-        {% endif %}
-      </aside>
-    </div>
-
-    <div class="resource-card__row">
-      <section class="resource-card__main-content">
-        <h4 class="resource-card__subheading">Who is this resource useful for?</h4>
-        <p class="resource-card__text">{{ include.data.who_is_this_resource_useful_for? }}</p>
-      </section>
-
-      {% if include.data.tags %}
-        <aside class="resource-card__sidebar">
-          <h4 class="resource-card__subheading">Resource Tags</h4>
-           <div class="resource-card__tags">
-            {% for tag in include.data.tags %}
-              <div class="tag tag--small">{{ tag }}</div>
-            {% endfor %} 
+    
+    <div class="resource-card__extra">
+      <div class="resource-card__row">
+        <section class="resource-card__main-content">
+          {% if include.data.resource_image %}
+          <div class="resource-card__image">
+              {% for resource_image in include.data.resource_image %}
+              <a href="{{ resource_image.url }}" title="{{ resource_image.filename }}" target="_blank" rel="noopener">
+                <img src="{{ resource_image.url }}" alt="{{ resource_image.filename }}">
+              </a>
+              {% endfor %}
           </div>
+          {% endif %}  
+        </section>
+        
+        <aside class="resource-card__sidebar secondary-questions">
+          {% if include.data.resource_url %}
+          <h4 class="resource-card__subheading">Resource Link</h4>
+          <!-- @DAVID
+               I added this truncate filter here, because some resources had terribly long urls. 
+               This is also a temporary solution as I'm already looking into the implementation of a bitly filter.
+               Arthur should solve this in a few days for a more permanent solution.
+          -->
+          <a href="{{ include.data.resource_url }}" title="{{ include.data.resource_url }}" target="_blank" rel="noopener">{{ include.data.resource_url | truncate: 48 }}</a>
+          {% endif %}
         </aside>
+      </div>
+
+      <div class="resource-card__row">
+        <section class="resource-card__main-content">
+          <h4 class="resource-card__subheading">Who is this resource useful for?</h4>
+          <p class="resource-card__text">{{ include.data.who_is_this_resource_useful_for? }}</p>
+        </section>
+
+        {% if include.data.tags %}
+          <aside class="resource-card__sidebar">
+            <h4 class="resource-card__subheading">Resource Tags</h4>
+             <div class="resource-card__tags">
+              {% for tag in include.data.tags %}
+                <div class="tag tag--small">{{ tag }}</div>
+              {% endfor %} 
+            </div>
+          </aside>
+        {% endif %}
+
+        </section>
+      </div>
+
+      {% if include.data.your_name or include.data.your_organisation %}
+      <footer class="resource-card__footer">
+        {% if include.data.your_name and include.data.your_organisation %}
+        <p class="resource-card__author">Uploaded by <strong>{{ include.data.your_name }}</strong> from <strong>{{include.data.your_organisation}}</strong></p>
+        {% elsif include.data.your_name %}
+        <p class="resource-card__author">Uploaded by <strong>{{ include.data.your_name }}</strong></p>
+        {% elsif include.data.your_organisation %}
+        <p class="resource-card__author">Uploaded by <strong>{{ include.data.your_organisation }}</strong></p>
+        {% endif %}
+      </footer>
       {% endif %}
-
-      </section>
     </div>
-
-    {% if include.data.your_name %}
-    <footer class="resource-card__footer">
-      <p class="resource-card__author">Uploaded by <strong>{{ include.data.your_name }}</strong></p>
-    </footer>
-    {% endif %}
   </div>
-      
 </article>
