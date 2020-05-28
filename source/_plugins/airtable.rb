@@ -21,7 +21,6 @@ require 'active_support/all'
     "When would you use it?",
     "Why is this resource useful?", 
     "Who is this resource useful for?", 
-    "What is it good for?", 
     "Category", 
     "Tags"
   ],
