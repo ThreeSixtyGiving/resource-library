@@ -1,8 +1,12 @@
+// @include breakpoint($small-only) { }
+// @include breakpoint($medium-up) { }
+
 .tag {
   color: $base-color;
   border: 1px solid $base-color;
+  
   display: inline-block;
-  padding: 2px 24px 4px;
+  padding: 2px 18px 2px;
   border-radius: 24px;
   font-size: .8rem;
 }

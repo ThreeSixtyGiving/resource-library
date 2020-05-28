@@ -9,13 +9,13 @@
   }
 
   &__panel {
-    display: flex;
+    @include breakpoint($medium-up) { display: flex; }
     flex-direction: column;
     align-items: center;
   }
 
   &__search {
-    width: 82%;
+    @include breakpoint($medium-up) { width: 82%; }
     margin-top: 16px;
     display: flex;
     align-items: center;
@@ -26,8 +26,6 @@
     flex: 12; 
     text-align: center;
     @include breakpoint($large) { text-align: right; }
-
-    
   }
 }
 
@@ -51,23 +49,20 @@
   padding-bottom: 24px;
 
   @include breakpoint($small-only) {
-    width: max-content;
-    padding-right: 20px;
-
-    .filter + .filter { margin-left: 8px; }
+    .filter + .filter { margin-top: 8px; }
   }
 
   @include breakpoint($medium-up) { 
-    // text-align: center; 
-
     .filter + .filter { margin-left: 8px; }
   }
 }
 
 .filter {
+  display: block;
+  @include breakpoint($medium-up) { display: inline-block; }
+
   color: $base-color;
   border: 1px solid $base-color;
-  display: inline-block;
   padding: 8px 24px 10px;
   border-radius: 24px;
   font-size: .8rem;

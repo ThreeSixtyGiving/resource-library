@@ -17,7 +17,7 @@
   }
 
   &__sidebar {
-    &.tags { text-align: right; }
+    &.tags { text-align: left; }
     @include breakpoint($medium-up) { text-align: right; }
   }
 
@@ -91,11 +91,16 @@
   }
 
   &__main-content { 
-    flex: 3; 
-    max-width: 67%;
+    @include breakpoint($medium-up) { 
+      flex: 3; 
+      max-width: 67%;
+    }
   }
 
-  &__sidebar { flex: 2; }
+  &__sidebar { 
+  
+    @include breakpoint($medium-up) { flex: 2; }
+  }
 }
 
 // Card Typography
