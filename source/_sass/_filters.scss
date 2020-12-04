@@ -32,14 +32,14 @@
 .search-field {
   padding: 8px 16px;
   width: 100%;
-  border: 1px solid rgba($base-color, .2);
+  border: 1px solid rgba($base-color, .4);
   color: rgba($base-color, .7);
   background-color: transparent;
 
-  &::-webkit-input-placeholder { color: rgba($base-color, .4); }
-  &:-moz-placeholder { color: rgba($base-color, .4); }
-  &::-moz-placeholder { color: rgba($base-color, .4); }
-  &:-ms-input-placeholder { color: rgba($base-color, .4); }
+  &::-webkit-input-placeholder { color: rgba($base-color, .7); }
+  &:-moz-placeholder { color: rgba($base-color, .7); }
+  &::-moz-placeholder { color: rgba($base-color, .7); }
+  &:-ms-input-placeholder { color: rgba($base-color, .7); }
 
   &:focus { border: 1px solid $orange; }
 }
@@ -62,8 +62,8 @@
   @include breakpoint($medium-up) { display: inline-block; }
 
   color: $base-color;
-  border: 1px solid $base-color;
-  padding: 8px 24px 10px;
+  border: 2px solid $base-color;
+  padding: 9px 24px 10px;
   border-radius: 24px;
   font-size: .8rem;
 
@@ -73,10 +73,10 @@
     color: $white;
   }
 
-  &.filter--responsible-data:hover { background-color: $teal; }
-  &.filter--using-data:hover { background-color: $orange; }
+  &.filter--responsible-data:hover { background-color: var(--color-teal-dark); }
+  &.filter--using-data:hover { background-color: var(--color-orange-dark); }
   &.filter--finding-data:hover { background-color: $red; }
-  &.filter--training-and-support:hover { background-color: $yellow; }
+  &.filter--training-and-support:hover { background-color: var(--color-yellow-dark); }
   &.filter--data-strategy-and-policy:hover { background-color: $black; }
 
 }
@@ -86,20 +86,20 @@
   background-color: $base-color;
   color: $white;
 
-  &.filter--responsible-data { background-color: $teal; color: $white; }
-  &.filter--using-data { background-color: $orange; color: $white; }
+  &.filter--responsible-data { background-color: var(--color-teal-dark); color: $white; }
+  &.filter--using-data { background-color: var(--color-orange-dark); color: $white; }
   &.filter--finding-data { background-color: $red; color: $white; }
-  &.filter--training-and-support { background-color: $yellow; color: $white; }
+  &.filter--training-and-support { background-color: var(--color-yellow-dark); color: $white; }
   &.filter--data-strategy-and-policy { background-color: $black; color: $white; }
 }
 
 .filter--responsible-data {
-  color: $teal;
+  color: var(--color-teal-dark);
   border-color: $teal;
 }
 
 .filter--using-data {
-  color: $orange;
+  color: var(--color-orange-dark);
   border-color: $orange;
 }
 
@@ -109,7 +109,7 @@
 }
 
 .filter--training-and-support {
-  color: $yellow;
+  color: var(--color-yellow-dark);
   border-color: $yellow;
 }
 
