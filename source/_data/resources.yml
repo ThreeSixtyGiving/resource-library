@@ -1,5 +1,16 @@
 ---
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 160
+  your_name: Mor Rubinstein
+  resource_name: Data Strategy Canvas
+  resource_url: https://docs.google.com/presentation/d/1BnJkVMiMr9sW4rZGBgS0tNaNZRP4C3qfnY4lgVX8fAE/edit#slide=id.g8241895b74_0_52
+  your_organisation: 360Giving
+  about_the_resource: "This canvas is a tool to help you create a data strategy for
+    your organisation. This was created in our Data Champions Programme. \n"
+  category:
+  - Data strategy and policy
+  id: recPlSfQQyw7glgUw
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 157
   your_name: Toby Gill
   resource_name: Automate the Boring Stuff
@@ -146,7 +157,6 @@
   your_name: Kate Peters
   resource_name: Public Health local profiles
   resource_url: https://fingertips.phe.org.uk/
-  what_is_it_good_for?: Local area stats and comparisons of health data
   about_the_resource: Local area stats and comparisons of health data
   category:
   - Finding data
@@ -156,7 +166,6 @@
   your_name: Steve Mackenzie
   resource_name: Office For National Statistics (ONS)
   resource_url: https://www.ons.gov.uk/
-  what_is_it_good_for?: Researching statstical data compliled by Government agencies
   who_is_this_resource_useful_for?: Public, Open Source, Community Foundations, UKCF's
   why_is_this_resource_useful?: It is the source of a lot of aggregated or interpreted
     statistics
@@ -170,8 +179,6 @@
   your_name: Steve Mackenzie, Gareth Clayton
   resource_name: Index of Multiple Deprivation 2019
   resource_url: https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019
-  what_is_it_good_for?: Comparing different deprivations statistics across different
-    areas
   who_is_this_resource_useful_for?: Government, Charities
   why_is_this_resource_useful?: Nationally recognised statistics
   your_organisation: Essex Community Foundation
@@ -185,7 +192,6 @@
   your_name: Steve Mackenzie, Gareth Clayton
   resource_name: Charity Commission
   resource_url: https://www.gov.uk/government/organisations/charity-commission
-  what_is_it_good_for?: Primary source for all Charity Details in England
   who_is_this_resource_useful_for?: Public
   why_is_this_resource_useful?: Register of Key Charity Information
   your_organisation: Essex Community Foundation
@@ -198,7 +204,6 @@
   your_name: Nicola Frost
   resource_name: Full Fact
   resource_url: https://fullfact.org
-  what_is_it_good_for?: Fact-checking site
   who_is_this_resource_useful_for?: Devon CF
   why_is_this_resource_useful?: It's a good guide to poverty figures and what they
     all mean
@@ -217,8 +222,6 @@
   your_name: Nicola Frost
   resource_name: IMD heatmap app
   resource_url: http://dclgapps.communities.gov.uk/imd/idmap.html
-  what_is_it_good_for?: Useful for a quick assessment of a Lower Layer Super Output
-    Area (LSOA)
   who_is_this_resource_useful_for?: Devon CF
   why_is_this_resource_useful?: open access, no set-up, does breakdown of IMD domains
     as well
@@ -238,8 +241,6 @@
   resource_name: Understanding Scottish Places - statistical data on Scottish towns
     & cities
   resource_url: https://www.usp.scot/
-  what_is_it_good_for?: Understanding the differences between different towns/cities
-    across Scotland
   who_is_this_resource_useful_for?: Academics, grantmakers, charities, policy makers
   why_is_this_resource_useful?: High quality stats data; easy to use
   when_would_you_use_it?: Using External Datasets
@@ -256,7 +257,6 @@
   your_name: Steve Mackenzie
   resource_name: Companies House
   resource_url: https://www.gov.uk/get-information-about-a-company
-  what_is_it_good_for?: Company Director Details, Financial Accounts
   who_is_this_resource_useful_for?: CFs, Businesses
   why_is_this_resource_useful?: Core resource, Legal requirement for Company details
     to be listed here
@@ -273,7 +273,6 @@
   your_name: Nicola Frost
   resource_name: Rural England
   resource_url: https://ruralengland.org/
-  what_is_it_good_for?: Research and reports on rural issues
   who_is_this_resource_useful_for?: Devon CF
   why_is_this_resource_useful?: "..."
   when_would_you_use_it?: Presenting Data
@@ -289,7 +288,6 @@
   your_name: Tom Bell
   resource_name: CARTO
   resource_url: https://carto.com
-  what_is_it_good_for?: Maps!  GIS
   who_is_this_resource_useful_for?: Sussex Community Foundation (also Somerset and
     Surrey)
   why_is_this_resource_useful?: Very Attractive and Intuitive to use.
@@ -305,7 +303,6 @@
   "#": 36
   your_name: Gareth
   resource_name: Excel/Office Programmes
-  what_is_it_good_for?: It helps you present and compile data
   who_is_this_resource_useful_for?: Everyone
   why_is_this_resource_useful?: It's everywhere
   when_would_you_use_it?: Presenting Data
@@ -321,7 +318,6 @@
   your_name: Nicola Frost
   resource_name: UK Data Service
   resource_url: 'www.ukdataservice.ac.uk '
-  what_is_it_good_for?: Longitudinal datasets on social/political isuses
   who_is_this_resource_useful_for?: Devon CF
   why_is_this_resource_useful?: deep dives into particular issues, esp over time
   when_would_you_use_it?: External Datasets, Data Collection
@@ -338,7 +334,6 @@
   your_name: Tom Bell
   resource_name: Local Insight & OCSI
   resource_url: https://local.communityinsight.org
-  what_is_it_good_for?: External open source data, GIS, Grant Assessment
   who_is_this_resource_useful_for?: Sussex Community Foundations and other CF's
   why_is_this_resource_useful?: UI Easy to learn, non-technical, visually strong
   when_would_you_use_it?: External Datasets
@@ -354,7 +349,6 @@
   "#": 33
   your_name: 'Steve Mackenzie '
   resource_name: 360Giving Council Data Base
-  what_is_it_good_for?: Compare data, compile data, make decisions
   who_is_this_resource_useful_for?: Charities, funders, public
   why_is_this_resource_useful?: Large source base in one place
   when_would_you_use_it?: External Datasets
@@ -370,7 +364,6 @@
   your_name: Adam Lopordo
   resource_name: Data.gov.uk
   resource_url: https://data.gov.uk
-  what_is_it_good_for?: Overlaid on other data - strengthening arguments - research
   who_is_this_resource_useful_for?: Public, Big, Charities.
   why_is_this_resource_useful?: Easy to use. More data than you might think.
   when_would_you_use_it?: External Datasets
@@ -385,8 +378,6 @@
   "#": 31
   your_name: Steve Mackenzie, Gareth Clayton
   resource_name: Charity Comms - combine School League Tables
-  what_is_it_good_for?: Accessing financial information, addresses, poverty measures,
-    FSM, etc
   who_is_this_resource_useful_for?: Public, Open Source, Community Foundations, UKCF's
   why_is_this_resource_useful?: Base source, must be referenced
   when_would_you_use_it?: External Datasets
@@ -403,7 +394,6 @@
   your_name: Dirk Slater
   resource_name: School of Data
   resource_url: https://schoolofdata.org
-  what_is_it_good_for?: 'It''s got lots of data training curriculum '
   who_is_this_resource_useful_for?: 'Civil Society Organisations - there''s a global
     network of trainers behind it. '
   why_is_this_resource_useful?: Curriculum is very accessible. Though it is slightly
@@ -428,7 +418,6 @@
   your_name: 'Mor Rubinstein '
   resource_name: Responsible Data Forum
   resource_url: https://responsibledata.io
-  what_is_it_good_for?: Guidelines and tools to collect and use data responsibly
   who_is_this_resource_useful_for?: People who produce data
   why_is_this_resource_useful?: Up to date and full of good examples
   when_would_you_use_it?: Data Ethics
@@ -444,8 +433,6 @@
   your_name: Tom Bell
   resource_name: Ethical OS Toolkit
   resource_url: https://ethicalos.org
-  what_is_it_good_for?: It has a checklist of eight zones of risk and social harm
-    from your tech.
   who_is_this_resource_useful_for?: Technologists
   why_is_this_resource_useful?: Quick to make ethical decisions
   when_would_you_use_it?: Data Ethics
@@ -463,8 +450,6 @@
   your_name: Nicola Frost
   resource_name: Inspiring Impact
   resource_url: https://www.inspiringimpact.org/
-  what_is_it_good_for?: It offers tools and resources for measuring and presenting
-    impact
   who_is_this_resource_useful_for?: Devon CF
   why_is_this_resource_useful?: "..."
   when_would_you_use_it?: Data Collection, Presenting Data
@@ -484,7 +469,6 @@
   your_name: Nicola Frost
   resource_name: Poverty in your Area
   resource_url: http://www.endchildpoverty.org.uk/poverty-in-your-area-2018/
-  what_is_it_good_for?: Accessing an interactive map for child poverty
   who_is_this_resource_useful_for?: Devon CF
   why_is_this_resource_useful?: "..."
   when_would_you_use_it?: Data Collection, Presenting Data
@@ -501,7 +485,6 @@
   your_name: Nicola Frost
   resource_name: Charity Base
   resource_url: https://charitybase.uk/
-  what_is_it_good_for?: Database and platform for charity info
   who_is_this_resource_useful_for?: Devon CF
   why_is_this_resource_useful?: easy to use
   when_would_you_use_it?: Data Collection, Analysing Data, Cleaning Data
@@ -519,7 +502,6 @@
   your_name: Nicola Frost
   resource_name: Thriving Places Index
   resource_url: http://www.thrivingplacesindex.org/
-  what_is_it_good_for?: Happy City data
   who_is_this_resource_useful_for?: Devon CF
   why_is_this_resource_useful?: more wellbeing info
   when_would_you_use_it?: Data Collection, Analysing Data
@@ -536,7 +518,6 @@
   your_name: Nicola Frost
   resource_name: Environment and Health Atlas
   resource_url: http://www.envhealthatlas.co.uk/homepage/index.html
-  what_is_it_good_for?: lsoa-level maps for health conditions etc
   who_is_this_resource_useful_for?: Devon CF
   why_is_this_resource_useful?: nice graphics
   when_would_you_use_it?: Data Collection, Analysing Data
@@ -553,7 +534,6 @@
   your_name: Nicola Frost
   resource_name: Polimapper - constituency-based visualisation app
   resource_url: https://app.polimapper.co.uk/?dataSetKey=72bc86358fc244dfb1135cc1205436de#con_over=Torbay
-  what_is_it_good_for?: JRF use it for poverty stats (see link)
   who_is_this_resource_useful_for?: DevonCF
   why_is_this_resource_useful?: paid-for platform but some good free bits
   when_would_you_use_it?: Data Collection, Analysing Data
@@ -570,7 +550,6 @@
   your_name: Nicola Frost
   resource_name: FSI Small Charity Report
   resource_url: http://www.thefsi.org/wp-content/uploads/2018/08/Index-Mar-May-18.pdf
-  what_is_it_good_for?: It offers quarterly infographics on the small charity sector
   who_is_this_resource_useful_for?: Devon CF
   why_is_this_resource_useful?: focus on the small
   when_would_you_use_it?: Data Collection
@@ -586,7 +565,6 @@
   your_name: Nicola Frost
   resource_name: LG Inform
   resource_url: https://lginform.local.gov.uk/
-  what_is_it_good_for?: Local government data
   who_is_this_resource_useful_for?: Devon CF
   why_is_this_resource_useful?: good to see down to LA level
   when_would_you_use_it?: Data Collection
@@ -603,7 +581,6 @@
   resource_name: Search Results Web result with site links  Ministry of Housing, Communities
     & Local Government open data plage
   resource_url: http://opendatacommunities.org/home
-  what_is_it_good_for?: It's useful for homelessness figures
   who_is_this_resource_useful_for?: Devon CF
   why_is_this_resource_useful?: can be quicker than trawling through ONS
   when_would_you_use_it?: Data Collection
@@ -619,7 +596,6 @@
   your_name: Nicola Frost
   resource_name: Find That Charity
   resource_url: https://findthatcharity.uk/
-  what_is_it_good_for?: Cleaning up SF records
   who_is_this_resource_useful_for?: Devon CF
   why_is_this_resource_useful?: makes data cleaner for 360 giving
   when_would_you_use_it?: Cleaning Data
@@ -635,7 +611,6 @@
   your_name: Mor Rubinstein
   resource_name: Tableau Prep
   resource_url: https://www.tableau.com/trial/tableau-prep
-  what_is_it_good_for?: It helps you clean and automate cleaning for data
   who_is_this_resource_useful_for?: Data Analysts
   why_is_this_resource_useful?: easy to use
   when_would_you_use_it?: Cleaning Data
@@ -651,7 +626,6 @@
   your_name: Steve Mackensie
   resource_name: Postcode finder
   resource_url: 'https://www.royalmail.com/find-a-postcode '
-  what_is_it_good_for?: Addresses and Postcodes
   who_is_this_resource_useful_for?: CFs, UKCFs
   why_is_this_resource_useful?: Central Data Base is up to date.
   when_would_you_use_it?: Cleaning Data
@@ -668,8 +642,6 @@
   your_name: Dirk Slater
   resource_name: Data and Story Telling Workshop Curriculum
   resource_url: https://www.fabriders.net/data-storytelling/
-  what_is_it_good_for?: 'For teams working together for understanding how to create
-    a narrative from data that will work for particular audiences '
   who_is_this_resource_useful_for?: Sussex Community Foundations, 360Giving, FabRiders
   why_is_this_resource_useful?: Reminds you about the basics for story telling and
     how to understand what will be compelling to your audience
@@ -692,8 +664,6 @@
   your_name: Dirk Slater
   resource_name: IFRC's Data Playbook
   resource_url: http://preparecenter.org/toolkit/data-playbook
-  what_is_it_good_for?: Social Learning Curriculum - basically getting teams to explore
-    how and why they would use data in their work
   who_is_this_resource_useful_for?: Humanitarian agencies like the Red Cross, but
     it's getting usage by social change/advocacy orgs as well.
   why_is_this_resource_useful?: It's all modularised and it's easy to find relevant
@@ -714,8 +684,6 @@
   your_name: Dirk Slater
   resource_name: IFRC's Data Playbook (Beta) Data Culture Module
   resource_url: https://www.preparecenter.org/content/data-culture-data-playbook-beta#overlay-context=content/data-essentials-data-playbook-beta
-  what_is_it_good_for?: Building a data culture. It has templates for developing working
-    group meetings, thinking about data audiences and how to do skill scoping.
   who_is_this_resource_useful_for?: Humanitarian organsiations. (Also I helped put
     it together!)
   why_is_this_resource_useful?: Has a good approach to building culture by working
@@ -736,8 +704,6 @@
   your_name: Mor Rubinstein
   resource_name: Atlassian Team Playbook
   resource_url: https://www.atlassian.com/team-playbook
-  what_is_it_good_for?: A collection of activities to manage projects and research
-    users
   who_is_this_resource_useful_for?: Project Managers, HR Teams
   why_is_this_resource_useful?: Creative ways to get ideas
   when_would_you_use_it?: Building a data culture, Assessing Users
@@ -754,8 +720,6 @@
   your_name: Dirk Slater
   resource_name: 'DataBasics Culture Project '
   resource_url: https://databasic.io/en/culture/
-  what_is_it_good_for?: A collection of exercises to help build a data culture in
-    organisations
   who_is_this_resource_useful_for?: It was developed by MIT Media Labs for small organisations
   why_is_this_resource_useful?: The interactive exercises are innovative. Methodology
     is based on research.
@@ -774,7 +738,6 @@
   your_name: Mor Rubinstein
   resource_name: 'Open Data Manchester Github repo '
   resource_url: https://github.com/OpenDataManchester/training-and-resources
-  what_is_it_good_for?: Collection of activities about data culture
   who_is_this_resource_useful_for?: UK Data Trainers
   why_is_this_resource_useful?: Made by the community (including 360 Giving) for the
     community
@@ -792,8 +755,6 @@
   your_name: Tom Bell
   resource_name: Charity Digital Code of Practice
   resource_url: https://doit.life/charity-digital-code
-  what_is_it_good_for?: Help charities increase impact, develop skills and improve
-    sustainability
   who_is_this_resource_useful_for?: Sussex Community Foundation
   why_is_this_resource_useful?: 'Help with Digital Leadership, Culture, Skills, Strategy,
     etc. '
@@ -811,8 +772,6 @@
   your_name: Tom Bell
   resource_name: Data Orchard Digital Maturity tool
   resource_url: https://datamaturity.dataorchard.org.uk/
-  what_is_it_good_for?: A tool to review your organisation's digital maturity across
-    a number of criteria
   who_is_this_resource_useful_for?: Sussex Community Foundation
   why_is_this_resource_useful?: Quick Steps to assess digital maturity. Gives an indication
     of which areas are weaker than others, ie comms or strategy
@@ -851,7 +810,6 @@
   your_name: Nicola Frost
   resource_name: Community Wellbeing Index
   resource_url: https://communitywellbeing.coop.co.uk/
-  what_is_it_good_for?: Local synthesis of wellbeing elements
   who_is_this_resource_useful_for?: Devon CF
   why_is_this_resource_useful?: ".."
   when_would_you_use_it?: Analysing Data, Presenting Data
@@ -868,7 +826,6 @@
   your_name: Nicola Frost
   resource_name: Tableau
   resource_url: https://public.tableau.com/s/
-  what_is_it_good_for?: It has a useful  data visualisation tool
   who_is_this_resource_useful_for?: Devon CF
   why_is_this_resource_useful?: good for stealing other people's work!
   when_would_you_use_it?: Analysing Data, Presenting Data
@@ -885,7 +842,6 @@
   your_name: Nicola Frost
   resource_name: LSOA look-up tables
   resource_url: http://geoportal.statistics.gov.uk/datasets/500d4283cbe54e3fa7f358399ba3783e_0
-  what_is_it_good_for?: Looking up correspondence between wards, LSOAs etc
   who_is_this_resource_useful_for?: Devon CF
   why_is_this_resource_useful?: "..."
   when_would_you_use_it?: Analysing Data
@@ -901,8 +857,6 @@
   your_name: Tom Bell
   resource_name: Power BI
   resource_url: https://docs.microsoft.com/en-us/power-bi/
-  what_is_it_good_for?: Dashboards that include pivot tables and charts. Enables data
-    analysis
   who_is_this_resource_useful_for?: Sussex Community Foundation
   why_is_this_resource_useful?: Quick and Easy to Use, part of microsoft suite, comes
     with 365
@@ -921,7 +875,6 @@
   your_name: Mor Rubinstein
   resource_name: 360Insights
   resource_url: https://insights.threesixtygiving.org/
-  what_is_it_good_for?: It gives a dashboard for 360Giving files
   who_is_this_resource_useful_for?: Grantmakers
   why_is_this_resource_useful?: Made for Grantmakers as primary users
   when_would_you_use_it?: Analysing Data
@@ -929,7 +882,7 @@
   about_the_resource: 'Combine and visualise 360Giving and charity data to understand
     funders better.
 
-'
+    '
   category:
   - Using data
   - Data strategy and policy
