@@ -20,7 +20,7 @@
     color: $white;
   }
 
-  &.tag--responsible-data { background-color: $teal; }
+  &.tag--responsible-data { background-color: var(--color-teal-dark); }
   &.tag--using-data { background-color: $orange; }
   &.tag--finding-data { background-color: $red; }
   &.tag--training-and-support { background-color: $yellow; }
@@ -40,12 +40,12 @@
 }
 
 .tag--responsible-data {
-  color: $teal;
+  color: var(--color-teal-dark);
   border-color: $teal;
 }
 
 .tag--using-data {
-  color: $orange;
+  color: var(--color-orange-dark);
   border-color: $orange;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .tag--training-and-support {
-  color: $yellow;
+  color: var(--color-yellow-dark);
   border-color: $yellow;
 }
 
