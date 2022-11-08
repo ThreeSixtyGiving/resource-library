@@ -125,11 +125,9 @@
 }
 
 // Card Colors
-.resource-card--responsible-data:before { background-color: $teal; }
-.resource-card--using-data:before { background-color: $orange; }
-.resource-card--finding-data:before { background-color: $red; }
-.resource-card--training-and-support:before { background-color: $yellow; }
-.resource-card--data-strategy-and-policy:before { background-color: $black; }
+@each $category, $color in $categories {
+  .resource-card--#{$category}:before { background-color: nth($color, 1); }
+}
 
 // Card States
 .resource-card .resource-card__extra {

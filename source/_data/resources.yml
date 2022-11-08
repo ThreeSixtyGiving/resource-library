@@ -1,82 +1,909 @@
 ---
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 216
+  your_name: Vicky Toothill
+  resource_name: ONS's Hierarchical Representation of UK Statistical Geographies
+  resource_url: https://geoportal.statistics.gov.uk/documents/ons::hierarchical-representation-of-uk-statistical-geographies-august-2022/explore
+  who_is_this_resource_useful_for?: Data analysts, place-based funders, researchers.
+  why_is_this_resource_useful?: "The diagram shows the statistical geographies of
+    the UK in a hierarchical way,\ndivided into different geography types or groups,
+    using multiple external datasets. "
+  about_the_resource: 'The Office for National Statistics'' Hierarchical Representation
+    of UK Statistical Geographies PDF shows all UK statistical geographies within
+    their geography groups and geographical areas, as of August 2022. '
+  category:
+  - Using data
+  tags:
+  - Presenting Data
+  - External Datasets
+  - Using data
+  id: recWjyBkqqbcp735J
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 214
+  your_name: Vicky Toothill
+  resource_name: Data Wrapper demo by Superhighways
+  resource_url: https://www.youtube.com/watch?v=HQMxjcETkUE
+  who_is_this_resource_useful_for?: Anyone wanting to learn how create data visualisations.
+  why_is_this_resource_useful?: 'A short demo video that shows you how to make charts
+    using DataWrapper. '
+  about_the_resource: 'A YouTube video showing a Datawrapper demo from Superhighways
+    ''Hands on: Datawrapper'' training session.'
+  category:
+  - Using data
+  tags:
+  - Presenting Data
+  - Using data
+  id: rec9pDvdaaotyYkvh
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 211
+  your_name: Vicky Toothill
+  resource_name: The Quartz Guide to Bad Data
+  resource_url: https://github.com/Quartz/bad-data-guide
+  who_is_this_resource_useful_for?: Data analysts, funders, researchers.
+  why_is_this_resource_useful?: 'Useful to get an idea of what bad data looks like. '
+  about_the_resource: An exhaustive reference to problems seen in real-world data
+    along with suggestions on how to resolve them.
+  category:
+  - Training and support
+  - Using data
+  tags:
+  - Readings on Data
+  - Analysing Data
+  id: recrOUVYE58uJHbK6
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 210
+  your_name: Vicky Toothill
+  resource_name: Financial Times Visual Vocabulary
+  resource_url: https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary
+  who_is_this_resource_useful_for?: Data analysts, funders, researchers.
+  why_is_this_resource_useful?: 'It is downloadable and includes related reading. '
+  about_the_resource: A downloadable guide and poster from the Financial Times Visual
+    Journalism team to assist you to select the optimal symbology for data visualisations.
+  category:
+  - Using data
+  tags:
+  - Presenting Data
+  id: recWuZ1EnejnwDDRQ
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 209
+  your_name: Vicky Toothill
+  resource_name: Mapshaper
+  resource_url: https://mapshaper.org/
+  who_is_this_resource_useful_for?: Data analysts, funders, researchers.
+  why_is_this_resource_useful?: 'Files can be zip folders. '
+  about_the_resource: A tool to convert between different geographical data formats
+    or quickly browse or filter your geo-data.
+  category:
+  - Using data
+  tags:
+  - Presenting Data
+  id: recS2vCa1Foe4E8MV
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 208
+  your_name: Vicky Toothill
+  resource_name: Berkeley's GIS Data List
+  resource_url: https://guides.lib.berkeley.edu/gis/base
+  who_is_this_resource_useful_for?: Data analysts, funders, researchers.
+  why_is_this_resource_useful?: 'List is regularly updated. '
+  about_the_resource: A guide which links to places where you can find basic GIS data
+    resources including boundary shapefiles, elevation, gridded population and historical
+    boundaries.
+  category:
+  - Training and support
+  tags:
+  - Readings on Data
+  id: recmqThWxmwuoR4GM
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 207
+  your_name: Vicky Toothill
+  resource_name: Reprojector
+  resource_url: https://hanshack.com/geotools/reprojector/
+  who_is_this_resource_useful_for?: Data analysts, funders, researchers.
+  why_is_this_resource_useful?: 'Also works outside of the UK. '
+  about_the_resource: A simple tool that helps you compare the size of geographical
+    shapes by moving them from one place to another.
+  category:
+  - Finding data
+  tags:
+  - Presenting Data
+  id: rec25HluZE1LFlmne
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 206
+  your_name: Vicky Toothill
+  resource_name: Gimme Geodata
+  resource_url: https://hanshack.com/geotools/gimmegeodata/
+  who_is_this_resource_useful_for?: Data analysts, funders, researchers.
+  why_is_this_resource_useful?: 'Also works outside of the UK. '
+  about_the_resource: Quick access to Open Street Map data based on your searches.
+  category:
+  - Finding data
+  tags:
+  - Data Collection
+  id: recTXXqghUKRSxdsr
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 205
+  your_name: Vicky Toothill
+  resource_name: From Data to Viz
+  resource_url: https://www.data-to-viz.com/
+  who_is_this_resource_useful_for?: Data analysts, funders, researchers.
+  why_is_this_resource_useful?: 'Includes a helpful flow chart to show you the options
+    for your data. '
+  about_the_resource: A tool to help you decide on the best visual for your data.
+    It links to the code to build it and lists common caveats you should avoid.
+  category:
+  - Using data
+  tags:
+  - Presenting Data
+  id: recvYVT5VsN7gkeDu
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 204
+  your_name: Vicky Toothill
+  resource_name: Colorbrewer
+  resource_url: https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3
+  who_is_this_resource_useful_for?: Data analysts, funders, researchers.
+  why_is_this_resource_useful?: 'Can also ensure colours are printer friendly and
+    photocopy safe. '
+  about_the_resource: 'Colour blind friendly colour chooser. '
+  category:
+  - Using data
+  tags:
+  - Presenting Data
+  - Planning and design
+  id: rec5kTudw10ioIIhT
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 203
+  your_name: Vicky Toothill
+  resource_name: Observable
+  resource_url: https://observablehq.com/product
+  who_is_this_resource_useful_for?: Data analysts, funders, researchers.
+  why_is_this_resource_useful?: 'You can leave comments and suggest edits on data
+    visualisations, much like Google Docs. '
+  about_the_resource: 'A collaborative data visualisation tool that allows teams to
+    work on analysing and presenting data at the same time. '
+  category:
+  - Using data
+  tags:
+  - Presenting Data
+  - Analysing Data
+  id: recFMj6z7txTJOG2U
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 202
+  your_name: Vicky Toothill
+  resource_name: Colour Calculator
+  resource_url: https://www.sessions.edu/color-calculator/
+  who_is_this_resource_useful_for?: Data analysts, funders, researchers.
+  why_is_this_resource_useful?: Receive a report of the hex, RGB, and CMYK colour
+    values.
+  about_the_resource: 'A free calculator to work out what colours to choose for your
+    design project. '
+  category:
+  - Using data
+  tags:
+  - Presenting Data
+  - Planning and design
+  id: rec8I7qbXmBNHtaPw
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 201
+  your_name: Vicky Toothill
+  resource_name: Rate my Visualisation
+  resource_url: https://stephanieevergreen.com/data-visualization-checklist/
+  who_is_this_resource_useful_for?: Data analysts, funders, researchers.
+  why_is_this_resource_useful?: Also gives resources to help improve your skills.
+  about_the_resource: 'A checklist of 24 guidelines on how graphs should be formatted
+    to best show the story in your data. The 24 guidelines are broken down into 5
+    sections: Text, Arrangement, Color, Lines, and Overall.'
+  category:
+  - Using data
+  tags:
+  - Verifying Data
+  id: recFeVeYknY6QJBhL
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 200
+  your_name: Vicky Toothill
+  resource_name: Tabula
+  resource_url: https://tabula.technology/
+  who_is_this_resource_useful_for?: Charities, funders, public, data analysts.
+  why_is_this_resource_useful?: Open source tool.
+  about_the_resource: Tabula is a tool for liberating data tables locked inside PDF
+    files.
+  category:
+  - Finding data
+  tags:
+  - Data Collection
+  id: rec02SmaKkqPSlSEZ
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 199
+  your_name: Vicky Toothill
+  resource_name: Mr Data Converter
+  resource_url: https://shancarter.github.io/mr-data-converter/
+  who_is_this_resource_useful_for?: Data analysts, funders, researchers.
+  why_is_this_resource_useful?: Simple to use.
+  about_the_resource: Convert your Excel data into one of several web-friendly formats,
+    including HTML, JSON and XML.
+  category:
+  - Using data
+  tags:
+  - Using data
+  - Cleaning Data
+  id: recwz7mOZFW7YZZFF
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 198
+  your_name: Vicky Toothill
+  resource_name: 'ODI Inside Business: Build a brand that is trusted with data – a
+    checklist for leaders'
+  resource_url: https://theodi.org/article/odi-inside-business-build-a-brand-that-is-trusted-with-data-a-checklist-for-leaders/
+  who_is_this_resource_useful_for?: 'Businesses, funders. '
+  why_is_this_resource_useful?: 'Each section of the checklist includes tools and
+    resources, and a spreadsheet to record your findings. '
+  about_the_resource: A checklist for business and technical leaders who want their
+    brand to be ‘trusted with data’. The goal is to make building trust with data
+    part of both strategic planning and everyday data operations.
+  category:
+  - Data strategy and policy
+  tags:
+  - Building a data culture
+  - Data Ethics
+  id: recF0ipCUXrvPzArS
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 197
+  your_name: Vicky Toothill
+  resource_name: AutoGeoMapper
+  resource_url: https://datakind-uk.github.io/autogeomapper/
+  who_is_this_resource_useful_for?: Data analysts, funders.
+  why_is_this_resource_useful?: 'Open source project. You can choose to convert postcodes
+    to boroughs or wards on a map. '
+  about_the_resource: The sister tool of Community Lens - a tool to match your data
+    against existing UK ward or local authority boundaries and create an easy-to-read
+    chlorpleth map.
+  category:
+  - Finding data
+  - Responsible data
+  - Using data
+  tags:
+  - Presenting Data
+  - Analysing Data
+  - External Datasets
+  id: rec7L5QINRMMWrsi4
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 196
+  your_name: Vicky Toothill
+  resource_name: Community Lens
+  resource_url: https://datakind-uk.github.io/community-lens/
+  who_is_this_resource_useful_for?: Data analysts, funders.
+  why_is_this_resource_useful?: Open source project.
+  about_the_resource: 'A mapping tool to overlay your data with open datasets. Paste
+    your postcode data and choose an open dataset. '
+  category:
+  - Finding data
+  - Responsible data
+  - Using data
+  tags:
+  - Presenting Data
+  - External Datasets
+  - Analysing Data
+  id: recw4Mb0qk3MdVlq8
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 195
+  your_name: Vicky Toothill
+  resource_name: Google MyMaps
+  resource_url: https://www.google.com/maps/about/mymaps/
+  who_is_this_resource_useful_for?: Funders, charities, public.
+  why_is_this_resource_useful?: 'Maps can be created and together and shared like
+    Google Docs. They are compatible with Google Drive. '
+  about_the_resource: A tool to create custom maps with places points and shapes over
+    Google Maps. You can also import data directly from Excel spreadsheets nto maps.
+  category:
+  - Using data
+  tags:
+  - Presenting Data
+  id: reco9xMey86LQNtrw
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 194
+  your_name: Vicky Toothill
+  resource_name: 'BatchGeo '
+  resource_url: https://www.batchgeo.com/
+  who_is_this_resource_useful_for?: Funders, charities, data analysts.
+  why_is_this_resource_useful?: You can embed maps into websites.
+  about_the_resource: 'An easy-to-use mapping tool to create Google Maps with data. '
+  category:
+  - Using data
+  tags:
+  - Presenting Data
+  id: recJ2ytncRD8FhEcD
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 193
+  your_name: Vicky Toothill
+  resource_name: Padlet
+  resource_url: https://padlet.com/
+  who_is_this_resource_useful_for?: Funders, charities.
+  why_is_this_resource_useful?: 'Has a map option where you can add content to points
+    on a map. Accepts multiple diferent file types. '
+  about_the_resource: A web platform where you can upload, organise, and share content
+    to virtual boards called padlets.
+  category:
+  - Using data
+  tags:
+  - Presenting Data
+  - Planning and design
+  id: rec13dJvGeRVVwRub
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 192
+  your_name: Vicky Toothill
+  resource_name: Excel Mapping Template for London Boroughs
+  resource_url: https://data.london.gov.uk/dataset/excel-mapping-template-for-london-boroughs-and-wards
+  who_is_this_resource_useful_for?: Data analysts, funders.
+  why_is_this_resource_useful?: You can download a map at London or borough level
+    and add your own data.
+  about_the_resource: A free mapping tool that allows you to create a thematic map
+    of London without any specialist GIS skills or software - all you need is Microsoft
+    Excel. Templates are available for London’s Boroughs and Wards. Full instructions
+    are contained within the spreadsheets.
+  category:
+  - Using data
+  tags:
+  - Presenting Data
+  id: rec6nm3XOMDjR2dJl
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 191
+  your_name: Vicky Toothill
+  resource_name: Piktochart
+  resource_url: https://piktochart.com/
+  who_is_this_resource_useful_for?: Charities, funders, public, data analysts.
+  why_is_this_resource_useful?: You can create graphs and charts as well as social
+    media graphics, reports and presentations and chloropleth maps.
+  about_the_resource: Piktochart is a tool to tell visual stories with infographics,
+    reports, presentations, and prints.
+  category:
+  - Using data
+  tags:
+  - Presenting Data
+  - Analysing Data
+  - Planning and design
+  id: recf4QjmF5VQEt4w0
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 190
+  your_name: Vicky Toothill
+  resource_name: Find that Postcode
+  resource_url: https://findthatpostcode.uk/
+  who_is_this_resource_useful_for?: Funders, charities, researchers, data analysts.
+  why_is_this_resource_useful?: It allows users to look up the geodata for UK places
+    and provides a Postcode lookup tool for matching postcodes to UK geocodes.
+  about_the_resource: This site presents data on UK postcodes and geographical areas,
+    based on open data released by the Office for National Statistics and Ordnance
+    Survey. It is intended to help the process of enhancing existing data sets. Fir
+    example, by allowing someone to lookup which local authority a postcode is in.
+  category:
+  - Finding data
+  - Responsible data
+  tags:
+  - External Datasets
+  id: recs30gpAeJmgnpnK
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 189
+  your_name: Vicky Toothill
+  resource_name: 360Giving Data Quality Dashboard
+  resource_url: https://qualitydashboard.threesixtygiving.org/alldata
+  who_is_this_resource_useful_for?: Funders, membership organisations, infrastructure
+    bodies.
+  why_is_this_resource_useful?: 'To assess and compare the quality of funders'' data. '
+  about_the_resource: The Data Quality Dashboard helps funders understand the key
+    features that make data useful. You can use the Dashboard to assess individual
+    funders’ data quality, as well as the data quality of the 360Giving dataset as
+    a whole. Funders can use it to compare their data with others to identify opportunities
+    for it to be improved.
+  resource_image:
+  - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    id: attot9jyhSrQldyDc
+    width: 1881
+    height: 934
+    url: https://dl.airtable.com/.attachments/5159e3f1df888fc3c31650733169b7ce/63f7a52b/DQDscreen.PNG
+    filename: DQD screen.PNG
+    size: 80845
+    type: image/png
+    thumbnails: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+      small: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+        url: https://dl.airtable.com/.attachmentThumbnails/b39256cda488ec8a58e478f88213e57c/3d53a166
+        width: 73
+        height: 36
+      large: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+        url: https://dl.airtable.com/.attachmentThumbnails/d96c53ed8fba7bf85e4c3f3a9215803a/a2b1b08d
+        width: 1031
+        height: 512
+      full: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+        url: https://dl.airtable.com/.attachmentThumbnails/db0316573182ac96547b8bcc0a3e138d/0e7acb7a
+        width: 3000
+        height: 3000
+  category:
+  - Using data
+  - Finding data
+  tags:
+  - Using data
+  id: recNnbSpKdpgZgUOD
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 188
+  your_name: Vicky Toothill
+  resource_name: Data.org's Resource Library
+  resource_url: https://data.org/library/
+  who_is_this_resource_useful_for?: Charities, funders, public.
+  why_is_this_resource_useful?: 'Easy to search for resources which has the function
+    to filter by skill level. '
+  about_the_resource: 'Data.org''s resource library contains lots of practical information
+    to help social impact organisations use data science to help them acheive their
+    aims. It includes resources and guides on data visualisation, governance and data
+    ethics. '
+  category:
+  - Training and support
+  - Data strategy and policy
+  - Using data
+  tags:
+  - Readings on Data
+  id: recIoLGJSXH6hSD6E
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 187
+  your_name: Vicky Toothill
+  resource_name: Small Charities Data
+  resource_url: https://smallcharitiesdata.org/
+  who_is_this_resource_useful_for?: Charities, funders.
+  why_is_this_resource_useful?: 'You can search for charities by place, cause or key
+    themes such as Covid-19. Also includes further reading and useful resources from
+    the sector on each page. '
+  about_the_resource: A digital research hub that brings together the latest data
+    on small charities in England and Wales. The data is updated yearly and drawn
+    from a wide range of sources, including from government, regulators, charity sector
+    membership bodies, independent funders, academics and researchers.
+  category:
+  - Finding data
+  - Responsible data
+  tags:
+  - External Datasets
+  id: reclinTOxSKncyKbq
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 186
+  your_name: Vicky Toothill
+  resource_name: Introduction to GitHub
+  resource_url: https://lab.github.com/githubtraining/introduction-to-github
+  who_is_this_resource_useful_for?: Data analysts, researchers.
+  why_is_this_resource_useful?: 'Quick course - only one hour. Key terms are helpfully
+    defined by clicking on the emoji next to the word. '
+  about_the_resource: A free training course from GitHub's Learning Lab teaching you
+    how to use GitHub.
+  category:
+  - Training and support
+  tags:
+  - Data training curriculum
+  id: recxtxNNWozXve0AH
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 185
+  your_name: Vicky Toothill
+  resource_name: FutureLearn Introduction to Data Analytics with Python
+  resource_url: https://www.futurelearn.com/courses/introduction-to-data-analytics-with-python
+  who_is_this_resource_useful_for?: 'Anyone interested in data analytics and learning
+    a programming language. '
+  why_is_this_resource_useful?: Good introductory course, which offers opportunities
+    to discuss learning with others on the course
+  about_the_resource: A free training course to learn the fundamentals of using Python
+    for data analysis and develop skills in two of Python’s core libraries, Pandas
+    and Seaborn.
+  category:
+  - Training and support
+  tags:
+  - Data training curriculum
+  id: recb5iDQTlaLBrKlh
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 184
+  your_name: Vicky Toothill
+  resource_name: Data Studio
+  resource_url: https://datastudio.google.com/
+  who_is_this_resource_useful_for?: Data analysts, researchers, funders, charities.
+  why_is_this_resource_useful?: 'You can use visualisation templates created by others
+    or create your own visualisation from scratch. '
+  about_the_resource: 'A free data visualisation platform provided by Google, which
+    allows you to overlay your own data or use data from 800+ open datasets to create
+    engaging visualisations. There is also a reporting tool to create interactive
+    reports and dashboards with your data. '
+  category:
+  - Using data
+  tags:
+  - Presenting Data
+  id: recXG2xlv5a7qQCtu
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 183
+  your_name: Vicky Toothill
+  resource_name: 'Raw Graphs '
+  resource_url: https://rawgraphs.io/
+  who_is_this_resource_useful_for?: Data analysts, researchers, funders, charities.
+  why_is_this_resource_useful?: 'Wide range of visual models to choose from. '
+  about_the_resource: RAW Graphs is an open source data visualisation framework built
+    with the goal of making the visual representation of complex data easy for everyone.
+  category:
+  - Using data
+  tags:
+  - Presenting Data
+  id: recDadtFE9wIibysy
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 182
+  your_name: Vicky Toothill
+  resource_name: DataWrapper
+  resource_url: https://www.datawrapper.de/
+  who_is_this_resource_useful_for?: Data analysts, researchers, funders, charities.
+  why_is_this_resource_useful?: Free.
+  about_the_resource: 'Datawrapper lets you visualise data as charts, maps or tables. '
+  category:
+  - Using data
+  tags:
+  - Presenting Data
+  id: reclcuR8sTHHsKJt0
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 181
+  your_name: Vicky Toothill
+  resource_name: Welsh Index of Multiple Deprivation 2019
+  resource_url: https://statswales.gov.wales/Catalogue/Community-Safety-and-Social-Inclusion/Welsh-Index-of-Multiple-Deprivation
+  who_is_this_resource_useful_for?: Government, charities, Funders, think tanks.
+  why_is_this_resource_useful?: 'Nationally recognised statistics, lots of data. '
+  about_the_resource: The index of multiple deprivation for Wales, classifying the
+    relative deprivation of small areas.
+  category:
+  - Finding data
+  - Responsible data
+  tags:
+  - External Datasets
+  id: rec1M47LC043cniyn
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 180
+  your_name: Vicky Toothill
+  resource_name: Scottish Index of Multiple Deprivation 2020
+  resource_url: https://www.gov.scot/collections/scottish-index-of-multiple-deprivation-2020/
+  who_is_this_resource_useful_for?: Government, charities, Funders, think tanks.
+  why_is_this_resource_useful?: 'Nationally recognised statistics, lots of data. '
+  about_the_resource: The index of multiple deprivation for Scotland, classifying
+    the relative deprivation of small areas.
+  category:
+  - Finding data
+  - Responsible data
+  tags:
+  - External Datasets
+  id: recc3G6X5wdFwOhiQ
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 179
+  your_name: Vicky Toothill
+  resource_name: Northern Irish Multiple Deprivation Measure 2017
+  resource_url: https://www.nisra.gov.uk/statistics/deprivation/northern-ireland-multiple-deprivation-measure-2017-nimdm2017
+  who_is_this_resource_useful_for?: Government, charities, funders, think tanks.
+  why_is_this_resource_useful?: Nationally recognised statistics, lots of data. The
+    official measure of deprivation in Northern Ireland.
+  about_the_resource: The index of multiple deprivation for Northern Ireland, classifying
+    the relative deprivation of small areas.
+  category:
+  - Finding data
+  - Responsible data
+  tags:
+  - External Datasets
+  id: recqME6Ta4X29n3Vc
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 178
+  your_name: Vicky Toothill
+  resource_name: Nomis
+  resource_url: https://www.nomisweb.co.uk/
+  who_is_this_resource_useful_for?: Funders, researchers, data analysts, charities.
+  about_the_resource: A service provided by the Office for National Statistics (ONS)
+    which gives free access to the most detailed and up-to-date UK labour market statistics
+    from official sources.
+  category:
+  - Finding data
+  - Responsible data
+  tags:
+  - External Datasets
+  id: recP45gM2g8dVTyWB
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 177
+  your_name: Vicky Toothill
+  resource_name: Convert a Colour
+  resource_url: https://convertacolor.com/
+  who_is_this_resource_useful_for?: Anyone making visualisations - data analysts,
+    researchers, funders.
+  why_is_this_resource_useful?: 'Free and easy to use. '
+  about_the_resource: 'A simple tool to convert between colour formats. '
+  category:
+  - Using data
+  tags:
+  - Presenting Data
+  id: recfGZymtMgzOlp9P
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 176
+  your_name: Vicky Toothill
+  resource_name: Open Refine
+  resource_url: https://openrefine.org/
+  who_is_this_resource_useful_for?: Data scientists, analysts, researchers.
+  about_the_resource: 'A free, open source tool to clean and transform ''messy'' data. '
+  category:
+  - Using data
+  tags:
+  - Cleaning Data
+  id: recFtvEeLsr7zkyNo
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 175
+  your_name: Vicky Toothill
+  resource_name: Catalyst - 7 Tips on using Data Better in your Charity
+  resource_url: https://www.thecatalyst.org.uk/resource-articles/using-data-better-charity
+  who_is_this_resource_useful_for?: Funders, charities.
+  why_is_this_resource_useful?: Also includes some useful open source data resources.
+  about_the_resource: 'A short article with seven tips on how to improve your data
+    quality. '
+  category:
+  - Using data
+  tags:
+  - Building a data culture
+  - Using data
+  id: recIY8SvAE5dWwOt9
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 174
+  your_name: 'Vicky Toothill '
+  resource_name: UK-GeoJSON
+  resource_url: https://martinjc.github.io/UK-GeoJSON/
+  who_is_this_resource_useful_for?: Data analysts, researchers.
+  why_is_this_resource_useful?: 'GeoJSON files are all available in the Github repository.
+    Free, open data from official sources. '
+  about_the_resource: A site containing easily downloadable TopoJSON files of data
+    for UK boundaries, ideal for creating choropleth maps of UK areas.
+  category:
+  - Using data
+  tags:
+  - Analysing Data
+  - External Datasets
+  id: recmKmpdPhXnvaDbM
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 173
+  your_name: Vicky Toothill
+  resource_name: Clean Sheet
+  resource_url: http://www.clean-sheet.org/
+  who_is_this_resource_useful_for?: Data analysts, researchers.
+  why_is_this_resource_useful?: 'Clear step-by-step instructions on how to release
+    data and statistics. '
+  about_the_resource: Short guidance on how to release data or statistics in spreadsheets.
+  category:
+  - Using data
+  tags:
+  - Using data
+  id: recJENG9ekkbB9Rx1
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 172
+  your_name: 'Vicky Toothill '
+  resource_name: Foundation Giving Trends
+  resource_url: https://www.acf.org.uk/acf/Research---resources/Research
+  who_is_this_resource_useful_for?: Funders, foundations, researchers.
+  why_is_this_resource_useful?: 'A key report to get an overall understanding of the
+    of the funding landscape and foundations'' financial trends annually.  '
+  about_the_resource: Foundation Giving Trends reports present annual research and
+    analysis on trends in the giving, spending, income and assets of the largest philanthropically-funded
+    foundations in the UK. 2021's report focuses on the 2019/2020 accounts and shows
+    foundations’ financial position going into the Covid pandemic and their immediate
+    responses to the emergency.
+  category:
+  - Data strategy and policy
+  - Finding data
+  tags:
+  - Readings on Data
+  id: rec2y5er3BBzLTgXJ
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 171
+  your_name: 'Vicky Toothill '
+  resource_name: NCVO Almanac
+  resource_url: https://data.ncvo.org.uk
+  who_is_this_resource_useful_for?: Funders, charities, researchers, government.
+  why_is_this_resource_useful?: To get an overview of the trends in the voluntary
+    sector.
+  about_the_resource: 'The UK Civil Society Almanac is an NCVO publication and an
+    essential source of insight on the voluntary sector. It draws on a range of sources,
+    and provides a snapshot of what voluntary organisations do, their income and spending,
+    workforce, volunteering and impact. '
+  category:
+  - Responsible data
+  - Data strategy and policy
+  tags:
+  - Readings on Data
+  id: recB4hl4fxf9e30SM
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 170
+  your_name: John Garner
+  resource_name: Interactive Data Tools
+  resource_url: https://millennialcities.com/interactive-data-tools/
+  who_is_this_resource_useful_for?: Public, charities, funders researchers.
+  why_is_this_resource_useful?: The purpose of including these free interactive tools
+    on the website is to provide access to and promote the use of urban planning geospatial
+    resources.
+  about_the_resource: Millennial Cities is an interactive web mapping site that provides
+    access to important maps, data, and web mapping applications related to demographics,
+    climate change, social justice, the environment, and more.
+  category:
+  - Using data
+  - Responsible data
+  - Finding data
+  tags:
+  - Planning and design
+  - Data Collection
+  - Culture and ethics
+  - Using External Datasets
+  - Using data
+  id: reclQzZBiq9ateKbR
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 169
+  your_name: Oliver Carrington
+  resource_name: Charity Data Visualisation
+  resource_url: https://www.flickr.com/photos/167769222@N02/
+  who_is_this_resource_useful_for?: Anyone wanting inspiration for creating data visualisations.
+  why_is_this_resource_useful?: Not many charities and grantmakers create or publish
+    data visualisations, which is a great way to present data and share learning.
+  about_the_resource: 'A Flickr page created by Oliver Carrington, showcasing hundreds
+    of data visualisations from the charity and grantmaking sectors. This page aims
+    to inspire and encourage others to use more data visualisations in their work.
+    Each visualisation has a link in the description to find out more, and so far
+    the account has had 30,000 views. '
+  resource_image:
+  - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    id: attvKvSP2ub6B5uq3
+    width: 1551
+    height: 970
+    url: https://dl.airtable.com/.attachments/50e3de09d5e480310781c3c85584625a/37742028/DataVizSite.PNG
+    filename: DataVizSite.PNG
+    size: 954249
+    type: image/png
+    thumbnails: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+      small: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+        url: https://dl.airtable.com/.attachmentThumbnails/ad942283a0655511817c7daa2ea1a895/522ec98a
+        width: 58
+        height: 36
+      large: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+        url: https://dl.airtable.com/.attachmentThumbnails/36c01d37b40e5b128a3cde95e3abf498/60ee666d
+        width: 819
+        height: 512
+      full: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+        url: https://dl.airtable.com/.attachmentThumbnails/e5be515354a1a4e7b8e614fa96a8d4ba/94e9761c
+        width: 3000
+        height: 3000
+  category:
+  - Using data
+  tags:
+  - Presenting Data
+  id: recwWZfwUW8HQXwOV
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 168
+  your_name: 'Vicky Toothill '
+  resource_name: '360Giving UK Covid relief and recovery grants: Data analysis'
+  resource_url: https://covidresearch.threesixtygiving.org/
+  who_is_this_resource_useful_for?: Funders, fundraisers, charities, researchers,
+    think tanks, data analysts.
+  why_is_this_resource_useful?: 'To better understand Covid-19 relief and recovery
+    grants through interactive and visual data. '
+  about_the_resource: This research by 360Giving, uses data published by funders about
+    the grants they made during the Coronavirus pandemic to understand how they and
+    wider civil society responded during that time.
+  category:
+  - Using data
+  tags:
+  - Analysing Data
+  - Readings on Data
+  - Presenting Data
+  id: recVe3NoTcG8ByO5j
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 164
+  your_name: Marion Galley
+  resource_name: Data:In Place
+  resource_url: https://data-in.place/
+  who_is_this_resource_useful_for?: Anyone wanting to understand a particular area,
+    researchers, funders, charities, data analysts.
+  why_is_this_resource_useful?: It allows you to select an area and view open data
+    about it.
+  about_the_resource: Enables people to use map-based querying to access open datasets.
+  category:
+  - Finding data
+  tags:
+  - Using External Datasets
+  - External Datasets
+  id: rec0S0OOatAz0i8m4
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 163
+  your_name: Marion Galley
+  resource_name: DataBasic
+  resource_url: https://databasic.io/
+  who_is_this_resource_useful_for?: Beginners who want to do basic analysis.
+  why_is_this_resource_useful?: It is very user friendly.
+  about_the_resource: DataBasic is a suite of easy-to-use web tools for beginners
+    that introduce concepts of working with data. These simple tools make it easy
+    to work with data in fun ways, so you can learn how to find great stories to tell.
+  category:
+  - Using data
+  tags:
+  - Analysing Data
+  - Verifying Data
+  id: recAKvPD5NCq1zJih
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 162
+  your_name: Marion Galley
+  resource_name: Visbrowser
+  resource_url: https://vistools.net/
+  who_is_this_resource_useful_for?: Funders, charities, researchers, data analysts.
+  why_is_this_resource_useful?: It provides a listing of different visualisation tools
+    the person may not know about.
+  about_the_resource: A list of visualisation tools cultivated by University of Edinburgh
+    to help users choose the most appropriate visualisation tool for their needs.
+  category:
+  - Using data
+  tags:
+  - Presenting Data
+  - Analysing Data
+  id: recIqw6FhBZ023ivf
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 160
   your_name: Mor Rubinstein
   resource_name: Data Strategy Canvas
   resource_url: https://docs.google.com/presentation/d/1BnJkVMiMr9sW4rZGBgS0tNaNZRP4C3qfnY4lgVX8fAE/edit#slide=id.g8241895b74_0_52
-  your_organisation: 360Giving
+  who_is_this_resource_useful_for?: Funders, charities.
   about_the_resource: "This canvas is a tool to help you create a data strategy for
     your organisation. This was created in our Data Champions Programme. \n"
   category:
   - Data strategy and policy
+  tags:
+  - Building a data culture
+  - Culture and ethics
   id: recPlSfQQyw7glgUw
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 157
   your_name: Toby Gill
-  resource_name: Automate the Boring Stuff
+  resource_name: Automate the Boring Stuff with Python
   resource_url: https://automatetheboringstuff.com/
   who_is_this_resource_useful_for?: Anyone looking to learn the basics of coding/Python
-    for analysing data
-  your_organisation: The Fore
-  about_the_resource: An e-book that's a good introduction to the basics of Python
+    for analysing data.
+  why_is_this_resource_useful?: 'Free to read. '
+  about_the_resource: 'Automate with the Boring Stuff is a free e-book which teaches
+    the basics of Python for total beginners. It includes step-by-step instructions
+    to walk you through each program and practice projects at the end of each chapter
+    to challenge you to improve those programs. '
   category:
   - Training and support
-  id: recTRd3CZjPxGjn2B
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  "#": 156
-  your_name: Patrick O’Kelly
-  resource_name: 'LGBT Hero: LGBTQ+ Services in London (FindOut)'
-  resource_url: http://findout.outlife.org.uk/
-  who_is_this_resource_useful_for?: Funders / LGBTQ+ organisations
-  why_is_this_resource_useful?: Maps LGBTQ+ Services in London
-  your_organisation: 'The Clothworkers’ Foundation '
-  about_the_resource: A mapping project by LGBT Hero which maps LGBTQ+ specific services
-    (and categorises them) across London
-  category:
-  - Using data
   tags:
-  - Data Collection
-  - External Datasets
-  id: recss5ayviWofYayQ
+  - Readings on Data
+  - Data training curriculum
+  id: recTRd3CZjPxGjn2B
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 155
   your_name: Toby Gill
   resource_name: Flourish
   resource_url: https://flourish.studio/
   who_is_this_resource_useful_for?: Anyone wanting to create interesting diagrams
-    and charts
-  why_is_this_resource_useful?: Free and simple, more options than Excel
-  your_organisation: The Fore
-  about_the_resource: Free online data visualisation platform
+    and charts.
+  why_is_this_resource_useful?: Free, user friendly, more options than Excel.
+  about_the_resource: Free online data visualisation platform.
   category:
   - Using data
+  tags:
+  - Presenting Data
   id: recQtlBWkHATZ7mDM
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 154
   your_name: Michele Lester
-  resource_name: Public Health Profiles by Local Authority
+  resource_name: Fingertips - Public Health Profiles by Local Authority
   resource_url: https://fingertips.phe.org.uk/profile/health-profiles
-  who_is_this_resource_useful_for?: 'Understanding health profiles in a  local authority '
-  your_organisation: Lloyds Bank Foundation E&W
+  who_is_this_resource_useful_for?: Health charities, funders, researchers, data analysts.
+  why_is_this_resource_useful?: For understanding health profiles in a  local authority.
   about_the_resource: |-
     The Local Authority Health Profiles provide an overview of health for each local authority in England. They pull together existing information in one place and contain data on a range of indicators for local populations, highlighting issues that can affect health in each locality.
 
     The profiles are intended as ‘conversation starters’ to help local government and health services make plans to improve the health of their local population and reduce health inequalities.
   category:
   - Finding data
+  tags:
+  - External Datasets
   id: reccEEqPS6aOOET6L
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 153
   your_name: Hilary Cornish
   resource_name: London Poverty Profile
   resource_url: www.trustforlondon.org.uk/data
-  who_is_this_resource_useful_for?: People looking for information and data about
-    poverty and inequality in London.
-  why_is_this_resource_useful?: 'Collated datasets, topline analysis from reliable
+  who_is_this_resource_useful_for?: Funders, charities, researchers.
+  why_is_this_resource_useful?: 'Collated datasets, topline analysis from a reliable
     source. '
-  your_organisation: Trust for London
-  about_the_resource: 'Combined datasets about poverty in London. Searchable by Borough
-    and by Issues. '
+  about_the_resource: 'Interactive report on poverty and the pandemic in London. Available
+    in PDF format and online. '
   category:
   - Finding data
   tags:
@@ -86,40 +913,50 @@
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 152
   your_name: Lisa
-  resource_name: GrantNav
+  resource_name: 360Giving GrantNav
   resource_url: https://grantnav.threesixtygiving.org/
-  who_is_this_resource_useful_for?: Grant makers and fundraisers
-  your_organisation: GWF
-  about_the_resource: Search grant data from 117 grant makers across the UK
+  who_is_this_resource_useful_for?: Funders, fundraisers, charities, researchers,
+    think tanks, data analysts.
+  why_is_this_resource_useful?: Open data from over 200 funders that anyone can view,
+    use and download for free.
+  about_the_resource: Our free search-engine for grants data. Explore and download
+    data about where funding goes and how much is given across billions of pounds
+    of grants, for causes and locations across the UK.
   resource_image:
   - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-    id: attkixMZ5y3xj98By
-    url: https://dl.airtable.com/.attachments/0a488bccd10a67998c5ba50ed7e18543/a7645def/1BFA9C21-5F5D-4DA4-8FE5-E8A26BCEA418.jpeg
-    filename: 1BFA9C21-5F5D-4DA4-8FE5-E8A26BCEA418.jpeg
-    size: 57861
-    type: image/jpeg
+    id: attAOcJq5t3sAzjRD
+    width: 1863
+    height: 932
+    url: https://dl.airtable.com/.attachments/f231c1653b43513de6780e8dcd64bbac/58c1cc36/GrantNavscreen.PNG
+    filename: GrantNav screen.PNG
+    size: 69672
+    type: image/png
     thumbnails: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
       small: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-        url: https://dl.airtable.com/.attachmentThumbnails/3585a5d913d75423e0e05672c9947e7f/1413ae9a
+        url: https://dl.airtable.com/.attachmentThumbnails/cab155ca92ebc98cd82c86d394319705/d4e5abe1
         width: 72
         height: 36
       large: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-        url: https://dl.airtable.com/.attachmentThumbnails/4752adde84e269ba0b2c049946dc8028/1979037d
-        width: 1000
-        height: 500
+        url: https://dl.airtable.com/.attachmentThumbnails/d21893000d88b79e45a5ffef433affd1/9ffe4a37
+        width: 1023
+        height: 512
       full: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-        url: https://dl.airtable.com/.attachmentThumbnails/62868ca40a28fec07034e8d123168990/69a092b7
+        url: https://dl.airtable.com/.attachmentThumbnails/9c1e80500a856c944f94bdf06d917aef/09cd4cba
         width: 3000
         height: 3000
   category:
   - Finding data
+  tags:
+  - External Datasets
+  - Using data
   id: recNN4xs8OTsTolFd
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 151
   your_name: 'Hannah Goulding '
   resource_name: London Datastore
   resource_url: https://data.london.gov.uk/
-  your_organisation: Greater London Authority
+  who_is_this_resource_useful_for?: Public, researchers, developers, data analysts,
+    funders.
   about_the_resource: 'The London Datastore is  a free and open data-sharing portal  where
     anyone can access data relating to the capital.  Whether you’re a citizen, business
     owner, researcher or developer, the site provides over 700 datasets to help you
@@ -135,8 +972,9 @@
   your_name: Alex Padilha
   resource_name: Kumu
   resource_url: https://www.kumu.io/
-  your_organisation: Barrow Cadbury Trust
-  about_the_resource: Data visualisation tool to create relationship/network maps
+  who_is_this_resource_useful_for?: Data analysts, researchers, funders, charities
+    - anyone wanting to present data.
+  about_the_resource: Data visualisation tool to create relationship/network maps.
   category:
   - Using data
   tags:
@@ -145,71 +983,99 @@
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 149
   your_name: Manisa Jain
-  resource_name: GP DataSets
+  resource_name: Inspiremed GP Datasets
   resource_url: https://www.inspire-med.co.uk/?gclid=EAIaIQobChMI1MSKhf2Z5wIVVuDtCh13vw5KEAAYASAAEgKc2PD_BwE
-  your_organisation: 'Camden Giving '
-  about_the_resource: Health Intelligence survey.
+  who_is_this_resource_useful_for?: Health charities, funders, researchers, data analysts.
+  about_the_resource: 'A toolkit providing data visualisation dashboards and analytical
+    models on healthcare data. '
   category:
   - Finding data
+  tags:
+  - External Datasets
   id: recdMAV0t70wbvjVV
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 146
+  your_name: Nomis
+  resource_name: 2011 Census Data
+  resource_url: 'https://www.ons.gov.uk/census/2011census/2011censusdata '
+  who_is_this_resource_useful_for?: Funders, researchers, think tanks.
+  when_would_you_use_it?: 'To get broad overview on Camden broken down by ward on
+    a number of key dimensions including economic opportunity, healthcare, social
+    care and education. '
+  about_the_resource: 'Full 2011 Census data for England and Wales. '
+  category:
+  - Finding data
+  tags:
+  - External Datasets
+  id: recr6kNdfQjgGy5hS
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 48
   your_name: Kate Peters
-  resource_name: Public Health local profiles
+  resource_name: Fingertips - Public Health Profiles
   resource_url: https://fingertips.phe.org.uk/
-  about_the_resource: Local area stats and comparisons of health data
+  who_is_this_resource_useful_for?: Health charities, funders.
+  about_the_resource: Local area statistics and comparisons of health data.
   category:
   - Finding data
+  tags:
+  - External Datasets
   id: recU4EqWaTR696nzW
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 47
   your_name: Steve Mackenzie
   resource_name: Office For National Statistics (ONS)
   resource_url: https://www.ons.gov.uk/
-  who_is_this_resource_useful_for?: Public, Open Source, Community Foundations, UKCF's
+  who_is_this_resource_useful_for?: Public, funders, community foundations, charities.
   why_is_this_resource_useful?: It is the source of a lot of aggregated or interpreted
-    statistics
-  your_organisation: Essex Community Foundation
-  about_the_resource: Researching statstical data compliled by Government agencies
+    statistics. Recognised national statistical institute.
+  about_the_resource: 'Government statistics, including demographic data, employment
+    rates and GDP across the UK. '
   category:
   - Finding data
+  tags:
+  - External Datasets
   id: reczZpXwqXMkTMKHh
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 46
   your_name: Steve Mackenzie, Gareth Clayton
-  resource_name: Index of Multiple Deprivation 2019
+  resource_name: English Index of Multiple Deprivation 2019
   resource_url: https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019
-  who_is_this_resource_useful_for?: Government, Charities
-  why_is_this_resource_useful?: Nationally recognised statistics
-  your_organisation: Essex Community Foundation
-  about_the_resource: Comparing different deprivations statistics across different
-    areas
+  who_is_this_resource_useful_for?: Government, charities, funders, think tanks.
+  why_is_this_resource_useful?: Nationally recognised statistics.
+  about_the_resource: 'Comparing different deprivations statistics across different
+    areas in England. '
   category:
   - Finding data
+  tags:
+  - External Datasets
   id: recElJOLjScnDJ5fu
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 45
   your_name: Steve Mackenzie, Gareth Clayton
   resource_name: Charity Commission
   resource_url: https://www.gov.uk/government/organisations/charity-commission
-  who_is_this_resource_useful_for?: Public
-  why_is_this_resource_useful?: Register of Key Charity Information
-  your_organisation: Essex Community Foundation
-  about_the_resource: Primary source for all Charity Details in England
+  who_is_this_resource_useful_for?: Public, charities, funders, researchers, data
+    analysts.
+  why_is_this_resource_useful?: Register of key charity Information.
+  about_the_resource: 'The Charity Commission regulates all charities in England and
+    Wales and maintains up-to-date details about them. The ''Find a charity'' function
+    allows you to search the register of charities and find information on what a
+    charity does, its trustees and finances. '
   category:
   - Finding data
+  tags:
+  - External Datasets
   id: recBHr4VJAK0xmGQb
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 44
   your_name: Nicola Frost
   resource_name: Full Fact
   resource_url: https://fullfact.org
-  who_is_this_resource_useful_for?: Devon CF
+  who_is_this_resource_useful_for?: Anyone who wants to check a fact!
   why_is_this_resource_useful?: It's a good guide to poverty figures and what they
-    all mean
+    all mean.
   when_would_you_use_it?: Verifying Data
-  your_organisation: Devon Community Foundation
-  about_the_resource: Fact checking site
+  about_the_resource: Fact checking site.
   category:
   - Using data
   - Responsible data
@@ -220,14 +1086,14 @@
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 43
   your_name: Nicola Frost
-  resource_name: IMD heatmap app
-  resource_url: http://dclgapps.communities.gov.uk/imd/idmap.html
-  who_is_this_resource_useful_for?: Devon CF
-  why_is_this_resource_useful?: open access, no set-up, does breakdown of IMD domains
-    as well
+  resource_name: IMD Heatmap App
+  resource_url: http://dclgapps.communities.gov.uk/imd/iod_index.html
+  who_is_this_resource_useful_for?: Public, charities, funders.
+  why_is_this_resource_useful?: Open access, no set-up, does breakdown of IMD domains
+    as well.
   when_would_you_use_it?: Using External Datasets, Data Collection
-  your_organisation: Devon Community Foundation
-  about_the_resource: Useful for a quick assessment of an LSOA
+  about_the_resource: 'A heatmap app to explore indices of multiple deprivation data
+    across the UK. '
   category:
   - Finding data
   - Using data
@@ -238,15 +1104,13 @@
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 42
   your_name: Rachel Rank
-  resource_name: Understanding Scottish Places - statistical data on Scottish towns
-    & cities
+  resource_name: Understanding Scottish Places
   resource_url: https://www.usp.scot/
-  who_is_this_resource_useful_for?: Academics, grantmakers, charities, policy makers
-  why_is_this_resource_useful?: High quality stats data; easy to use
+  who_is_this_resource_useful_for?: Academics, funders, charities, policy makers.
+  why_is_this_resource_useful?: High quality statistical data, easy to use.
   when_would_you_use_it?: Using External Datasets
-  your_organisation: 360Giving
   about_the_resource: Understanding the differences between different towns/cities
-    across Scotland
+    across Scotland.
   category:
   - Finding data
   tags:
@@ -257,27 +1121,43 @@
   your_name: Steve Mackenzie
   resource_name: Companies House
   resource_url: https://www.gov.uk/get-information-about-a-company
-  who_is_this_resource_useful_for?: CFs, Businesses
-  why_is_this_resource_useful?: Core resource, Legal requirement for Company details
-    to be listed here
+  who_is_this_resource_useful_for?: Businesses, charities, data analysts, funders,
+    public.
+  why_is_this_resource_useful?: Core resource, legal requirement for company details
+    to be listed here.
   when_would_you_use_it?: Researching businesses and donors
-  your_organisation: Essex Community Foundation
-  about_the_resource: Company Director Details, Financial Accounts
+  about_the_resource: 'Government data on companies, including their financial information,
+    director details and previous business names. '
   category:
   - Finding data
   tags:
   - Researching businesses and donors
   id: recvcZYYChGh8aZqd
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  "#": 40
+  your_name: Adam Lopardo
+  resource_name: Gerd Leonhard
+  resource_url: https://www.futuristgerd.com
+  who_is_this_resource_useful_for?: Anyone interested in data.
+  why_is_this_resource_useful?: Lots of different resources.
+  when_would_you_use_it?: Readings on Data
+  about_the_resource: 'Gerd Leonhard is futurist, humanist, speaker and author, specialising
+    in the debate between humanity and technology. Website includes blogs, videos,
+    resources. He also gives talks on a range of topics. '
+  category:
+  - Data strategy and policy
+  tags:
+  - Readings on Data
+  id: recG9S4SVEXdrxnEN
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 39
   your_name: Nicola Frost
   resource_name: Rural England
   resource_url: https://ruralengland.org/
-  who_is_this_resource_useful_for?: Devon CF
-  why_is_this_resource_useful?: "..."
+  who_is_this_resource_useful_for?: Community foundations, charities.
   when_would_you_use_it?: Presenting Data
-  your_organisation: Devon Community Foundation
-  about_the_resource: Research and reports on rural issues
+  about_the_resource: Independent research, networking and information exchange across
+    rural England.
   category:
   - Finding data
   tags:
@@ -288,41 +1168,27 @@
   your_name: Tom Bell
   resource_name: CARTO
   resource_url: https://carto.com
-  who_is_this_resource_useful_for?: Sussex Community Foundation (also Somerset and
-    Surrey)
-  why_is_this_resource_useful?: Very Attractive and Intuitive to use.
+  who_is_this_resource_useful_for?: Data analysts, researchers, funders.
+  why_is_this_resource_useful?: Very attractive and intuitive to use.
   when_would_you_use_it?: Presenting Data
-  your_organisation: The Henry Smith Charity
-  about_the_resource: Maps!  GIS
+  about_the_resource: 'A platform to understand and analyse spatial data using maps. '
   category:
   - Using data
   tags:
   - Presenting Data
   id: rec0UYUgQFBxI5f5o
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  "#": 36
-  your_name: Gareth
-  resource_name: Excel/Office Programmes
-  who_is_this_resource_useful_for?: Everyone
-  why_is_this_resource_useful?: It's everywhere
-  when_would_you_use_it?: Presenting Data
-  your_organisation: UK Community Foundations
-  about_the_resource: Present Data/Compile
-  category:
-  - Using data
-  tags:
-  - Presenting Data
-  id: recimwqWeP2lTtx8D
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 35
   your_name: Nicola Frost
   resource_name: UK Data Service
-  resource_url: 'www.ukdataservice.ac.uk '
-  who_is_this_resource_useful_for?: Devon CF
-  why_is_this_resource_useful?: deep dives into particular issues, esp over time
+  resource_url: https://ukdataservice.ac.uk/find-data/browse/
+  who_is_this_resource_useful_for?: Commmunity foundations, funders, researchers.
+  why_is_this_resource_useful?: Deep dives into particular issues, especially over
+    time.
   when_would_you_use_it?: External Datasets, Data Collection
-  your_organisation: Devon Community Foundation
-  about_the_resource: Longitudinal datasets on social/political isuses
+  about_the_resource: 'UK''s largest collection of economic, social and population
+    datasets which can be browsed by data type, eg census data or longitudinal studies,
+    and theme, eg Covid-19 or poverty. '
   category:
   - Finding data
   tags:
@@ -332,13 +1198,17 @@
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 34
   your_name: Tom Bell
-  resource_name: Local Insight & OCSI
+  resource_name: Local Insight
   resource_url: https://local.communityinsight.org
-  who_is_this_resource_useful_for?: Sussex Community Foundations and other CF's
-  why_is_this_resource_useful?: UI Easy to learn, non-technical, visually strong
+  who_is_this_resource_useful_for?: 'Funders, community foundations, data analysts,
+    public sector organisations. '
+  why_is_this_resource_useful?: User interface is easy to learn, non-technical, visually
+    strong.
   when_would_you_use_it?: External Datasets
-  your_organisation: The Henry Smith Charity
-  about_the_resource: External open source data, GIS, Grant Assessment
+  about_the_resource: 'An open source Geographical Information System (GIS), giving
+    you the latest data and analysis of communities and services, with up-to-date
+    open data matched to the areas you work in. Produced by OCSI and available across
+    England and Wales. '
   category:
   - Finding data
   - Using data
@@ -346,62 +1216,32 @@
   - External Datasets
   id: recJPF1Ao8uBHBciR
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  "#": 33
-  your_name: 'Steve Mackenzie '
-  resource_name: 360Giving Council Data Base
-  who_is_this_resource_useful_for?: Charities, funders, public
-  why_is_this_resource_useful?: Large source base in one place
-  when_would_you_use_it?: External Datasets
-  your_organisation: Essex Community Foundation
-  about_the_resource: Compare data, compile data, make decisions
-  category:
-  - Finding data
-  tags:
-  - External Datasets
-  id: recJyCrqcP0C3PY1H
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 32
   your_name: Adam Lopordo
   resource_name: Data.gov.uk
   resource_url: https://data.gov.uk
-  who_is_this_resource_useful_for?: Public, Big, Charities.
+  who_is_this_resource_useful_for?: Public, big charities, funders, researchers, data
+    analysts.
   why_is_this_resource_useful?: Easy to use. More data than you might think.
   when_would_you_use_it?: External Datasets
-  your_organisation: Community Foundation Tyne & Wear and Northumberland
-  about_the_resource: Overlaid on other data - strengthening arguments - research
+  about_the_resource: Data published by central government, local authorities and
+    public bodies.
   category:
   - Finding data
   tags:
   - External Datasets
   id: recf5D5KN0MiQ88T1
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  "#": 31
-  your_name: Steve Mackenzie, Gareth Clayton
-  resource_name: Charity Comms - combine School League Tables
-  who_is_this_resource_useful_for?: Public, Open Source, Community Foundations, UKCF's
-  why_is_this_resource_useful?: Base source, must be referenced
-  when_would_you_use_it?: External Datasets
-  your_organisation: UK Community Foundations\
-  about_the_resource: Accessing financial Info, Addresses, Poverty Measures, FSM,
-    etc.
-  category:
-  - Finding data
-  tags:
-  - External Datasets
-  id: recYO1KypUktzkE6I
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 30
   your_name: Dirk Slater
   resource_name: School of Data
   resource_url: https://schoolofdata.org
-  who_is_this_resource_useful_for?: 'Civil Society Organisations - there''s a global
+  who_is_this_resource_useful_for?: 'Civil society organisations - there''s a global
     network of trainers behind it. '
-  why_is_this_resource_useful?: Curriculum is very accessible. Though it is slightly
-    stale
-  when_would_you_use_it?: Data training curriculum, Using External Datasets, Data
+  why_is_this_resource_useful?: Curriculum is very accessible.
+  when_would_you_use_it?: Data Training Curriculum, Using External Datasets, Data
     Collection, Analysing Data, Cleaning Data, Verifying Data
-  your_organisation: FabRiders
-  about_the_resource: 'It''s got lots of data training curriculum aimed '
+  about_the_resource: 'It''s got lots of data training curriculum aimed at data beginners. '
   category:
   - Using data
   - Training and support
@@ -418,11 +1258,10 @@
   your_name: 'Mor Rubinstein '
   resource_name: Responsible Data Forum
   resource_url: https://responsibledata.io
-  who_is_this_resource_useful_for?: People who produce data
-  why_is_this_resource_useful?: Up to date and full of good examples
+  who_is_this_resource_useful_for?: Data analysts, researchers.
+  why_is_this_resource_useful?: Up to date and full of good examples.
   when_would_you_use_it?: Data Ethics
-  your_organisation: 360Giving
-  about_the_resource: Guidelines and tools to collect and use data responsibly
+  about_the_resource: Guidelines and tools to collect and use data responsibly.
   category:
   - Responsible data
   tags:
@@ -433,12 +1272,11 @@
   your_name: Tom Bell
   resource_name: Ethical OS Toolkit
   resource_url: https://ethicalos.org
-  who_is_this_resource_useful_for?: Technologists
-  why_is_this_resource_useful?: Quick to make ethical decisions
+  who_is_this_resource_useful_for?: Data analysts, researchers.
+  why_is_this_resource_useful?: Quick to make ethical decisions.
   when_would_you_use_it?: Data Ethics
-  your_organisation: The Henry Smith Charity
-  about_the_resource: Checklist of 8 risk zones of risk and social harm from your
-    tech.
+  about_the_resource: A checklist of eight tech risk zones to help identify areas
+    of risk and social harm.
   category:
   - Responsible data
   - Training and support
@@ -450,11 +1288,10 @@
   your_name: Nicola Frost
   resource_name: Inspiring Impact
   resource_url: https://www.inspiringimpact.org/
-  who_is_this_resource_useful_for?: Devon CF
-  why_is_this_resource_useful?: "..."
+  who_is_this_resource_useful_for?: Funders, charities.
   when_would_you_use_it?: Data Collection, Presenting Data
-  your_organisation: Devon Community Foundation
-  about_the_resource: Tools and resources for measuring and presenting impact
+  about_the_resource: Tools and resources for measuring and presenting impact to help
+    charities to understand 'what works'.
   category:
   - Data strategy and policy
   - Using data
@@ -467,13 +1304,14 @@
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 26
   your_name: Nicola Frost
-  resource_name: Poverty in your Area
-  resource_url: http://www.endchildpoverty.org.uk/poverty-in-your-area-2018/
-  who_is_this_resource_useful_for?: Devon CF
-  why_is_this_resource_useful?: "..."
+  resource_name: Child Poverty in your Area
+  resource_url: http://www.endchildpoverty.org.uk/local-child-poverty-data-2014-15-2019-20/
+  who_is_this_resource_useful_for?: Community foundations, funders, researchers, data
+    analysts, charities.
+  why_is_this_resource_useful?: Very simple.
   when_would_you_use_it?: Data Collection, Presenting Data
-  your_organisation: Devon Community Foundation
-  about_the_resource: Accessing an interactive map for child poverty
+  about_the_resource: An interactive map showing the percentage of children living
+    in poverty.
   category:
   - Finding data
   tags:
@@ -485,11 +1323,13 @@
   your_name: Nicola Frost
   resource_name: Charity Base
   resource_url: https://charitybase.uk/
-  who_is_this_resource_useful_for?: Devon CF
-  why_is_this_resource_useful?: easy to use
+  who_is_this_resource_useful_for?: Community foundations, funders, researchers, data
+    analysts, charities.
+  why_is_this_resource_useful?: 'Easy to use. Open source. '
   when_would_you_use_it?: Data Collection, Analysing Data, Cleaning Data
-  your_organisation: Devon Community Foundation
-  about_the_resource: Database and platform for charity info
+  about_the_resource: 'A database, application programming interface (API) and web
+    app which provides public information on the activities, locations and finances
+    of the 168,000 charities registered in England and Wales. Includes data from 360Giving. '
   category:
   - Finding data
   tags:
@@ -502,11 +1342,12 @@
   your_name: Nicola Frost
   resource_name: Thriving Places Index
   resource_url: http://www.thrivingplacesindex.org/
-  who_is_this_resource_useful_for?: Devon CF
-  why_is_this_resource_useful?: more wellbeing info
+  who_is_this_resource_useful_for?: Community foundations, funders, researchers, data
+    analysts.
+  why_is_this_resource_useful?: Wellbeing information.
   when_would_you_use_it?: Data Collection, Analysing Data
-  your_organisation: Devon Community Foundation
-  about_the_resource: Happy City data
+  about_the_resource: 'A dashboard of information for local authorities in England
+    and Wales measuring wellbeing. '
   category:
   - Finding data
   tags:
@@ -518,11 +1359,13 @@
   your_name: Nicola Frost
   resource_name: Environment and Health Atlas
   resource_url: http://www.envhealthatlas.co.uk/homepage/index.html
-  who_is_this_resource_useful_for?: Devon CF
-  why_is_this_resource_useful?: nice graphics
+  who_is_this_resource_useful_for?: Community foundations, funders, researchers, data
+    analysts.
+  why_is_this_resource_useful?: Nice graphics.
   when_would_you_use_it?: Data Collection, Analysing Data
-  your_organisation: Devon Community Foundation
-  about_the_resource: lsoa-level maps for health conditions etc
+  about_the_resource: 'A collection of interactive maps illustrating geographical
+    distributions of disease risk and environmental agents at a local neighbourhood
+    level.  '
   category:
   - Using data
   tags:
@@ -532,13 +1375,14 @@
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 22
   your_name: Nicola Frost
-  resource_name: Polimapper - constituency-based visualisation app
-  resource_url: https://app.polimapper.co.uk/?dataSetKey=72bc86358fc244dfb1135cc1205436de#con_over=Torbay
-  who_is_this_resource_useful_for?: DevonCF
-  why_is_this_resource_useful?: paid-for platform but some good free bits
+  resource_name: PoliMapper
+  resource_url: https://www.polimapper.co.uk/
+  who_is_this_resource_useful_for?: Funders, charities, researchers.
+  why_is_this_resource_useful?: Paid-for platform but some good free bits.
   when_would_you_use_it?: Data Collection, Analysing Data
-  your_organisation: Devon Community Foundation
-  about_the_resource: JRF use it for poverty stats (see link)
+  about_the_resource: 'A platform designed to visualise data geographically, you can
+    import data and convert it into interactive maps, graphs and charts to compare
+    against the national picture. Some datasets can be accessed for free. '
   category:
   - Finding data
   tags:
@@ -546,30 +1390,18 @@
   - Data Collection
   id: recTrsGkAvYh6lyus
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  "#": 21
-  your_name: Nicola Frost
-  resource_name: FSI Small Charity Report
-  resource_url: http://www.thefsi.org/wp-content/uploads/2018/08/Index-Mar-May-18.pdf
-  who_is_this_resource_useful_for?: Devon CF
-  why_is_this_resource_useful?: focus on the small
-  when_would_you_use_it?: Data Collection
-  your_organisation: Devon Community Foundation
-  about_the_resource: Quarterly infographics on small charity sector
-  category:
-  - Finding data
-  tags:
-  - Data Collection
-  id: recgNXNlLDBXLqFy7
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 20
   your_name: Nicola Frost
-  resource_name: LG Inform
-  resource_url: https://lginform.local.gov.uk/
-  who_is_this_resource_useful_for?: Devon CF
-  why_is_this_resource_useful?: good to see down to LA level
+  resource_name: https://lginform.local.gov.uk/reports/view/lga-research/ficlga-research-report-financial-hardship-and-economic-vulnerability?mod-area=E92000001&mod-group=AllRegions_England&mod-type=namedComparisonGroup
+  resource_url: https://lginform.local.gov.uk/reports/view/lga-research/ficlga-research-report-financial-hardship-and-economic-vulnerability?mod-area=E92000001&mod-group=AllRegions_England&mod-type=namedComparisonGroup
+  who_is_this_resource_useful_for?: Funders, charities, researchers.
+  why_is_this_resource_useful?: Helpful to see down to local authority level. Choose
+    to view either ready-made reports on a range of topics or explore all the data
+    in LG Inform to find indicators which are of interest to you.
   when_would_you_use_it?: Data Collection
-  your_organisation: Devon Community Foundation
-  about_the_resource: Local government data
+  about_the_resource: 'A tool to access, compare and analyse local government data.
+    This report provides an overview of financial hardship and economic vulnerability
+    in authority areas, but there are multiple themed reports to choose from. '
   category:
   - Finding data
   tags:
@@ -578,14 +1410,14 @@
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 19
   your_name: Nicola Frost
-  resource_name: Search Results Web result with site links  Ministry of Housing, Communities
-    & Local Government open data plage
+  resource_name: Official Statistics from Ministry of Housing, Communities and Local
+    Government
   resource_url: http://opendatacommunities.org/home
-  who_is_this_resource_useful_for?: Devon CF
-  why_is_this_resource_useful?: can be quicker than trawling through ONS
+  who_is_this_resource_useful_for?: Funders, charities, researchers.
+  why_is_this_resource_useful?: Can be quicker than trawling through ONS.
   when_would_you_use_it?: Data Collection
-  your_organisation: Devon Community Foundation
-  about_the_resource: Useful for eg homelessness figures
+  about_the_resource: 'Over 200 datasets on MHCLG’s priorities including: deprivation,
+    housing, local government finance, planning and other themes.'
   category:
   - Finding data
   tags:
@@ -596,11 +1428,15 @@
   your_name: Nicola Frost
   resource_name: Find That Charity
   resource_url: https://findthatcharity.uk/
-  who_is_this_resource_useful_for?: Devon CF
-  why_is_this_resource_useful?: makes data cleaner for 360 giving
+  who_is_this_resource_useful_for?: Funders, charities, researchers, data analysts.
+  why_is_this_resource_useful?: Makes data cleaner for 360Giving.
   when_would_you_use_it?: Cleaning Data
-  your_organisation: Devon Community Foundation
-  about_the_resource: Cleaning up SF records
+  about_the_resource: 'Find That Charity is a search engine for UK non profit organisations.
+    It brings together data from a number of sources to include a record for a large
+    number of non profit organisations in the UK, including every registered charity.
+    You can search for organisations by name, or filter to find organisations that
+    work in a specific area. You can also use FindThatCharity data to compare against
+    your own datasets and for data cleaning. '
   category:
   - Using data
   tags:
@@ -611,11 +1447,11 @@
   your_name: Mor Rubinstein
   resource_name: Tableau Prep
   resource_url: https://www.tableau.com/trial/tableau-prep
-  who_is_this_resource_useful_for?: Data Analysts
-  why_is_this_resource_useful?: easy to use
+  who_is_this_resource_useful_for?: Data analysts.
+  why_is_this_resource_useful?: Easy to use.
   when_would_you_use_it?: Cleaning Data
-  your_organisation: 360Giving
-  about_the_resource: Clean data and automate data cleaning
+  about_the_resource: 'A tool for data cleaning with algorithms that help to save
+    time and automise data preparation. '
   category:
   - Using data
   tags:
@@ -624,13 +1460,12 @@
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 16
   your_name: Steve Mackensie
-  resource_name: Postcode finder
+  resource_name: Royal Mail Postcode Finder
   resource_url: 'https://www.royalmail.com/find-a-postcode '
-  who_is_this_resource_useful_for?: CFs, UKCFs
-  why_is_this_resource_useful?: Central Data Base is up to date.
+  who_is_this_resource_useful_for?: 'Funders, charities, researchers, data analysts. '
+  why_is_this_resource_useful?: 'Regularly updated database. '
   when_would_you_use_it?: Cleaning Data
-  your_organisation: Essex Community Foundation
-  about_the_resource: Addresses and Postcodes
+  about_the_resource: 'A Royal Mail search tool to find UK addresses and postcodes. '
   category:
   - Finding data
   - Using data
@@ -642,14 +1477,13 @@
   your_name: Dirk Slater
   resource_name: Data and Story Telling Workshop Curriculum
   resource_url: https://www.fabriders.net/data-storytelling/
-  who_is_this_resource_useful_for?: Sussex Community Foundations, 360Giving, FabRiders
+  who_is_this_resource_useful_for?: Funders, community foundations, charities.
   why_is_this_resource_useful?: Reminds you about the basics for story telling and
-    how to understand what will be compelling to your audience
+    how to understand what will be compelling to your audience.
   when_would_you_use_it?: Building a data culture, Data training curriculum, Assessing
     Users, Analysing Data
-  your_organisation: FabRiders
-  about_the_resource: 'For teams working together for understanding how to create
-    a narrative from data that will work for particular audiences '
+  about_the_resource: For teams working together for understanding how to create a
+    narrative from data that will work for particular audiences.
   category:
   - Training and support
   - Data strategy and policy
@@ -665,13 +1499,12 @@
   resource_name: IFRC's Data Playbook
   resource_url: http://preparecenter.org/toolkit/data-playbook
   who_is_this_resource_useful_for?: Humanitarian agencies like the Red Cross, but
-    it's getting usage by social change/advocacy orgs as well.
+    it's getting usage by social change/advocacy organisations as well.
   why_is_this_resource_useful?: It's all modularised and it's easy to find relevant
     exercises. Plus I helped build it.
   when_would_you_use_it?: Building a data culture, Data training curriculum
-  your_organisation: FabRiders
   about_the_resource: Social Learning Curriculum - basically getting teams to explore
-    how and why they would use data in their work
+    how and why they would use data in their work.
   category:
   - Training and support
   - Data strategy and policy
@@ -689,7 +1522,6 @@
   why_is_this_resource_useful?: Has a good approach to building culture by working
     with teams to 'build their own adventure'
   when_would_you_use_it?: Building a data culture, Assessing Users
-  your_organisation: FabRiders
   about_the_resource: Building a Data Culture - it has templates for developing working
     group meetings, thinking about data audiences and how to do skill scoping.
   category:
@@ -704,11 +1536,11 @@
   your_name: Mor Rubinstein
   resource_name: Atlassian Team Playbook
   resource_url: https://www.atlassian.com/team-playbook
-  who_is_this_resource_useful_for?: Project Managers, HR Teams
+  who_is_this_resource_useful_for?: Project managers, HR teams, funders, charities.
   why_is_this_resource_useful?: Creative ways to get ideas
   when_would_you_use_it?: Building a data culture, Assessing Users
-  your_organisation: 360Giving
-  about_the_resource: A collection of activities to manage projects and research users
+  about_the_resource: 'A collection of activities to manage projects and research
+    users to help teams work more effectively together. '
   category:
   - Data strategy and policy
   tags:
@@ -720,12 +1552,13 @@
   your_name: Dirk Slater
   resource_name: 'DataBasics Culture Project '
   resource_url: https://databasic.io/en/culture/
-  who_is_this_resource_useful_for?: It was developed by MIT Media Labs for small organisations
+  who_is_this_resource_useful_for?: Small organisations, funders, charities.
   why_is_this_resource_useful?: The interactive exercises are innovative. Methodology
     is based on research.
   when_would_you_use_it?: Building a data culture
-  your_organisation: FabRiders
-  about_the_resource: A collection of exercises to help build a data culture in organizations
+  about_the_resource: A collection of exercises to help practice and encourage the
+    use of data in organisational decision-making. They aim to support in cultivating
+    a culture which uses and understands data.
   category:
   - Finding data
   - Using data
@@ -736,14 +1569,13 @@
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 10
   your_name: Mor Rubinstein
-  resource_name: 'Open Data Manchester Github repo '
+  resource_name: Open Data Manchester Github Repository
   resource_url: https://github.com/OpenDataManchester/training-and-resources
-  who_is_this_resource_useful_for?: UK Data Trainers
+  who_is_this_resource_useful_for?: UK data trainers.
   why_is_this_resource_useful?: Made by the community (including 360 Giving) for the
     community
   when_would_you_use_it?: Building a data culture
-  your_organisation: 360Giving
-  about_the_resource: Collection of activities about data culture
+  about_the_resource: Collection of activities about data culture.
   category:
   - Using data
   - Training and support
@@ -755,12 +1587,12 @@
   your_name: Tom Bell
   resource_name: Charity Digital Code of Practice
   resource_url: https://doit.life/charity-digital-code
-  who_is_this_resource_useful_for?: Sussex Community Foundation
-  why_is_this_resource_useful?: 'Help with Digital Leadership, Culture, Skills, Strategy,
+  who_is_this_resource_useful_for?: Charities.
+  why_is_this_resource_useful?: 'Helps with digital leadership, culture, skills, strategy,
     etc. '
   when_would_you_use_it?: Building a data culture
-  your_organisation: The Henry Smith Charity
-  about_the_resource: Help charities increase impact, develop skills and improve sustainability
+  about_the_resource: Helps charities increase impact, develop skills and improve
+    their sustainability.
   category:
   - Data strategy and policy
   - Training and support
@@ -770,34 +1602,34 @@
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 8
   your_name: Tom Bell
-  resource_name: Data Orchard Digital Maturity tool
+  resource_name: Data Orchard's Data Maturity Tool
   resource_url: https://datamaturity.dataorchard.org.uk/
-  who_is_this_resource_useful_for?: Sussex Community Foundation
-  why_is_this_resource_useful?: Quick Steps to assess digital maturity. Gives an indication
-    of which areas are weaker than others, ie comms or strategy
+  who_is_this_resource_useful_for?: Any civil society organisations.
+  why_is_this_resource_useful?: Quick steps to assess data maturity. Gives an indication
+    of which areas are weaker than others, i.e. comms or strategy.
   when_would_you_use_it?: Building a data culture
-  your_organisation: The Henry Smith Charity
-  about_the_resource: A tool to review your organisations digital maturity across
-    a number of criteria. Due to be updated heavily in March with suggestions for
-    next steps
+  about_the_resource: A tool to review your organisation's data maturity across a
+    number of criteria.
   resource_image:
   - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-    id: attM4GQYjPkmEuF6T
-    url: https://dl.airtable.com/.attachments/761f6e8946fcc6557cb0a09952873f9b/88a6a82a/Screenshot_2019-11-27DataOrchardSelfAssessment.png
-    filename: Screenshot_2019-11-27 Data Orchard Self Assessment.png
-    size: 60766
+    id: attgLZOqKb53KosPk
+    width: 1556
+    height: 909
+    url: https://dl.airtable.com/.attachments/aa8ca065eca08cc4c69971c1e55f993b/d5c1b910/dataorchardmaturitytool.PNG
+    filename: data orchard maturity tool.PNG
+    size: 91645
     type: image/png
     thumbnails: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
       small: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-        url: https://dl.airtable.com/.attachmentThumbnails/f29da1f779f16a1e2d0d901b7521ee0b/935f9e3b
-        width: 70
+        url: https://dl.airtable.com/.attachmentThumbnails/e0ec2f3301879d1a958a5500591e1953/f5b6919b
+        width: 62
         height: 36
       large: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-        url: https://dl.airtable.com/.attachmentThumbnails/79bc37321033589ee8775f2e4fd73fcd/9395ba80
-        width: 998
+        url: https://dl.airtable.com/.attachmentThumbnails/e9293f13978569820185a11ca1fa7055/bb99c6ae
+        width: 876
         height: 512
       full: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-        url: https://dl.airtable.com/.attachmentThumbnails/e0ef2251b98ea1e36ccb6cb374a20d6c/2bac8e42
+        url: https://dl.airtable.com/.attachmentThumbnails/fc391dbc35f0868c7a70fdfdd38826bb/5697e098
         width: 3000
         height: 3000
   category:
@@ -810,11 +1642,10 @@
   your_name: Nicola Frost
   resource_name: Community Wellbeing Index
   resource_url: https://communitywellbeing.coop.co.uk/
-  who_is_this_resource_useful_for?: Devon CF
-  why_is_this_resource_useful?: ".."
+  who_is_this_resource_useful_for?: Funders, charities, researchers, data analysts.
   when_would_you_use_it?: Analysing Data, Presenting Data
-  your_organisation: Devon Community Foundation
-  about_the_resource: Local synthesis of wellbeing elements
+  about_the_resource: 'A local synthesis of wellbeing indicators developed by the
+    Co-op foundation. '
   category:
   - Using data
   tags:
@@ -826,11 +1657,11 @@
   your_name: Nicola Frost
   resource_name: Tableau
   resource_url: https://public.tableau.com/s/
-  who_is_this_resource_useful_for?: Devon CF
-  why_is_this_resource_useful?: good for stealing other people's work!
+  who_is_this_resource_useful_for?: Funders, charities, researchers, data analysts.
+  why_is_this_resource_useful?: Good for stealing other people's work!
   when_would_you_use_it?: Analysing Data, Presenting Data
-  your_organisation: Devon Community Foundation
-  about_the_resource: Using its data visualisation tool
+  about_the_resource: 'A free tool for exploring, creating and publicly sharing data
+    visualisations. '
   category:
   - Using data
   tags:
@@ -840,13 +1671,13 @@
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 5
   your_name: Nicola Frost
-  resource_name: LSOA look-up tables
+  resource_name: ONS LSOA Look-up Tables
   resource_url: http://geoportal.statistics.gov.uk/datasets/500d4283cbe54e3fa7f358399ba3783e_0
-  who_is_this_resource_useful_for?: Devon CF
-  why_is_this_resource_useful?: "..."
+  who_is_this_resource_useful_for?: Funders, charities, researchers, data analysts.
   when_would_you_use_it?: Analysing Data
-  your_organisation: Devon Community Foundation
-  about_the_resource: Looking up correspondence between wards, LSOAs etc
+  about_the_resource: 'A best-fit lookup from ONS between 2011 lower layer super output
+    areas, electoral wards/divisions and local authority districts in England and
+    Wales as at 31 December 2017. Data updated in 2020. '
   category:
   - Using data
   tags:
@@ -856,14 +1687,14 @@
   "#": 4
   your_name: Tom Bell
   resource_name: Power BI
-  resource_url: https://docs.microsoft.com/en-us/power-bi/
-  who_is_this_resource_useful_for?: Sussex Community Foundation
-  why_is_this_resource_useful?: Quick and Easy to Use, part of microsoft suite, comes
-    with 365
+  resource_url: https://powerbi.microsoft.com/en-gb/
+  who_is_this_resource_useful_for?: Funders, charities, researchers, data analysts.
+  why_is_this_resource_useful?: Quick and easy to use, part of Microsoft suite, comes
+    with 365.
   when_would_you_use_it?: Analysing Data
-  your_organisation: The Henry Smith Charity
-  about_the_resource: Dashboards that include Pivot Tables & Charts. Enables Data
-    Analysis
+  about_the_resource: Power BI is a collection of software services, apps, and connectors
+    that work together to turn your unrelated sources of data into coherent, visually
+    immersive, and interactive insights.
   category:
   - Training and support
   - Using data
@@ -873,16 +1704,16 @@
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   "#": 3
   your_name: Mor Rubinstein
-  resource_name: 360Insights
+  resource_name: 360Giving 360Insights
   resource_url: https://insights.threesixtygiving.org/
-  who_is_this_resource_useful_for?: Grantmakers
-  why_is_this_resource_useful?: Made for Grantmakers as primary users
+  who_is_this_resource_useful_for?: Funders, fundraisers, charities, researchers,
+    think tanks, data analysts.
+  why_is_this_resource_useful?: Made for grantmakers as primary users and enables
+    data to be clearly visualised.
   when_would_you_use_it?: Analysing Data
-  your_organisation: 360Giving
-  about_the_resource: 'Combine and visualise 360Giving and charity data to understand
-    funders better.
-
-    '
+  about_the_resource: 360Insights is a free tool to help you understand funding better.
+    Combine and visualise 360Giving, charity and location data to see an overview
+    of grants by amounts, dates, geography, recipient types and funders.
   category:
   - Using data
   - Data strategy and policy

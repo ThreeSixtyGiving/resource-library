@@ -7,3 +7,6 @@ source/_includes/.DS_Store
 source/.DS_Store
 
 source/_data/.DS_Store
+
+vendor/
+.bundle/

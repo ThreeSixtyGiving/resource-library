@@ -1,8 +1,9 @@
 require 'yaml'
 require 'airtable'
 require 'active_support/all'
+require 'dotenv/load'
 
-@client = Airtable::Client.new("keyDicyKIwz9kuScP")
+@client = Airtable::Client.new(ENV["AIRTABLE_API_KEY"])
 
 @resourcesTable = @client.table("appj9qNC7jiu1tphD", "Resources")
 @categoriesTable = @client.table("appj9qNC7jiu1tphD", "Categories")

@@ -13,6 +13,7 @@ $black: #153634;
 $orange: #DE6E26;
 $teal: #4DACB6;
 $yellow: #EFC329;
+$yellow-text: #8f730c;
 $red: #BC2C26;
 $white: white;
 
@@ -104,3 +105,15 @@ $base-color: $black;
   --color-primary: hsla(var(--orange-hsl), 1);
   --color-accent:  hsla(var(--teal-hsl),   1);
 }
+
+// Categories and colours
+$categories: (
+  'data-wrangling': $teal hsla(var(--teal-dark-hsl), 1),
+  'data-literacy': $orange hsla(var(--orange-dark-hsl), 1),
+  'human-centered-design': $red $red,
+  'using-data': $orange hsla(var(--orange-dark-hsl), 1),
+  'responsible-data': $teal hsla(var(--teal-dark-hsl), 1),
+  'finding-data': $red $red,
+  'training-and-support': $yellow hsla(var(--yellow-dark-hsl), 1),
+  'data-strategy-and-policy': $black $black,
+);

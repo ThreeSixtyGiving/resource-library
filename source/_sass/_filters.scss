@@ -49,11 +49,16 @@
   padding-bottom: 24px;
 
   @include breakpoint($small-only) {
-    .filter + .filter { margin-top: 8px; }
+    width: max-content;
+    padding-right: 20px;
+
+    .filter + .filter { margin-left: 8px; margin-bottom: 8px; }
   }
 
   @include breakpoint($medium-up) { 
-    .filter + .filter { margin-left: 8px; }
+    // text-align: center; 
+
+    .filter + .filter { margin-left: 8px; margin-bottom: 8px; }
   }
 }
 
@@ -73,12 +78,9 @@
     color: $white;
   }
 
-  &.filter--responsible-data:hover { background-color: var(--color-teal-dark); }
-  &.filter--using-data:hover { background-color: var(--color-orange-dark); }
-  &.filter--finding-data:hover { background-color: $red; }
-  &.filter--training-and-support:hover { background-color: var(--color-yellow-dark); }
-  &.filter--data-strategy-and-policy:hover { background-color: $black; }
-
+  @each $category, $color in $categories {
+    &.filter--#{$category}:hover { background-color: nth($color, 1); }
+  }
 }
 
 .filter-selected {
@@ -86,34 +88,15 @@
   background-color: $base-color;
   color: $white;
 
-  &.filter--responsible-data { background-color: var(--color-teal-dark); color: $white; }
-  &.filter--using-data { background-color: var(--color-orange-dark); color: $white; }
-  &.filter--finding-data { background-color: $red; color: $white; }
-  &.filter--training-and-support { background-color: var(--color-yellow-dark); color: $white; }
-  &.filter--data-strategy-and-policy { background-color: $black; color: $white; }
+  @each $category, $color in $categories {
+    &.filter--#{$category} { background-color: nth($color, 1); color: $white; }
+  }
 }
 
-.filter--responsible-data {
-  color: var(--color-teal-dark);
-  border-color: $teal;
-}
 
-.filter--using-data {
-  color: var(--color-orange-dark);
-  border-color: $orange;
-}
-
-.filter--finding-data {
-  color: $red;
-  border-color: $red;
-}
-
-.filter--training-and-support {
-  color: var(--color-yellow-dark);
-  border-color: $yellow;
-}
-
-.filter--data-strategy-and-policy {
-  color: $black;
-  border-color: $black;
+@each $category, $color in $categories {
+  .filter--#{$category} {
+    color: nth($color, 2);
+    border-color: nth($color, 1);
+  }
 }

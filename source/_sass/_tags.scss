@@ -20,11 +20,9 @@
     color: $white;
   }
 
-  &.tag--responsible-data { background-color: var(--color-teal-dark); }
-  &.tag--using-data { background-color: $orange; }
-  &.tag--finding-data { background-color: $red; }
-  &.tag--training-and-support { background-color: $yellow; }
-  &.tag--data-strategy-and-policy { background-color: $black; }
+  @each $category, $color in $categories {
+    &.tag--#{$category}:hover { background-color: nth($color, 1); }
+  }
 }
 
 .tag--selected {
@@ -32,34 +30,14 @@
   background-color: $base-color;
   color: $white;
 
-  &.tag--responsible-data { background-color: $teal; color: $white; }
-  &.tag--using-data { background-color: $orange; color: $white; }
-  &.tag--finding-data { background-color: $red; color: $white; }
-  &.tag--training-and-support { background-color: $yellow; color: $white; }
-  &.tag--data-strategy-and-policy { background-color: $black; color: $white; }
+  @each $category, $color in $categories {
+    &.tag--#{$category} { background-color: nth($color, 1); color: $white; }
+  }
 }
 
-.tag--responsible-data {
-  color: var(--color-teal-dark);
-  border-color: $teal;
-}
-
-.tag--using-data {
-  color: var(--color-orange-dark);
-  border-color: $orange;
-}
-
-.tag--finding-data {
-  color: $red;
-  border-color: $red;
-}
-
-.tag--training-and-support {
-  color: var(--color-yellow-dark);
-  border-color: $yellow;
-}
-
-.tag--data-strategy-and-policy {
-  color: $black;
-  border-color: $black;
+@each $category, $color in $categories {
+  .tag--#{$category} {
+    color: nth($color, 2);
+    border-color: nth($color, 1);
+  }
 }
