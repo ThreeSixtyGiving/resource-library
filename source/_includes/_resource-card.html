@@ -10,8 +10,8 @@
           <a class="resource-card__link" href="{{ include.data.resource_url }}" target="_blank" rel="noopener"><i class="material-icons">link</i></a>
         {% endif %}
         
-        {% if include.data.what_is_it_good_for? %}
-          <p class="resource-card__text">{{ include.data.what_is_it_good_for? }}</p>
+        {% if include.data.when_would_you_use_it? %}
+          <p class="resource-card__text">{{ include.data.when_would_you_use_it? }}</p>
         {% endif %}
       </section>
 
@@ -26,9 +26,9 @@
 
     <div class="resource-card__row">
       <section class="resource-card__main-content">
-        {% if include.data.why_would_you_recommend_it? %}
+        {% if include.data.why_is_this_resource_useful? %}
         <h4 class="resource-card__subheading">Why would you recommend it?</h4>
-        <p class="resource-card__text">{{ include.data.why_would_you_recommend_it? }}</p>
+        <p class="resource-card__text">{{ include.data.why_is_this_resource_useful? }}</p>
         {% endif %}
 
         {% if include.data.resource_image %}
@@ -58,7 +58,7 @@
     <div class="resource-card__row">
       <section class="resource-card__main-content">
         <h4 class="resource-card__subheading">Who uses it</h4>
-        <p class="resource-card__text">{{ include.data.who_is_using_it? }}</p>
+        <p class="resource-card__text">{{ include.data.who_is_this_resource_useful_for? }}</p>
       </section>
 
       {% if include.data.tags %}

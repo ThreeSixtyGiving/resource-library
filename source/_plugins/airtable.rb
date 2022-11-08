@@ -1,8 +1,9 @@
 require 'yaml'
 require 'airtable'
 require 'active_support/all'
+require 'dotenv/load'
 
-@client = Airtable::Client.new("keyDicyKIwz9kuScP")
+@client = Airtable::Client.new(ENV["AIRTABLE_API_KEY"])
 
 @resourcesTable = @client.table("appj9qNC7jiu1tphD", "Resources")
 @categoriesTable = @client.table("appj9qNC7jiu1tphD", "Categories")
@@ -10,7 +11,19 @@ require 'active_support/all'
 
 @resources = @resourcesTable.select({
   filterByFormula: "Published",
-  fields: ["#", "Your Name", "Resource Name", "Resource URL", "Resource Description", "Resource Image", "Why would you recommend it?", "Who is using it?", "What is it good for?", "Category", "Tags"],
+  fields: [
+    "#",
+    "Your name",
+    "Resource name",
+    "Resource URL",
+    "About the resource",
+    "Resource Image",
+    "Why is this resource useful?",
+    "Who is this resource useful for?",
+    "When would you use it?",
+    "Category",
+    "Tags",
+  ],
   sort: ["#", :desc]
 })
 
