@@ -16,9 +16,9 @@
     color: $white;
   }
 
-  &.tag--data-wrangling:hover { background-color: $teal; }
-  &.tag--data-literacy:hover { background-color: $orange; }
-  &.tag--human-centered-design:hover { background-color: $red; }
+  @each $category, $color in $categories {
+    &.tag--#{$category}:hover { background-color: nth($color, 1); }
+  }
 }
 
 .tag--selected {
@@ -26,22 +26,14 @@
   background-color: $base-color;
   color: $white;
 
-  &.tag--data-wrangling { background-color: $teal; color: $white; }
-  &.tag--data-literacy { background-color: $orange; color: $white; }
-  &.tag--human-centered-design { background-color: $red; color: $white; }
+  @each $category, $color in $categories {
+    &.tag--#{$category} { background-color: nth($color, 1); color: $white; }
+  }
 }
 
-.tag--data-wrangling {
-  color: $teal;
-  border-color: $teal;
-}
-
-.tag--data-literacy {
-  color: $orange;
-  border-color: $orange;
-}
-
-.tag--human-centered-design {
-  color: $red;
-  border-color: $red;
+@each $category, $color in $categories {
+  .tag--#{$category} {
+    color: nth($color, 2);
+    border-color: nth($color, 1);
+  }
 }

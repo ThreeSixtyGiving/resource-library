@@ -13,9 +13,22 @@ $black: #153634;
 $orange: #DE6E26;
 $teal: #4DACB6;
 $yellow: #EFC329;
+$yellow-text: #8f730c;
 $red: #BC2C26;
 $white: white;
 
 // Colours Relative
 $main-color: $orange;
 $base-color: $black;
+
+// Categories and colours
+$categories: (
+  'data-wrangling': $teal $teal,
+  'data-literacy': $orange $orange,
+  'human-centered-design': $red $red,
+  'using-data': $red $red,
+  'responsible-data': $teal $teal,
+  'finding-data': $orange $orange,
+  'training-and-support': $yellow $yellow-text,
+  'data-strategy-and-policy': $teal $teal,
+);

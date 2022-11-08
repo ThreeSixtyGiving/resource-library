@@ -44,13 +44,13 @@
     width: max-content;
     padding-right: 20px;
 
-    .filter + .filter { margin-left: 8px; }
+    .filter + .filter { margin-left: 8px; margin-bottom: 8px; }
   }
 
   @include breakpoint($medium-up) { 
     // text-align: center; 
 
-    .filter + .filter { margin-left: 8px; }
+    .filter + .filter { margin-left: 8px; margin-bottom: 8px; }
   }
 }
 
@@ -68,9 +68,9 @@
     color: $white;
   }
 
-  &.filter--data-wrangling:hover { background-color: $teal; }
-  &.filter--data-literacy:hover { background-color: $orange; }
-  &.filter--human-centered-design:hover { background-color: $red; }
+  @each $category, $color in $categories {
+    &.filter--#{$category}:hover { background-color: nth($color, 1); }
+  }
 }
 
 .filter--selected {
@@ -78,22 +78,15 @@
   background-color: $base-color;
   color: $white;
 
-  &.filter--data-wrangling { background-color: $teal; color: $white; }
-  &.filter--data-literacy { background-color: $orange; color: $white; }
-  &.filter--human-centered-design { background-color: $red; color: $white; }
+  @each $category, $color in $categories {
+    &.filter--#{$category} { background-color: nth($color, 1); color: $white; }
+  }
 }
 
-.filter--data-wrangling {
-  color: $teal;
-  border-color: $teal;
-}
 
-.filter--data-literacy {
-  color: $orange;
-  border-color: $orange;
-}
-
-.filter--human-centered-design {
-  color: $red;
-  border-color: $red;
+@each $category, $color in $categories {
+  .filter--#{$category} {
+    color: nth($color, 2);
+    border-color: nth($color, 1);
+  }
 }
